@@ -36,11 +36,11 @@ class PromotionController extends Controller
         $promo = $this->promotion->query(['id', 'name', 'status', 'order']);
         return Datatables::of($promo)
             ->addColumn('action', function($promo){
-                return '<a href="'.route('admin.promotion.edit', $promo->id).'" class="btn btn-success btn-xs"><i class="fa fa-edit"></i> </a>
-                <form method="POST" action=" '.route('admin.promotion.destroy', $promo->id).' " accept-charset="UTF-8" class="inline-block-span">
+                return '<a href="'.route('admin.promotion.edit', $promo->id).'" class="btn btn-success d-inline-block btn-sm" title="Edit"><i class="fa fa-edit"></i> </a>
+                <form method="POST" action=" '.route('admin.promotion.destroy', $promo->id).' " accept-charset="UTF-8" class="d-inline-block form">
                     <input name="_method" type="hidden" value="DELETE">
                     <input name="_token" type="hidden" value="'.csrf_token().'">
-                               <button class="btn  btn-danger btn-xs" type="button" attrid=" '.route('admin.promotion.destroy', $promo->id).' " onclick="confirm_remove(this);" > <i class="fa fa-trash"></i></button>
+                               <button class="btn  btn-danger btn-sm" type="button" attrid=" '.route('admin.promotion.destroy', $promo->id).' " onclick="confirm_remove(this);" title="Remove" > <i class="fa fa-trash"></i></button>
                </form>' ;
             })->addColumn('order', function($promo){
                 return "<input type='text' name='order' class='form-control' data-id= '".$promo->id."' value= '".$promo->order."' />";
@@ -49,7 +49,7 @@ class PromotionController extends Controller
                 $promo_id =$promo->id;
                 return '
                   <label class="switch switch-icon switch-success-outline">
-                    <input type="checkbox" class="switch-input" '.$status.' data-id="'.$promo_id.'">
+                    <input type="checkbox" name="status" class="switch-input" '.$status.' data-id="'.$promo_id.'">
                     <span class="switch-label" data-on="" data-off=""></span>
                     <span class="switch-handle"></span>
                 </label>
@@ -93,7 +93,7 @@ class PromotionController extends Controller
             'order' => $order,
         ];
         $this->promotion->create($data);
-        
+
         return redirect()->route('admin.promotion.index')->with('success','Created !');
     }
 
@@ -129,11 +129,13 @@ class PromotionController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $img_url = $this->common->getPath($request->input('img_url'));
+        $img_url = $this->common->getPath($request->input('img_avatar'));
         $data = [
-            'title' => $request->input('title'),
-            'slug' => \LP_lib::unicode($request->input('title')),
-            'avatar_img' => $img_url,
+            'name' => $request->input('name'),
+            'slug' => \LP_lib::unicode($request->input('name')),
+            'description' => $request->input('description'),
+            'content' => $request->input('content'),
+            'img_avatar' => $img_url,
             'order' => $request->input('order'),
             'status' => $request->input('status'),
         ];

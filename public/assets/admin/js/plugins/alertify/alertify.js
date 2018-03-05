@@ -44,7 +44,7 @@
             position:'top-left'
         },
         glossary:{
-            title:'TigerD',
+            title:'Notification',
             ok: 'OK',
             cancel: 'Cancel',
             acccpt: 'Accept',

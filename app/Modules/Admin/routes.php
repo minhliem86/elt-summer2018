@@ -37,6 +37,20 @@ Route::group(['prefix' => 'admin', 'namespace' => 'App\Modules\Admin\Controllers
             Route::post('promotion/postAjaxUpdateOrder', ['as' => 'admin.promotion.postAjaxUpdateOrder', 'uses' => 'PromotionController@postAjaxUpdateOrder']);
             Route::resource('promotion', 'PromotionController');
 
+            /*Testimonial*/
+            Route::get('testimonial/getData', ['as' => 'admin.testimonial.getData', 'uses' => 'TestimonialController@getData']);
+            Route::post('testimonial/deleteAll', ['as' => 'admin.testimonial.deleteAll', 'uses' => 'TestimonialController@deleteAll']);
+            Route::post('testimonial/updateStatus', ['as' => 'admin.testimonial.updateStatus', 'uses' => 'TestimonialController@updateStatus']);
+            Route::post('testimonial/postAjaxUpdateOrder', ['as' => 'admin.testimonial.postAjaxUpdateOrder', 'uses' => 'TestimonialController@postAjaxUpdateOrder']);
+            Route::resource('testimonial', 'TestimonialController');
+
+            /*Event*/
+            Route::get('event/getData', ['as' => 'admin.event.getData', 'uses' => 'EventController@getData']);
+            Route::post('event/deleteAll', ['as' => 'admin.event.deleteAll', 'uses' => 'EventController@deleteAll']);
+            Route::post('event/updateStatus', ['as' => 'admin.event.updateStatus', 'uses' => 'EventController@updateStatus']);
+            Route::post('event/postAjaxUpdateOrder', ['as' => 'admin.event.postAjaxUpdateOrder', 'uses' => 'EventController@postAjaxUpdateOrder']);
+            Route::resource('event', 'EventController');
+
 
             /*USER MANAGEMENT*/
             Route::get('user/getData', ['as' => 'admin.user.getData', 'uses' => 'UserManagementController@getData']);

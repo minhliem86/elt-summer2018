@@ -24,19 +24,19 @@
                         <div class="wrap-control">
                             {{Html::link(route('admin.promotion.create'),'Add New',['class'=>'btn btn-primary btn-sm'])}}
                             <button type="button" class="btn btn-danger btn-sm" id="btn-remove-all">Remove All Selected</button>
-                            <button type="button" class="btn btn-warning btn-sm" id="btn-updateOrder">Update Order</button>
+                            <button type="button" class="btn btn-warning btn-sm text-white" id="btn-updateOrder">Update Order</button>
                         </div>
                     </div>
 
                 </div>
                 <div class="card-body">
-                    <table class="table table-responsive-sm table-bordered table-striped table-sm">
+                    <table class="table table-responsive-sm table-striped table-sm">
                         <thead>
                             <tr>
                                 <th width="5%">ID</th>
                                 <th width="20%"><i class="glyphicon glyphicon-search"></i> Promotion Name</th>
-                                <th width="10%">Sắp xếp</th>
-                                <th width="10%">Trạng thái</th>
+                                <th width="10%">Order</th>
+                                <th width="10%">Status</th>
                                 <th width="20%">&nbsp;</th>
                             </tr>
                     </table>
@@ -71,9 +71,9 @@
                 },
                 columns: [
                     {data: 'id', name: 'id', 'orderable': false},
-                    {data: 'name', name: 'name'},
-                    {data: 'order', name: 'order'},
-                    {data: 'status', name: 'status', 'orderable': false},
+                    {data: 'name', name: 'Name'},
+                    {data: 'order', name: 'Order'},
+                    {data: 'status', name: 'Status', 'orderable': false},
                     {data: 'action', name: 'action', 'orderable': false}
                 ],
                 initComplete: function(){
@@ -88,8 +88,8 @@
                         alertify.confirm('You can not undo this action. Are you sure ?', function(e){
                             if(e){
                                 $.ajax({
-                                    'url':"{!!route('admin.product.deleteAll')!!}",
-                                    'data' : {arr: data,_token:$('meta[name="csrf-token"]').attr('content')},
+                                    'url':"{!!route('admin.promotion.deleteAll')!!}",
+                                    'data' : {arr: data},
                                     'type': "POST",
                                     'success':function(result){
                                         if(result.msg = 'ok'){
@@ -113,9 +113,9 @@
                             data_order[id] = va;
                         });
                         $.ajax({
-                            url: '{{route("admin.product.postAjaxUpdateOrder")}}',
+                            url: '{{route("admin.promotion.postAjaxUpdateOrder")}}',
                             type:'POST',
-                            data: {data: data_order,  _token:$('meta[name="csrf-token"]').attr('content') },
+                            data: {data: data_order },
                             success: function(rs){
                                 if(rs.code == 200){
                                     location.reload(true);
@@ -124,16 +124,17 @@
                         })
                     })
 
-                    $('input[name="status"]').change(function(){
+                    $(document).on('change', 'input[name="status"]', function(){
                         let value = 0;
+
                         if($(this).is(':checked')){
                             value = 1;
                         }
                         const id_item = $(this).data('id');
                         $.ajax({
-                            url: "{{route('admin.product.updateStatus')}}",
+                            url: "{{route('admin.promotion.updateStatus')}}",
                             type : 'POST',
-                            data: {value: value, id: id_item, _token:$('meta[name="csrf-token"]').attr('content')},
+                            data: {value: value, id: id_item},
                             success: function(data){
                                 if(!data.error){
                                     alertify.success('Cập nhật thành công');

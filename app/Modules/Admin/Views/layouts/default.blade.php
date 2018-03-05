@@ -15,8 +15,9 @@
     <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
     <meta name="author" content="Łukasz Holeczek">
     <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,AngularJS,Angular,Angular2,Angular 2,Angular4,Angular 4,jQuery,CSS,HTML,RWD,Dashboard,React,React.js,Vue,Vue.js">
+    <meta name="csrf-token" content="{!! csrf_token() !!}">
     <link rel="shortcut icon" href="{!! asset('public/assets/admin') !!}/img/favicon.png">
-    <title>CoreUI - Admin Template - @yield('title')</title>
+    <title>RST - Admin Template</title>
 
     <!-- Icons -->
     <link href="{!! asset('public/assets/admin') !!}/css/font-awesome.min.css" rel="stylesheet">
@@ -94,6 +95,15 @@
 
 <!-- Custom scripts required by this view -->
 {{--<script src="{!! asset('public/assets/admin') !!}/js/views/main.js"></script>--}}
+<script>
+    $(document).ready(function(){
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+    })
+</script>
 @yield("script")
 
 </body>
