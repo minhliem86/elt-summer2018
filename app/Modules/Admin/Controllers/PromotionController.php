@@ -93,7 +93,7 @@ class PromotionController extends Controller
             'order' => $order,
         ];
         $this->promotion->create($data);
-        
+
         return redirect()->route('admin.promotion.index')->with('success','Created !');
     }
 
