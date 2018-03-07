@@ -1,8 +1,12 @@
-$bg-vang:lighten(#ffcb05, 15%);
+$bg-vang:#ffcb05;
 $cl-xanh:#2b328c;
 $cl-cam:#EF6222;
 $cl-light-blue:#42BEF8;
-
+@mixin media($max-width:768px){
+  @media screen and (max-width:$max-width){
+    @content
+  }
+}
 .bg-yellow{
   background:$bg-vang;
 }
@@ -98,3 +102,60 @@ $cl-light-blue:#42BEF8;
     }
   }
 }
+
+/*EVENT*/
+.wrap-event {
+  #calendar{
+    h2{
+      font-size:2.5rem;
+      &:after{
+        display: none;
+      }
+    }
+  }
+}
+
+/*PROGRAM*/
+.program{
+  .wrap-content-program{
+    .wrap-img{
+      //position:relative;
+      //min-height:700px;
+      margin-bottom:15rem;
+      .wrap-inner-img{
+        -webkit-box-shadow: -20px -15px 32px 0px rgba(214,214,214,1);
+        -moz-box-shadow: -20px -15px 32px 0px rgba(214,214,214,1);
+        box-shadow: -20px -15px 32px 0px rgba(214,214,214,1);
+        border:8px solid white;
+        &.right-img{
+          -webkit-box-shadow: 20px -15px 32px 0px rgba(214,214,214,1);
+          -moz-box-shadow: 20px -15px 32px 0px rgba(214,214,214,1);
+          box-shadow: 20px -15px 32px 0px rgba(214,214,214,1);
+        }
+      }
+      @include media(){
+        margin-bottom:2rem;
+      }
+    }
+    .wrap-content{
+      margin-bottom:15rem;
+      p{
+        font-size:1.4rem;
+        line-height:2rem;
+        text-align:justify;
+      }
+    }
+  }
+}
+/*GENERAL PROGRAM*/
+.general-program{
+  .wrap-img-program, .content-program{
+    margin-bottom:10rem;
+  }
+  //.content-program{
+  //  border:10px solid lighten($bg-vang, 20%);
+  //}
+}
+
+
+

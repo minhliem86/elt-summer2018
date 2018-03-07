@@ -16,7 +16,7 @@
                 <div class="col-md-12">
                     <div class="register-container" id="startForm">
                         <h2 class="title">ĐỂ ĐƯỢC HỖ TRỢ TƯ VẤN <span> VUI LÒNG HOÀN THÀNH BẢN THÔNG TIN DƯỚI ĐÂY</span></h2>
-                        <div class="form-container">
+                        <div class="form-container each animate" data-animate="zoomInUp">
                             @if($errors->any())
                                 <script>
                                     $(window).load(function () {
@@ -35,11 +35,11 @@
                             @endif
                             {!! Form::open(['route' => 'register.post','method' => 'POST', 'class' => 'form', 'id' => "form_register"]) !!}
                                 <div class="form-group">
-                                    <label for="fullname">Họ và Tên</label>
+                                    <label for="fullname">Họ và Tên Học Viên</label>
                                     {!! Form::text('fullname',old('fullname'), ['class'=>'form-control', 'required']) !!}
                                 </div>
                                 <div class="form-group">
-                                    <label for="phone">Số điện thoại</label>
+                                    <label for="phone">Số điện thoại liên lạc</label>
                                     {!! Form::text('phone', old('phone'), ['class'=>'form-control', 'required']) !!}
                                 </div>
                                 <div class="form-group">
@@ -47,7 +47,7 @@
                                     {!! Form::text('email', old('email'), ['class'=>'form-control', 'required']) !!}
                                 </div>
                                 <div class="form-group">
-                                    <label for="program">Chương trình</label>
+                                    <label for="program">Chương trình tham gia</label>
                                     {!! Form::text('program', old('program'), ['class'=>'form-control', 'required']) !!}
                                 </div>
                                 <div class="form-group row">
@@ -61,7 +61,7 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label for="program">Chọn Trung Tâm</label>
+                                                    <label for="program">Chọn Trung Tâm ILA</label>
                                                     {!! Form::text('program', old('program'), ['class'=>'form-control', 'required']) !!}
                                                 </div>
                                             </div>

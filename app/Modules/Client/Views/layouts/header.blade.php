@@ -24,18 +24,20 @@
                             <ul class="nav navbar-nav">
                                 <li class="{!! LP_lib::setActive(1,'') !!}"><a href="{!! route('homepage') !!}">TRANG CHỦ</a></li>
 
-                                <li class="dropdown">
-                                    <a href="javascript:avoid()" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0">CHƯƠNG TRÌNH <span class="caret"></span></a>
+                                <li class="dropdown {!! LP_lib::setActive(1,'chuong-trinh') !!} ">
+                                    <a href="{!! route('program.index') !!}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0">CHƯƠNG TRÌNH <span class="caret"></span></a>
                                     <div class="dropdown-menu">
                                         <ul class="list-dropdown-menu">
-                                            <li><a href="">JUMPSTART</a></li>
+                                            <li><a href="{!! route('program.index') !!}">TỔNG QUAN CHƯƠNG TRÌNH HÈ</a></li>
+                                            <li><a href="{!! route('program.detail') !!}">JUMPSTART</a></li>
                                             <li><a href="">SUPER JUNIORS</a></li>
                                             <li><a href="">SMART TEENS</a></li>
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="{!! LP_lib::setActive(1,'chia-se-trai-nghiem') !!}"><a href="{!! route('testimonial') !!}">SỰ KIỆN</a></li>
-                                <li class="{!! LP_lib::setActive(1,'dang-ky') !!}"><a href="http://ila-duhoc.edu.vn/duhoche2018/dang-ky?utm_campaign=OSC+Summer+2018&utm_medium=statis&utm_source=Organic"><b>ĐĂNG KÝ</b></a></li>
+                                <li class="{!! LP_lib::setActive(1,'su-kien') !!}"><a href="{!! route('event.index') !!}">SỰ KIỆN</a></li>
+                                {{--<li class="{!! LP_lib::setActive(1,'facebook') !!}"><a href="{!! route('facebook.index') !!}">FACEBOOK</a></li>--}}
+                                <li class="{!! LP_lib::setActive(1,'dang-ky') !!}"><a href="{!! route('register') !!}"><b>ĐĂNG KÝ</b></a></li>
                             </ul>
                         </div>
                     </nav>

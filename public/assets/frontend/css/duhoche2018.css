@@ -605,6 +605,19 @@ footer .footer-content-container {
       font-size: 16px;
       margin-top: 20px;
       font-weight: 600; }
+    footer .footer-content-container .col.col-third a {
+      color: #2b328c;
+      text-decoration: none !important; }
+    footer .footer-content-container .col.col-second ul {
+      padding-left: 10px;
+      list-style-type: none; }
+      footer .footer-content-container .col.col-second ul li {
+        padding: 0.3rem 0; }
+        footer .footer-content-container .col.col-second ul li a {
+          display: block;
+          color: #2b328c;
+          font-weight: 600;
+          text-decoration: none !important; }
   @media screen and (max-width: 768px) {
     footer .footer-content-container {
       flex-direction: column; }

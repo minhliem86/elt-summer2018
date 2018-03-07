@@ -1,5 +1,5 @@
 .bg-yellow {
-  background: #ffdb52; }
+  background: #ffcb05; }
 
 .bg-lightwhite {
   background: #f8f8f8; }
@@ -71,5 +71,37 @@
   .discover .discover-container .each-product:hover a.info {
     transform: translate(0px, 0px);
     transition-delay: 0.5s; }
+
+/*EVENT*/
+.wrap-event #calendar h2 {
+  font-size: 2.5rem; }
+  .wrap-event #calendar h2:after {
+    display: none; }
+
+/*PROGRAM*/
+.program .wrap-content-program .wrap-img {
+  margin-bottom: 15rem; }
+  .program .wrap-content-program .wrap-img .wrap-inner-img {
+    -webkit-box-shadow: -20px -15px 32px 0px #d6d6d6;
+    -moz-box-shadow: -20px -15px 32px 0px #d6d6d6;
+    box-shadow: -20px -15px 32px 0px #d6d6d6;
+    border: 8px solid white; }
+    .program .wrap-content-program .wrap-img .wrap-inner-img.right-img {
+      -webkit-box-shadow: 20px -15px 32px 0px #d6d6d6;
+      -moz-box-shadow: 20px -15px 32px 0px #d6d6d6;
+      box-shadow: 20px -15px 32px 0px #d6d6d6; }
+  @media screen and (max-width: 768px) {
+    .program .wrap-content-program .wrap-img {
+      margin-bottom: 2rem; } }
+.program .wrap-content-program .wrap-content {
+  margin-bottom: 15rem; }
+  .program .wrap-content-program .wrap-content p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: justify; }
+
+/*GENERAL PROGRAM*/
+.general-program .wrap-img-program, .general-program .content-program {
+  margin-bottom: 10rem; }
 
 /*# sourceMappingURL=elt-summer2018.css.map */

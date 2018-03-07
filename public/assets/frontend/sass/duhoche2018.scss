@@ -801,6 +801,27 @@ footer{
         margin-top:20px;
         font-weight:600
       }
+      &.col-third{
+        a{
+          color:$cl-xanh;
+          text-decoration: none !important;
+        }
+      }
+      &.col-second{
+        ul{
+          padding-left:10px;
+          list-style-type: none;
+          li{
+            padding:0.3rem 0;
+            a{
+              display:block;
+              color:$cl-xanh;
+              font-weight:600;
+              text-decoration: none !important;
+            }
+          }
+        }
+      }
     }
     @include media(){
       flex-direction:column;

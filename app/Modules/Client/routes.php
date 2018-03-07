@@ -3,7 +3,6 @@
 Route::group(['middleware'=>'web','namespace' => 'App\Modules\Client\Controllers'], function(){
     Route::get('/', ['as' => 'homepage', 'uses' => 'HomeController@index']);
 
-
     Route::get('/khuyen-mai', ['as' => 'khuyenmai', 'uses' => 'PromotionController@index']);
     Route::get('/chia-se-trai-nghiem', ['as' => 'testimonial', 'uses' => 'TestimonialController@index']);
     Route::get('/chia-se-trai-nghiem/{slug}', ['as' => 'testimonial.detail', 'uses' => 'TestimonialController@detail'])->where('slug','[0-9a-zA-Z._\-]+');
@@ -28,6 +27,16 @@ Route::group(['middleware'=>'web','namespace' => 'App\Modules\Client\Controllers
     Route::get('/ngay-hoi-van-hoa', ['as' => 'landingpage.getNgayHoi', 'uses' => 'LandingpageController@getNgayHoiVanHoa']);
     Route::post('/ngay-hoi-van-hoa', ['as' => 'landingpage.postNgayHoi', 'uses' => 'LandingpageController@postNgayHoiVanHoa']);
     Route::get('/ngay-hoi-van-hoa-thanks', ['as' => 'landingpage.postNgayHoi.thankyou', 'uses' => 'LandingpageController@getNgayHoiVanHoathankyou']);
+
+    Route::get('/su-kien', ['as' => 'event.index', 'uses' => 'EventController@index']);
+    Route::get('/su-kien/load', ['as' => 'event.ajax', 'uses' => 'EventController@loadAjax']);
+
+    /*PROGRAM*/
+    Route::get('/chuong-trinh', ['as' => 'program.index', 'uses' => 'ProgramController@index']);
+    Route::get('/chuong-trinh/jumpstart', ['as' => 'program.detail', 'uses' => 'ProgramController@detail']);
+
+    /*FACEBOOK*/
+    Route::get('facebook', ['as' => 'facebook.index', 'uses' => 'FacebookController@index']);
 
 //    View::composer(['Client::layouts.discover', 'Client::layouts.header'], function($view)  {
 //        $country = new App\Repositories\CountryRepository;
