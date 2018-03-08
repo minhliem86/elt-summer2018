@@ -6,41 +6,21 @@
                 <div class="discover-container">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-4">
-                                <div class="each-product each animate" data-animate="fadeInLeft" data-delay="0.1s" >
-                                    <img src="{!! asset('public/assets/frontend/images/layouts/300x300.jpg') !!}" class="img-fluid" />
-                                    <div class="mask"></div>
-                                    <div class="content">
-                                        <h2>JUMPSTART</h2>
-                                        <p>Strange paradoxs loves most blessings! Beauty happens when you study art so extraordinarilly that whatsoever you are luring is your mind.</p>
-                                        <a href="#" class="info">Read More</a>
+                            @if(!$program->isEmpty())
+                                @foreach($program as $item_program)
+                                    <div class="col-md-4">
+                                        <div class="each-product each animate" data-animate="fadeInLeft" data-delay="0.1s" >
+                                            <img src="{!! asset('public/assets/frontend/images/layouts/300x300.jpg') !!}" class="img-fluid" />
+                                            <div class="mask"></div>
+                                            <div class="content">
+                                                <h2>{!! $item_program->name !!}</h2>
+                                                <p>{!! $item_program->description !!}</p>
+                                                <a href="{!! route('program.detail', $item_program->slug) !!}" class="info">Read More</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="each-product each animate" data-animate="fadeInUp" data-delay="0.2s" >
-                                    <img src="{!! asset('public/assets/frontend/images/layouts/300x300.jpg') !!}" class="img-fluid" />
-                                    <div class="mask"></div>
-                                    <div class="content">
-                                        <h2>SUPER JUNIORS</h2>
-                                        <p>Strange paradoxs loves most blessings! Beauty happens when you study art so extraordinarilly that whatsoever you are luring is your mind.</p>
-                                        <a href="#" class="info">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="each-product each animate" data-animate="fadeInRight" data-delay="0.3s">
-                                    <img src="{!! asset('public/assets/frontend/images/layouts/300x300.jpg') !!}" class="img-fluid" />
-                                    <div class="mask"></div>
-                                    <div class="content">
-                                        <h2>SMART TEENS</h2>
-                                        <p>Strange paradoxs loves most blessings! Beauty happens when you study art so extraordinarilly that whatsoever you are luring is your mind.</p>
-                                        <a href="#" class="info">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
+                                @endforeach
+                            @endif
                         </div>
                     </div>
                 </div>

@@ -33,7 +33,7 @@ Route::group(['middleware'=>'web','namespace' => 'App\Modules\Client\Controllers
 
     /*PROGRAM*/
     Route::get('/chuong-trinh', ['as' => 'program.index', 'uses' => 'ProgramController@index']);
-    Route::get('/chuong-trinh/jumpstart', ['as' => 'program.detail', 'uses' => 'ProgramController@detail']);
+    Route::get('/chuong-trinh/{slug}', ['as' => 'program.detail', 'uses' => 'ProgramController@detail'])->where('slug','[0-9a-zA-Z./\-]+');
 
     /*FACEBOOK*/
     Route::get('facebook', ['as' => 'facebook.index', 'uses' => 'FacebookController@index']);

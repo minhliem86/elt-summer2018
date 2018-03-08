@@ -15,7 +15,10 @@ class CreateProgramsTable extends Migration
         Schema::create('programs', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name')->nullable();
+            $table->string('slug')->nullable();
+            $table->text('description')->nullable();
             $table->text('content')->nullable();
+            $table->string('img_url')->nullable();
             $table->integer('parent_id')->default(0);
             $table->boolean('status')->default(1);
             $table->tinyInteger('order')->default(1);

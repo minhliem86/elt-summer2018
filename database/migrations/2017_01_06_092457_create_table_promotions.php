@@ -34,7 +34,7 @@ class CreateTablePromotions extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('promotion');
+		Schema::drop('promotions');
 	}
 
 }

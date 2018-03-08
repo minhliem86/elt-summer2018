@@ -29,9 +29,11 @@
                                     <div class="dropdown-menu">
                                         <ul class="list-dropdown-menu">
                                             <li><a href="{!! route('program.index') !!}">TỔNG QUAN CHƯƠNG TRÌNH HÈ</a></li>
-                                            <li><a href="{!! route('program.detail') !!}">JUMPSTART</a></li>
-                                            <li><a href="">SUPER JUNIORS</a></li>
-                                            <li><a href="">SMART TEENS</a></li>
+                                            @if(!$program->isEmpty())
+                                                @foreach($program as $item_program)
+                                                    <li><a href="{!! route('program.detail', $item_program->slug) !!}">{!! $item_program->name !!}</a></li>
+                                                @endforeach
+                                            @endif
                                         </ul>
                                     </div>
                                 </li>

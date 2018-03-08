@@ -16,6 +16,9 @@
             <li class="nav-item ">
                 <a href="{!! route('admin.event.index') !!}" class="nav-link {!! LP_lib::setActive('2','event') !!}"><i class="icon-drop"></i> Event</a>
             </li>
+            <li class="nav-item ">
+                <a href="{!! route('admin.program.index') !!}" class="nav-link {!! LP_lib::setActive('2','program') !!}"><i class="icon-drop"></i> Program</a>
+            </li>
             <li class="nav-item nav-dropdown">
                 <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-bell"></i> Notifications</a>
                 <ul class="nav-dropdown-items">
@@ -31,12 +34,7 @@
                 </ul>
             </li>
             <li class="divider"></li>
-            <li class="nav-title">
-                Extras
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"><i class="icon-star"></i> Pages</a>
-            </li>
+
         </ul>
     </nav>
     <button class="sidebar-minimizer brand-minimizer" type="button"></button>
