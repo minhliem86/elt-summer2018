@@ -9,7 +9,7 @@
                     <h2>CHƯƠNG TRÌNH HÈ 2018</h2>
                     <div class="content-program">
                         <div class="container-fluid">
-                            <div class="row">
+                            <div class="row each-program">
                                 <div class="col-md-4">
                                     <div class="wrap-img-program each animate" data-animate="fadeInLeft">
                                         <img src="{!! asset('public/assets/frontend/images/layouts/257x257.png') !!}" class="img-responsive" alt="">
@@ -21,7 +21,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row each-program">
                                 <div class="col-md-4 col-md-push-8">
                                     <div class="wrap-img-program each animate" data-animate="fadeInLeft">
                                         <img src="{!! asset('public/assets/frontend/images/layouts/257x257.png') !!}" class="img-responsive" alt="">
@@ -34,7 +34,7 @@
                                 </div>
                             </div>
 
-                            <div class="row">
+                            <div class="row each-program">
                                 <div class="col-md-4">
                                     <div class="wrap-img-program each animate" data-animate="fadeInLeft">
                                         <img src="{!! asset('public/assets/frontend/images/layouts/257x257.png') !!}" class="img-responsive" alt="">

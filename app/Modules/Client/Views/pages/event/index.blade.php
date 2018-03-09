@@ -44,18 +44,24 @@
                 showNonCurrentDates:false,
                 timeFormat: 'H:mm',
                 events: [
+                    @if(!$list_event->isEmpty())
+                        @foreach($list_event as $item_event)
                     {
-                        title: 'event 1',
-                        start: '2018-03-07 17:00',
-                        end: '2018-03-07 17:30'
+                        id: '{!! $item_event->id !!}',
+                        title: '{!! $item_event->title !!}',
+                        start: '{!! $item_event->start !!}',
+                        end: '{!! $item_event->end !!}',
                     }
+                    @endforeach
+                    @endif
                 ],
                 eventLimit: true,
                 eventClick: function(calEvent, jsEvent, view){
 //                    console.log(calEvent.source.uid);
                     $.ajax({
                         url: "{!! route('event.ajax') !!}",
-                        type: 'GET',
+                        type: 'POST',
+                        data: {id: calEvent.source.uid },
                         success: function (rs) {
                             $('#loadModal').html(rs.data);
                             $('.modal').modal('show')

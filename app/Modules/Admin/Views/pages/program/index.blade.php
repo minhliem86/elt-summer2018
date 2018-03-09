@@ -32,8 +32,9 @@
                         <thead>
                             <tr>
                                 <th width="5%">ID</th>
-                                <th width="20%"><i class="glyphicon glyphicon-search"></i> Name</th>
-                                <th width="30%">Description</th>
+                                <th width="10%"><i class="glyphicon glyphicon-search"></i> Name</th>
+                                <th width="15%">Photo</th>
+                                <th width="25%">Description</th>
                                 <th width="10%">Order</th>
                                 <th width="10%">Status</th>
                                 <th width="15%">&nbsp;</th>
@@ -71,6 +72,7 @@
                 columns: [
                     {data: 'id', name: 'id', 'orderable': false},
                     {data: 'name', title: 'Name Program'},
+                    {data: 'img_url', title: 'Photo'},
                     {data: 'description', title: 'Description'},
                     {data: 'order', name: 'Order'},
                     {data: 'status', name: 'Status'},

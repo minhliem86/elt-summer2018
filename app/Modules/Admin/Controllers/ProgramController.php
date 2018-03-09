@@ -34,7 +34,7 @@ class ProgramController extends Controller
 
     public function getData(Request $request)
     {
-        $prog = $this->program->query(['id', 'name','description', 'status', 'order']);
+        $prog = $this->program->query(['id', 'name','description',"img_url", 'status', 'order']);
         return Datatables::of($prog)
             ->addColumn('action', function($prog){
                 return '<a href="'.route('admin.program.edit', $prog->id).'" class="btn btn-success d-inline-block btn-sm" title="Edit"><i class="fa fa-edit"></i> </a>
@@ -45,7 +45,11 @@ class ProgramController extends Controller
                </form>' ;
             })->addColumn('order', function($prog){
                 return "<input type='text' name='order' class='form-control' data-id= '".$prog->id."' value= '".$prog->order."' />";
-            })->addColumn('status', function($prog){
+            })
+            ->editColumn('img_url', function($prog){
+                return '<img class="img-fluid" style="max-width:120px;" src=" '.asset('public/upload/'.$prog->img_url). ' " />';
+            })
+            ->addColumn('status', function($prog){
                 $status = $prog->status ? 'checked' : '';
                 $prog_id =$prog->id;
                 return '

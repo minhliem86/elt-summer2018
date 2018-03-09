@@ -24,6 +24,9 @@ $cl-light-blue:#42BEF8;
       text-align: center;
       box-shadow: 1px 1px 2px #e6e6e6;
       overflow: hidden;
+      @include media(){
+        box-shadow: none;
+      }
       .mask, .content{
         position: absolute;
         overflow: hidden;
@@ -40,6 +43,9 @@ $cl-light-blue:#42BEF8;
         transition: all 0.2s ease-in-out;
         width:600px;
         height:600px;
+        @include media(){
+          display: none;
+        }
       }
       .content{
         color:$cl-xanh;
@@ -52,7 +58,10 @@ $cl-light-blue:#42BEF8;
           transform: translate(200px, -200px);
           transition: all 0.2s ease-in-out;
           position: relative;
-
+          @include media(){
+            transform: translate(0px, 0px);
+            margin: 10px 20px 10px 20px;
+          }
         }
         p{
           font-size:1.4rem;
@@ -61,6 +70,10 @@ $cl-light-blue:#42BEF8;
           margin-bottom:40px;
           transform: translate(-400px, 400px);
           transition: all 0.2s ease-in-out;
+          padding:0 15px;
+          @include media(){
+            transform: translate(0px, 0px);
+          }
         }
         img{
           transition: all 0.2s ease-in;
@@ -75,9 +88,15 @@ $cl-light-blue:#42BEF8;
           box-shadow: 0 0 1px #000;
           transform: translate(0px, 500px);
           transition: all 0.2s 0.1s ease-in-out;
+          @include media(){
+            transform: translate(0px, 0px);
+          }
           &:hover{
             box-shadow: 0 0 5px #000
           }
+        }
+        @include media(){
+          position: static;
         }
       }
       &:hover{
@@ -118,10 +137,31 @@ $cl-light-blue:#42BEF8;
 /*PROGRAM*/
 .program{
   .wrap-content-program{
+    .wrap-before{
+      margin-bottom:3rem;
+      p{
+        font-size:1.6rem;
+        line-height:2.2rem;
+      }
+      ul{
+        li{
+          font-size:1.6rem;
+          line-height:2.2rem;
+        }
+      }
+    }
+    .wrap-after{
+      p{
+        font-size:2.2rem;
+        line-height:3rem;
+        font-weight: 600;
+      }
+    }
     .wrap-img{
-      //position:relative;
-      //min-height:700px;
       margin-bottom:15rem;
+      &:last-child{
+        margin-bottom:5rem;
+      }
       .wrap-inner-img{
         -webkit-box-shadow: -20px -15px 32px 0px rgba(214,214,214,1);
         -moz-box-shadow: -20px -15px 32px 0px rgba(214,214,214,1);
@@ -139,10 +179,19 @@ $cl-light-blue:#42BEF8;
     }
     .wrap-content{
       margin-bottom:15rem;
+      &:last-child{
+        margin-bottom:5rem;
+      }
       p{
-        font-size:1.4rem;
-        line-height:2rem;
+        font-size:1.6rem;
+        line-height:2.2rem;
         text-align:justify;
+        margin-bottom:1.2rem;
+      }
+      h4.title-program{
+        font-size:1.8rem;
+        text-transform: uppercase;
+        margin-bottom:1.5rem;
       }
     }
   }
@@ -151,10 +200,32 @@ $cl-light-blue:#42BEF8;
 .general-program{
   .wrap-img-program, .content-program{
     margin-bottom:10rem;
+    @include media(){
+      margin-bottom:2rem;
+      img{
+        margin:0 auto;
+      }
+      .each-program{
+        margin-bottom:3rem;
+      }
+    }
   }
   //.content-program{
   //  border:10px solid lighten($bg-vang, 20%);
   //}
+}
+#loadModal{
+  @include media(){
+    .modal-dialog{
+      margin-top:180px;
+    }
+  }
+}
+.wrap-banner{
+  .jc-slider{
+    list-style-type: none;
+    padding:0;
+  }
 }
 
 

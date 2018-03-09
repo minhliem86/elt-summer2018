@@ -12,6 +12,9 @@
   text-align: center;
   box-shadow: 1px 1px 2px #e6e6e6;
   overflow: hidden; }
+  @media screen and (max-width: 768px) {
+    .discover .discover-container .each-product {
+      box-shadow: none; } }
   .discover .discover-container .each-product .mask, .discover .discover-container .each-product .content {
     position: absolute;
     overflow: hidden;
@@ -27,6 +30,9 @@
     transition: all 0.2s ease-in-out;
     width: 600px;
     height: 600px; }
+    @media screen and (max-width: 768px) {
+      .discover .discover-container .each-product .mask {
+        display: none; } }
   .discover .discover-container .each-product .content {
     color: #2b328c; }
     .discover .discover-container .each-product .content h2 {
@@ -38,13 +44,21 @@
       transform: translate(200px, -200px);
       transition: all 0.2s ease-in-out;
       position: relative; }
+      @media screen and (max-width: 768px) {
+        .discover .discover-container .each-product .content h2 {
+          transform: translate(0px, 0px);
+          margin: 10px 20px 10px 20px; } }
     .discover .discover-container .each-product .content p {
       font-size: 1.4rem;
       font-style: italic;
       text-align: center;
       margin-bottom: 40px;
       transform: translate(-400px, 400px);
-      transition: all 0.2s ease-in-out; }
+      transition: all 0.2s ease-in-out;
+      padding: 0 15px; }
+      @media screen and (max-width: 768px) {
+        .discover .discover-container .each-product .content p {
+          transform: translate(0px, 0px); } }
     .discover .discover-container .each-product .content img {
       transition: all 0.2s ease-in; }
     .discover .discover-container .each-product .content a.info {
@@ -57,8 +71,14 @@
       box-shadow: 0 0 1px #000;
       transform: translate(0px, 500px);
       transition: all 0.2s 0.1s ease-in-out; }
+      @media screen and (max-width: 768px) {
+        .discover .discover-container .each-product .content a.info {
+          transform: translate(0px, 0px); } }
       .discover .discover-container .each-product .content a.info:hover {
         box-shadow: 0 0 5px #000; }
+    @media screen and (max-width: 768px) {
+      .discover .discover-container .each-product .content {
+        position: static; } }
   .discover .discover-container .each-product:hover .mask {
     opacity: 1;
     transform: translate(-80px, -125px) rotate(45deg); }
@@ -79,8 +99,22 @@
     display: none; }
 
 /*PROGRAM*/
+.program .wrap-content-program .wrap-before {
+  margin-bottom: 3rem; }
+  .program .wrap-content-program .wrap-before p {
+    font-size: 1.6rem;
+    line-height: 2.2rem; }
+  .program .wrap-content-program .wrap-before ul li {
+    font-size: 1.6rem;
+    line-height: 2.2rem; }
+.program .wrap-content-program .wrap-after p {
+  font-size: 2.2rem;
+  line-height: 3rem;
+  font-weight: 600; }
 .program .wrap-content-program .wrap-img {
   margin-bottom: 15rem; }
+  .program .wrap-content-program .wrap-img:last-child {
+    margin-bottom: 5rem; }
   .program .wrap-content-program .wrap-img .wrap-inner-img {
     -webkit-box-shadow: -20px -15px 32px 0px #d6d6d6;
     -moz-box-shadow: -20px -15px 32px 0px #d6d6d6;
@@ -95,13 +129,35 @@
       margin-bottom: 2rem; } }
 .program .wrap-content-program .wrap-content {
   margin-bottom: 15rem; }
+  .program .wrap-content-program .wrap-content:last-child {
+    margin-bottom: 5rem; }
   .program .wrap-content-program .wrap-content p {
-    font-size: 1.4rem;
-    line-height: 2rem;
-    text-align: justify; }
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    text-align: justify;
+    margin-bottom: 1.2rem; }
+  .program .wrap-content-program .wrap-content h4.title-program {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem; }
 
 /*GENERAL PROGRAM*/
 .general-program .wrap-img-program, .general-program .content-program {
   margin-bottom: 10rem; }
+  @media screen and (max-width: 768px) {
+    .general-program .wrap-img-program, .general-program .content-program {
+      margin-bottom: 2rem; }
+      .general-program .wrap-img-program img, .general-program .content-program img {
+        margin: 0 auto; }
+      .general-program .wrap-img-program .each-program, .general-program .content-program .each-program {
+        margin-bottom: 3rem; } }
+
+@media screen and (max-width: 768px) {
+  #loadModal .modal-dialog {
+    margin-top: 180px; } }
+
+.wrap-banner .jc-slider {
+  list-style-type: none;
+  padding: 0; }
 
 /*# sourceMappingURL=elt-summer2018.css.map */

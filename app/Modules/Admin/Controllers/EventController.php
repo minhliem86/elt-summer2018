@@ -11,6 +11,7 @@ use App\Repositories\EventRepository;
 use App\Repositories\Eloquent\CommonRepository;
 use Yajra\Datatables\Datatables;
 use Carbon\Carbon;
+use DB;
 
 class EventController extends Controller
 {
@@ -60,7 +61,8 @@ class EventController extends Controller
      */
     public function create()
     {
-        return view('Admin::pages.event.create');
+        $center = DB::connection('mysql2')->table('center')->lists('name_vi','id');
+        return view('Admin::pages.event.create', compact('center'));
     }
 
     /**
@@ -83,6 +85,7 @@ class EventController extends Controller
             'end' => Carbon::createFromFormat('d/m/Y H:i', $request->input('end_date')),
             'description' => $request->input('description'),
             'img_url' => $img_url,
+            'center_id' => $request->input('center_id'),
         ];
 
         $this->event->create($data);
@@ -110,7 +113,8 @@ class EventController extends Controller
     public function edit($id)
     {
         $inst = $this->event->find($id);
-        return view('Admin::pages.event.edit', compact('inst'));
+        $center = DB::connection('mysql2')->table('center')->lists('name_vi','id');
+        return view('Admin::pages.event.edit', compact('inst', 'center'));
     }
 
     /**
@@ -122,15 +126,14 @@ class EventController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $img_url = $this->common->getPath($request->input('img_avatar'));
+        $img_url = $this->common->getPath($request->input('img_url'));
         $data = [
             'title' => $request->input('title'),
-            'slug' => \LP_lib::unicode($request->input('title')),
-            'author' => $request->input('author'),
-            'content' => $request->input('content'),
-            'img_avatar' => $img_url,
-            'order' => $request->input('order'),
-            'status' => $request->input('status'),
+            'start' => Carbon::createFromFormat('d/m/Y H:i', $request->input('start_date')),
+            'end' => Carbon::createFromFormat('d/m/Y H:i', $request->input('end_date')),
+            'description' => $request->input('description'),
+            'img_url' => $img_url,
+            'center_id' => $request->input('center_id'),
         ];
         $this->event->update($data, $id);
         return redirect()->route('admin.event.index')->with('success', 'Updated !');

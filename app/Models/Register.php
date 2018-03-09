@@ -6,5 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Register extends Model
 {
-    //
+    public $table = 'register';
+
+    protected $guarded = ['id'];
 }

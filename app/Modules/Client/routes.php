@@ -12,6 +12,7 @@ Route::group(['middleware'=>'web','namespace' => 'App\Modules\Client\Controllers
     Route::get('/dang-ky', ['as' => 'register', 'uses' => 'RegisterController@index']);
     Route::post('/dang-ky', ['as' => 'register.post', 'uses' => 'RegisterController@postRegister']);
     Route::get('/thank-you', ['as' => 'register.thankyou', 'uses' => 'RegisterController@thankyou']);
+    Route::post('/dang-ky/load-center', ['as' => 'register.loadCenter', 'uses' => 'RegisterController@_loadCenter']);
 
     /*TRAVEL BLOG*/
     Route::get('/travel-blog-2017', ['as' => 'travelblog', 'uses' => 'TravelBlogController@getTravelblog']);
@@ -29,7 +30,7 @@ Route::group(['middleware'=>'web','namespace' => 'App\Modules\Client\Controllers
     Route::get('/ngay-hoi-van-hoa-thanks', ['as' => 'landingpage.postNgayHoi.thankyou', 'uses' => 'LandingpageController@getNgayHoiVanHoathankyou']);
 
     Route::get('/su-kien', ['as' => 'event.index', 'uses' => 'EventController@index']);
-    Route::get('/su-kien/load', ['as' => 'event.ajax', 'uses' => 'EventController@loadAjax']);
+    Route::post('/su-kien/load', ['as' => 'event.ajax', 'uses' => 'EventController@loadAjax']);
 
     /*PROGRAM*/
     Route::get('/chuong-trinh', ['as' => 'program.index', 'uses' => 'ProgramController@index']);

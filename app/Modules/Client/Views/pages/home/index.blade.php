@@ -23,7 +23,7 @@
             {{--</script>--}}
         {{--</div>--}}
     {{--</div>--}}
-    @include("Client::layouts.banner_general")
+    @include("Client::layouts.banner-demo")
     <!-- **************** Wellcome ****************-->
     <section class="wellcome">
         <div class="container">
@@ -38,7 +38,7 @@
                                         <div class="img-shadow-container" >
                                             <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/morongtamnhin.png)"></span>
                                         </div>
-                                        <p class="title title-inner-section">MỞ RỘNG TẦM NHÌN <span>RA THẾ GIỚI</span></p>
+                                        <p class="title title-inner-section">8 TUẦN <span>XUẤT SẮC TIẾNG ANH</span></p>
                                     </div>
                                 </div>
                                 <div class="col-md-15">
@@ -46,7 +46,7 @@
                                         <div class="img-shadow-container" >
                                             <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/renluyen.png)"></span>
                                         </div>
-                                        <p class="title title-inner-section">RÈN LUYỆN TÍNH TỰ LẬP</p>
+                                        <p class="title title-inner-section">8 TUẦN <span>VUI CHƠI KHÁM PHÁ</span></p>
                                     </div>
                                 </div>
                                 <div class="col-md-15">
@@ -54,7 +54,7 @@
                                         <div class="img-shadow-container" >
                                             <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/gapgo-giaoluu.png)"></span>
                                         </div>
-                                        <p class="title title-inner-section">GẶP GỠ VÀ GIAO LƯU <span>BẠN BÈ QUỐC TẾ</span></p>
+                                        <p class="title title-inner-section">8 TUẦN <span>SAN SẺ YÊU THƯƠNG</span></p>
                                     </div>
                                 </div>
                                 <div class="col-md-15">
@@ -62,7 +62,7 @@
                                         <div class="img-shadow-container" >
                                             <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/thunghiem.png)"></span>
                                         </div>
-                                        <p class="title title-inner-section">THỬ NGHIỆM HÀNH TRÌNH DU HỌC</p>
+                                        <p class="title title-inner-section">8 TUẦN <span>GIÁO DỤC TOÀN DIỆN</span></p>
                                     </div>
                                 </div>
                                 <div class="col-md-15">
@@ -70,7 +70,7 @@
                                         <div class="img-shadow-container" >
                                             <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/trainghiem.png)"></span>
                                         </div>
-                                        <p class="title title-inner-section">TRẢI NGHIỆM THỰC TẾ <span>CUỘC SỐNG TẠI NHÀ BẢN XỨ HOẶC KÝ TÚC XÁ</span></p>
+                                        <p class="title title-inner-section">HỌC BỔNG <span>GIÁ TRỊ</span></p>
                                     </div>
                                 </div>
                             </div>

@@ -8,7 +8,7 @@
 @section("title", "ILA Du Học Hè 2018 - Đăng Ký")
 
 @section("content")
-    @include("Client::layouts.banner_general")
+    @include("Client::layouts.banner-demo")
 
     <section class="register">
         <div class="container">
@@ -48,7 +48,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="program">Chương trình tham gia</label>
-                                    {!! Form::text('program', old('program'), ['class'=>'form-control', 'required']) !!}
+                                    {!! Form::select('program',[''=> '-- Chương Trình Học --'] + $program, old('program'), ['class'=>'form-control', 'required']) !!}
                                 </div>
                                 <div class="form-group row">
                                     <div class="container-fluid">
@@ -56,13 +56,15 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="program">Chọn Thành Phố</label>
-                                                    {!! Form::text('program', old('program'), ['class'=>'form-control', 'required']) !!}
+                                                    {!! Form::select('city',[''=> '-- Thành Phố --'] + $city, old('city'), ['class'=>'form-control', 'required']) !!}
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="program">Chọn Trung Tâm ILA</label>
-                                                    {!! Form::text('program', old('program'), ['class'=>'form-control', 'required']) !!}
+                                                    <div class="load-center">
+                                                        {!! Form::select('program',[''=> '-- Trung Tâm ILA --'],old('program'), ['class'=>'form-control', 'required', 'disabled']) !!}
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -87,14 +89,15 @@
 @stop
 
 @section("script")
-    <script defer>
+    <link rel="stylesheet" href="{!! asset('public/assets/frontend')!!}/js/jsSLider/jcslider.css">
+    <script src="{!! asset('public/assets/frontend')!!}/js/jsSLider/jquery.jcslider.min.js"></script>
+    <script>
         $(document).ready(function(){
-            $('.banner-homepage .tp-banner').revolution({
-                delay:5000,
-                startwidth:1920,
-                startheight:700,
-                hideThumbs:10,
-                navigationType:'none'
+            $('.jc-slider').jcSlider({
+                animationIn     : "zoomIn",
+                animationOut    : "zoomOut",
+                stopOnHover     : true, // true by default
+                loop            : true // true by default
             })
         })
     </script>
@@ -102,16 +105,19 @@
     <link rel="stylesheet" href="{!! asset('public/assets/frontend')!!}/js/icheck/skins/square/orange.css">
     <script src="{!! asset('public/assets/frontend')!!}/js/icheck/icheck.min.js "></script>
     <script src="http://ila-duhoc.edu.vn/static/default/js/jquery.md5.js"></script>
-@stop
-
-@section('tracking_code')
-    <!-- B4989_ILA_Hoche2018_Home_26Dec2017 - Ads by Ambient Digital -->
-<script type="text/javascript" src="https://media.adnetwork.vn/js/retargeting.js"></script>
-<script type="text/javascript">
-    try{
-        AbdTracking.Retargeting({"id":1514268949});
-    }catch(e){}
-</script>
-<noscript><img src="https://retg.adnetwork.vn/247/retargeting/id_1514268949/ " width="1" height="1" border="0" alt=""/></noscript>
-<!-- B4989_ILA_Hoche2018_Home_26Dec2017 - Ads by Ambient Digital -->
+    <script>
+        $(document).ready(function(){
+            $('select[name=city]').change(function(){
+                var city_id = $(this).val();
+                $.ajax({
+                    url: '{!! route('register.loadCenter') !!}',
+                    type: 'POST',
+                    data: {_token: $('meta[name=csrf-token]').attr("content"), city_id: city_id},
+                    success: function(rs){
+                        $('.load-center').html(rs.data);
+                    }
+                })
+            })
+        })
+    </script>
 @stop
