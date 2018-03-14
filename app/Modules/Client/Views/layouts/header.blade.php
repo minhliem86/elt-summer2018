@@ -37,7 +37,7 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="{!! LP_lib::setActive(1,'su-kien') !!}"><a href="{!! route('event.index') !!}">SỰ KIỆN</a></li>
+                                {{--<li class="{!! LP_lib::setActive(1,'su-kien') !!}"><a href="{!! route('event.index') !!}">SỰ KIỆN</a></li>--}}
                                 {{--<li class="{!! LP_lib::setActive(1,'facebook') !!}"><a href="{!! route('facebook.index') !!}">FACEBOOK</a></li>--}}
                                 <li class="{!! LP_lib::setActive(1,'dang-ky') !!}"><a href="{!! route('register') !!}"><b>ĐĂNG KÝ</b></a></li>
                             </ul>

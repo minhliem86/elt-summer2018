@@ -3,12 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="ILA Du Học giới thiệu chương trình Du Học Hè 2018 với 4 giá trị cốt lõi: Phiêu Lưu, Trải Nghiệm, Tự Lập và Trưởng Thành." >
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="noindex, nofollow">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="icon" href="{!!asset('public') !!}/favicon.ico">
     @yield('meta')
-    <title>@yield('title','ILA Du Học 2018')</title>
+    <title>@yield('title','ILA Summer 2018 - Trại Hè Tiếng Anh Đẳng Cấp Quốc Tế')</title>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,13 +35,13 @@
     <link href="{!!asset('public') !!}/assets/frontend/css/elt-summer2018.css" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60129748-7"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60129748-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-60129748-7');
+        gtag('config', 'UA-60129748-1');
     </script>
 
     @yield('tracking_code')
@@ -71,10 +70,32 @@
     <script src="{!!asset('public') !!}/assets/frontend/js/jquery.sticky.js"></script>
     <script src="{!!asset('public') !!}/assets/frontend/js/scrolla.jquery.min.js"></script>
     <script src="{!!asset('public') !!}/assets/frontend/js/customScript.min.js"></script>
-    <!-- REVOLUTION -->
-    <link rel="stylesheet" href="{!!asset('public') !!}/assets/frontend/js/revolution/css/settings.css">
-    <script src="{!!asset('public') !!}/assets/frontend/js/revolution/jquery.themepunch.plugins.min.js"></script>
-    <script src="{!!asset('public') !!}/assets/frontend/js/revolution/jquery.themepunch.revolution.min.js"></script>
+    <!-- DONKEY -->
+    <link rel="stylesheet" href="{!! asset('public/assets/frontend/js/donkey')!!}/css/oswald.css">
+    <link rel="stylesheet" href="{!! asset('public/assets/frontend/js/donkey')!!}/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="{!! asset('public/assets/frontend/js/donkey')!!}/css/owl.theme.default.min.css">
+    <link href="{!! asset('public/assets/frontend/js/donkey')!!}/css/jquery.donkey.min.css" rel="stylesheet" />
+
+    <script src="{!! asset('public/assets/frontend/js/donkey')!!}/js/jquery.easing.min.js"></script>
+    <script src="{!! asset('public/assets/frontend/js/donkey')!!}/js/owl.carousel.min.js"></script>
+    <script src="{!! asset('public/assets/frontend/js/donkey')!!}/js/jquery.donkey.min.js"></script>
+
+
     @yield("script")
+    <script>
+        $(document).ready(function(){
+            $('.wrap-banner').donkey({
+                autoplay:true,
+                nav:true,
+                lazyLoad:true,
+                animation:false,
+                animateOut: 'slideOutRight',
+                animateIn: 'fadeInLeftBig',
+                smartSpeed:800,
+                autoplayTimeout:6000,
+                center:true,
+            })
+        })
+    </script>
 </body>
 </html>

@@ -1,14 +1,12 @@
 @extends("Client::layouts.default")
 
 @section("meta")
-    <meta name="keywords" content="ILA Du Học, Hè 2018, Đăng ký du học hè">
-    <meta name="description" content="Đăng ký tham gia du học hè 2018 cùng ILA Du Học">
+
 @stop
 
-@section("title", "ILA Du Học Hè 2018 - Đăng Ký")
 
 @section("content")
-    @include("Client::layouts.banner-demo")
+    @include("Client::layouts.banner-donkey")
 
     <section class="register">
         <div class="container">
@@ -89,8 +87,8 @@
 @stop
 
 @section("script")
-    <link rel="stylesheet" href="{!! asset('public/assets/frontend')!!}/js/jsSLider/jcslider.css">
-    <script src="{!! asset('public/assets/frontend')!!}/js/jsSLider/jquery.jcslider.min.js"></script>
+    <link rel="stylesheet" href="{!! asset('public/assets/frontend/js/jsSlider')!!}/jcslider.css">
+    <script src="{!! asset('public/assets/frontend/js/jsSlider')!!}/jquery.jcslider.js"></script>
     <script>
         $(document).ready(function(){
             $('.jc-slider').jcSlider({

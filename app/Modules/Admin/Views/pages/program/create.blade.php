@@ -15,6 +15,10 @@
                         <input type="text" name="name" class="form-control" id="event" placeholder="Enter Name">
                     </div>
                     <div class="form-group">
+                        <label for="subtitle">Sub Title</label>
+                        <input type="text" name="subtitle" class="form-control"  placeholder="">
+                    </div>
+                    <div class="form-group">
                         <label for="description">Description</label>
                         {!! Form::textarea('description',old('description'), ['class' => 'form-control']) !!}
                     </div>

@@ -29,6 +29,10 @@
     <link href="{!! asset('public/assets/admin') !!}/css/style.css" rel="stylesheet">
     <!-- Styles required by this views -->
 
+    <script src="{!! asset('public/assets/admin') !!}/js/jquery-3.3.1.min.js"></script>
+    <!--CHART-->
+    <script src="{{asset('/public/assets/admin/js/Chart.js')}}"></script>
+
 </head>
 
 <!-- BODY options, add following classes to body to change options
@@ -68,7 +72,7 @@
 <!-- MAIN CONTENT-->
     <main class="main">
         <div class="container-fluid">
-            <div class="animated fadeIn">
+            <div class="animated fadeIn py-4">
                 @yield('content')
             </div>
         </div>
@@ -79,7 +83,6 @@
 @include('Admin::layouts.footer')
 
 <!-- Bootstrap and necessary plugins -->
-<script src="{!! asset('public/assets/admin') !!}/js/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="{!! asset('public/assets/admin') !!}/js/bootstrap.min.js"></script>
 <script src="{!! asset('public/assets/admin') !!}/js/pace.min.js"></script>

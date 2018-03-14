@@ -1,7 +1,10 @@
 @extends('Client::layouts.default')
 
+@section("meta")
+
+@stop
 @section("content")
-    @include("Client::layouts.banner_general")
+    @include("Client::layouts.banner-donkey")
 
     <section class="welcome">
         <div class="container">
@@ -22,6 +25,7 @@
     <link rel="stylesheet" href="{!! asset('public/assets/frontend/js/fullcalendar/fullcalendar.min.css') !!}">
     <script src="{!! asset('public/assets/frontend/js/fullcalendar/moment.min.js') !!}"></script>
     <script src="{!! asset('public/assets/frontend/js/fullcalendar/fullcalendar.min.js') !!}"></script>
+
     <script>
         $(document).ready(function(){
             $.ajaxSetup({
@@ -29,13 +33,6 @@
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 }
             });
-            $('.banner-homepage .tp-banner').revolution({
-                delay:5000,
-                startwidth:1920,
-                startheight:700,
-                hideThumbs:10,
-                navigationType:'none'
-            })
 
             $('#calendar').fullCalendar({
                 header: {

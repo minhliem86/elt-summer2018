@@ -1,7 +1,11 @@
 @extends('Client::layouts.default')
 
+@section('meta')
+
+@stop
+
 @section("content")
-    @include("Client::layouts.banner_general")
+    @include("Client::layouts.banner-donkey")
 
     <section class="program">
         <div class="container">
@@ -10,7 +14,9 @@
                     <h2>{!! $detail->name !!}</h2>
                     <div class="wrap-content-program">
                         {!! $detail->content !!}
-
+                    </div>
+                    <div class="wrap-button text-center">
+                        <a href="{!! route('register') !!}" class="btn btn-reg">ĐĂNG KÝ NGAY</a>
                     </div>
                 </div>
             </div>
@@ -18,20 +24,25 @@
     </section>
 
     @include("Client::layouts.why")
+    @include("Client::layouts.partner")
     <div id="loadModal"></div>
 @stop
 
 @section("script")
     <script src="{!! asset('public/assets/frontend/js/jquery-canvas-sparkles.js') !!}"></script>
+
+    <!--SLICK-->
+    <link rel="stylesheet" href="{!! asset('public/assets/frontend/js/slick')!!}/slick.css">
+    <script src="{!! asset('public/assets/frontend/js/slick')!!}/slick.min.js"></script>
     <script>
         $(document).ready(function(){
-            $('.banner-homepage .tp-banner').revolution({
-                delay:5000,
-                startwidth:1920,
-                startheight:700,
-                hideThumbs:10,
-                navigationType:'none'
+
+            /*SLICK*/
+            $('.slider-partner').slick({
+                slidesToShow: 5,
+                slidesToScroll: 1
             })
+
             $('.wrap-inner-img img').sparkle({
                 speed: 2,
                 minSize: 5,

@@ -17,7 +17,7 @@
                 <div class="card-header">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="wrap-title">
-                            <strong>Event</strong>
+                            <strong>Program</strong>
                         </div>
                         <div class="wrap-control">
                             {{Html::link(route('admin.program.create'),'Add New',['class'=>'btn btn-primary btn-sm'])}}
@@ -33,6 +33,7 @@
                             <tr>
                                 <th width="5%">ID</th>
                                 <th width="10%"><i class="glyphicon glyphicon-search"></i> Name</th>
+                                <th width="10%">SubTitle</th>
                                 <th width="15%">Photo</th>
                                 <th width="25%">Description</th>
                                 <th width="10%">Order</th>
@@ -72,6 +73,7 @@
                 columns: [
                     {data: 'id', name: 'id', 'orderable': false},
                     {data: 'name', title: 'Name Program'},
+                    {data: 'subtitle', title: 'SubTitle'},
                     {data: 'img_url', title: 'Photo'},
                     {data: 'description', title: 'Description'},
                     {data: 'order', name: 'Order'},

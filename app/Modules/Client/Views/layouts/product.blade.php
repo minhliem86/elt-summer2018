@@ -9,14 +9,16 @@
                             @if(!$program->isEmpty())
                                 @foreach($program as $item_program)
                                     <div class="col-md-4">
-                                        <div class="each-product each animate" data-animate="fadeInLeft" data-delay="0.1s" >
+                                        <div class="each-product " data-animate="fadeInLeft" data-delay="0.1s" >
                                             <img src="{!! asset('public/upload/'.$item_program->img_url) !!}" class="img-fluid" />
                                             <div class="mask"></div>
                                             <div class="content">
-                                                <h2>{!! $item_program->name !!}</h2>
+                                                <h2 class="visible-sm visible-xs">{!! $item_program->name !!}</h2>
                                                 <p>{!! $item_program->description !!}</p>
-                                                <a href="{!! route('program.detail', $item_program->slug) !!}" class="info">Read More</a>
+                                                <a href="{!! route('program.detail', $item_program->slug) !!}" class="info">Xem Thêm</a>
                                             </div>
+                                            <h3 class="hidden-sm hidden-xs">{!! $item_program->name !!}</h3>
+                                            <p class="subtitle">{!! $item_program->subtitle !!}</p>
                                         </div>
                                     </div>
                                 @endforeach

@@ -34,7 +34,7 @@ class ProgramController extends Controller
 
     public function getData(Request $request)
     {
-        $prog = $this->program->query(['id', 'name','description',"img_url", 'status', 'order']);
+        $prog = $this->program->query(['id', 'name','description', 'subtitle',"img_url", 'status', 'order']);
         return Datatables::of($prog)
             ->addColumn('action', function($prog){
                 return '<a href="'.route('admin.program.edit', $prog->id).'" class="btn btn-success d-inline-block btn-sm" title="Edit"><i class="fa fa-edit"></i> </a>
@@ -98,6 +98,7 @@ class ProgramController extends Controller
             'slug' => \LP_lib::unicode($request->input('name')),
             'description' => $request->input('description'),
             'content' => $request->input('content'),
+            'subtitle' => $request->input('subtitle'),
             'img_url' => $img_url,
             'order' => $order,
         ];
@@ -145,6 +146,7 @@ class ProgramController extends Controller
             'slug' => \LP_lib::unicode($request->input('name')),
             'description' => $request->input('description'),
             'content' => $request->input('content'),
+            'subtitle' => $request->input('subtitle'),
             'order' => $request->input('order'),
             'img_url' => $img_url,
             'status' => $request->input('status'),

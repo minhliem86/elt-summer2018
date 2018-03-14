@@ -1,8 +1,7 @@
 @extends("Client::layouts.default")
 
 @section("meta")
-    <meta name="keywords" content="ILA, ILA Du Học, Du Học Hè 2018, ILA Du Học Hè 2018, Hè 2018">
-    <meta name="description" content="ILA Du học hè 2018 với 4 giá trị cốt lõi: Phiêu lưu, Tự lập, Trải nghiệm, Trưởng thành. Là bước tiền trạm cho du học dài hạn thành công">
+
 @stop
 
 @section("content")
@@ -23,56 +22,66 @@
             {{--</script>--}}
         {{--</div>--}}
     {{--</div>--}}
-    @include("Client::layouts.banner-demo")
+    @include("Client::layouts.banner-donkey")
     <!-- **************** Wellcome ****************-->
     <section class="wellcome">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>CHÀO MỪNG ĐẾN VỚI<span> TRẠI HÈ TIẾNG ANH ĐẲNG CẤP QUỐC TẾ 2018</span></h2>
+                    <h2>TRẠI HÈ TIẾNG ANH ĐẲNG CẤP QUỐC TẾ</h2>
+                    <div class="des-welcome-container">
+                        <p class="description-welcome">ILA tự hào giới thiệu trại hè tiếng Anh đẳng cấp quốc tế lần đầu tiên xuất hiện tại Việt Nam dành cho học viên từ 4-16 tuổi.</p>
+                        <p class="description-welcome">Đây là chương trình đươc xây dựng bằng tất cả tâm huyết của các chuyên gia giáo dục đẳng cấp quốc tế, đội ngũ quản lý học vụ giàu lòng yêu trẻ nhằm mang đến một mùa hè tuyệt vời, phát triển toàn diện: giáo dục kiến thức, giáo dục thể chất và giáo dục nhân cách.</p>
+                        <p class="descriotion-welcome">Chương trình được thiết kế đặc nhằm tập trung phát triển toàn diện tiếng Anh song song với 6 kỹ năng vàng: giao tiếp, hợp tác, sáng tạo, tư duy phản biện, kiến thức công nghệ và tự hoàn thiện bản thân nhưng vẫn tràn ngập niềm vui tuổi thơ với bạn bè đồng trang lứa.</p>
+                    </div>
+
                     <div class="welcome-container">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col-md-15">
-                                    <div class="each-welcome each animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.2s">
+                                <div class="col-md-4">
+                                    <div class="each-welcome" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.2s">
                                         <div class="img-shadow-container" >
-                                            <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/morongtamnhin.png)"></span>
+                                            <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/frame-selling-point.png)">
+                                                <p class="title title-inner-section title-welcome" >CAO THỦ<span>TIẾNG ANH</span></p>
+                                            </span>
                                         </div>
-                                        <p class="title title-inner-section">8 TUẦN <span>XUẤT SẮC TIẾNG ANH</span></p>
                                     </div>
                                 </div>
-                                <div class="col-md-15">
-                                    <div class="each-welcome each animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.3s">
+                                <div class="col-md-4">
+                                    <div class="each-welcome" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.3s">
                                         <div class="img-shadow-container" >
-                                            <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/renluyen.png)"></span>
+                                            <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/frame-selling-point.png)">
+                                                <p class="title title-inner-section title-welcome" >XÂY DỰNG<span>TÍNH CÁCH</span></p>
+                                            </span>
                                         </div>
-                                        <p class="title title-inner-section">8 TUẦN <span>VUI CHƠI KHÁM PHÁ</span></p>
                                     </div>
                                 </div>
-                                <div class="col-md-15">
-                                    <div class="each-welcome each animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s">
+                                <div class="col-md-4">
+                                    <div class="each-welcome" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s">
                                         <div class="img-shadow-container" >
-                                            <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/gapgo-giaoluu.png)"></span>
+                                            <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/frame-selling-point.png)">
+                                                <p class="title title-inner-section title-welcome" >SAN SẺ<span>YÊU THƯƠNG</span></p>
+                                            </span>
                                         </div>
-                                        <p class="title title-inner-section">8 TUẦN <span>SAN SẺ YÊU THƯƠNG</span></p>
+
                                     </div>
                                 </div>
-                                <div class="col-md-15">
-                                    <div class="each-welcome each animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.4s">
-                                        <div class="img-shadow-container" >
-                                            <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/thunghiem.png)"></span>
-                                        </div>
-                                        <p class="title title-inner-section">8 TUẦN <span>GIÁO DỤC TOÀN DIỆN</span></p>
-                                    </div>
-                                </div>
-                                <div class="col-md-15">
-                                    <div class="each-welcome each animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.5s">
-                                        <div class="img-shadow-container" >
-                                            <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/trainghiem.png)"></span>
-                                        </div>
-                                        <p class="title title-inner-section">HỌC BỔNG <span>GIÁ TRỊ</span></p>
-                                    </div>
-                                </div>
+                                {{--<div class="col-md-15">--}}
+                                    {{--<div class="each-welcome each animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.4s">--}}
+                                        {{--<div class="img-shadow-container" >--}}
+                                            {{--<span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/thunghiem.png)"></span>--}}
+                                        {{--</div>--}}
+                                        {{--<p class="title title-inner-section">8 TUẦN <span>GIÁO DỤC TOÀN DIỆN</span></p>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="col-md-15">--}}
+                                    {{--<div class="each-welcome each animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.5s">--}}
+                                        {{--<div class="img-shadow-container" >--}}
+                                            {{--<span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/trainghiem.png)"></span>--}}
+                                        {{--</div>--}}
+                                        {{--<p class="title title-inner-section">HỌC BỔNG <span>GIÁ TRỊ</span></p>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
                             </div>
                         </div>
                     </div>
@@ -93,48 +102,23 @@
                         <h2>CHIA SẺ TRẢI NGHIỆM</h2>
                         <div class="testi-content">
                             <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="each-testi each animate" data-animate="zoomIn">
-                                            <img src="{!!asset('public/assets/frontend/images/layouts/540x355.png') !!}" class="img-responsive img-inner-section" alt="">
-                                            <div class="content">
-                                                <h4 class="author">HOÀNG NAM ANH</h4>
-                                                <p class="desc">“Chuyến du học hè tại Anh đã giúp mình có thêm nhiều bạn mới, có nhiều trải nghiệm trong cuộc sống và tự tin hơn trong giao tiếp bằng tiếng Anh. Mình đã được tham quan rất nhiều điểm đến thú vị tại Anh, trong đó, Cầu tháp London là nơi mà mình thích nhất”</p>
-                                                <a href="" class="btn btn-yl">Đọc thêm</a>
+                                @if(!$testimonial->isEmpty())
+                                    @foreach($testimonial->chunk(2) as $item_chunk)
+                                    <div class="row">
+                                        @foreach($item_chunk as $item_testi)
+                                        <div class="col-sm-6">
+                                            <div class="each-testi each animate" data-animate="zoomIn">
+                                                <img src="{!! asset('public/upload/'.$item_testi->img_avatar) !!}" class="img-responsive img-inner-section" alt="">
+                                                <div class="content">
+                                                    <h4 class="author">{!! $item_testi->title !!}</h4>
+                                                    <p class="desc">{!!$item_testi->content !!}</p>
+                                                </div>
                                             </div>
                                         </div>
+                                        @endforeach
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="each-testi each animate" data-animate="zoomIn">
-                                            <img src="{!!asset('public/assets/frontend/images/layouts/540x355.png') !!}" class="img-responsive img-inner-section" alt="">
-                                            <div class="content">
-                                                <h4 class="author">HOÀNG NAM ANH</h4>
-                                                <p class="desc">“Chuyến du học hè tại Anh đã giúp mình có thêm nhiều bạn mới, có nhiều trải nghiệm trong cuộc sống và tự tin hơn trong giao tiếp bằng tiếng Anh. Mình đã được tham quan rất nhiều điểm đến thú vị tại Anh, trong đó, Cầu tháp London là nơi mà mình thích nhất”</p>
-                                                <a href="" class="btn btn-yl">Đọc thêm</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="each-testi each animate" data-animate="zoomIn">
-                                            <img src="{!!asset('public/assets/frontend/images/layouts/540x355.png') !!}" class="img-responsive img-inner-section" alt="">
-                                            <div class="content">
-                                                <h4 class="author">HOÀNG NAM ANH</h4>
-                                                <p class="desc">“Chuyến du học hè tại Anh đã giúp mình có thêm nhiều bạn mới, có nhiều trải nghiệm trong cuộc sống và tự tin hơn trong giao tiếp bằng tiếng Anh. Mình đã được tham quan rất nhiều điểm đến thú vị tại Anh, trong đó, Cầu tháp London là nơi mà mình thích nhất”</p>
-                                                <a href="" class="btn btn-yl">Đọc thêm</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="each-testi each animate" data-animate="zoomIn">
-                                            <img src="{!!asset('public/assets/frontend/images/layouts/540x355.png') !!}" class="img-responsive img-inner-section" alt="">
-                                            <div class="content">
-                                                <h4 class="author">HOÀNG NAM ANH</h4>
-                                                <p class="desc">“Chuyến du học hè tại Anh đã giúp mình có thêm nhiều bạn mới, có nhiều trải nghiệm trong cuộc sống và tự tin hơn trong giao tiếp bằng tiếng Anh. Mình đã được tham quan rất nhiều điểm đến thú vị tại Anh, trong đó, Cầu tháp London là nơi mà mình thích nhất”</p>
-                                                <a href="" class="btn btn-yl">Đọc thêm</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                    @endforeach
+                                @endif
                             </div>
                         </div>
                     </div>
@@ -145,33 +129,25 @@
     <!--END-->
 
     @include("Client::layouts.why")
+
+    @include("Client::layouts.partner")
 @stop
 
 @section("script")
     <link rel="stylesheet" href="{!! asset('public/assets/frontend') !!}/js/video/plyr.css">
     <script src="{!! asset('public/assets/frontend') !!}/js/video/plyr.js"></script>
 
-    <!--LAYER SLIDER-->
-    <link rel="stylesheet" href="{!! asset('public/assets/frontend/js') !!}/fractionslider/css/fractionslider.css" type="text/css">
-    <script src="{!! asset('public/assets/frontend/js') !!}/fractionslider/jquery.fractionslider.min.js"></script>
+    <!--SLICK-->
+    <link rel="stylesheet" href="{!! asset('public/assets/frontend/js/slick')!!}/slick.css">
+    <script src="{!! asset('public/assets/frontend/js/slick')!!}/slick.min.js"></script>
 
     <script>
         $(document).ready(function(){
-            $('.banner-homepage .tp-banner').revolution({
-                delay:5000,
-                startwidth:1920,
-                startheight:700,
-                hideThumbs:10,
-                navigationType:'none'
-            })
 
-            /*INITIAL VIDEO*/
-            plyr.setup();
-
-            $('#banner-demo').fractionSlider({
-                'fullWidth': 			true,
-                'responsive': 			true,
-                'dimensions': 			"1920,700",
+            /*SLICK*/
+            $('.slider-partner').slick({
+                slidesToShow: 5,
+                slidesToScroll: 1
             })
         })
     </script>

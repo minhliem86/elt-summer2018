@@ -10,7 +10,7 @@
         <div class="col">
             <div class="card">
                 <div class="card-header">
-                    <strong>Testimonial</strong>
+                    <strong>Program</strong>
                     <small>Edit</small>
                 </div>
                 {{Form::model($inst, ['route'=>['admin.program.update',$inst->id], 'method'=>'put', 'files'=>true ])}}
@@ -18,6 +18,10 @@
                     <div class="form-group">
                         <label for="name">Program</label>
                         {!! Form::text('name', old('name'), ['class'=>'form-control']) !!}
+                    </div>
+                    <div class="form-group">
+                        <label for="subtitle">Sub Title</label>
+                        {!! Form::text('subtitle', old('subtitle'), ['class'=>'form-control']) !!}
                     </div>
                     <div class="form-group">
                         <label for="description">Description</label>

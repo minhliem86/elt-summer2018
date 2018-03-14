@@ -1,20 +1,20 @@
 <div class="chart-container">
     <canvas id="myChart"></canvas>
     <script>
-        const ctx = document.getElementById('myChart');
-        const myChart = new Chart(ctx, {
+        var ctx = document.getElementById('myChart');
+        var myChart = new Chart(ctx, {
             type: "line",
             data: {
                 labels: [
-                    @foreach($ga as $v)
-                        "{{\Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $v['date'])->toDateString()}}",
+                    @foreach($data_analytic as $v)
+                        "{!! $v['date'] !!}",
                     @endforeach
                 ],
                 datasets:[
                     {
                         label: 'Visitors',
                         data: [
-                            @foreach($ga as $item_visitor)
+                            @foreach($data_analytic as $item_visitor)
                                 "{{$item_visitor['visitors']}}",
                             @endforeach
                         ],
@@ -24,8 +24,8 @@
                     {
                         label: 'Pageviews',
                         data: [
-                            @foreach($ga as $item_pageview)
-                                "{{$item_pageview['pageViews']}}",
+                            @foreach($data_analytic as $item_pageview)
+                                "{{$item_pageview['pageviews']}}",
                             @endforeach
                         ],
                         backgroundColor: 'rgba(131, 173, 239, 0.2)',

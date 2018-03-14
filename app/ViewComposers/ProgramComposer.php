@@ -16,7 +16,7 @@ class ProgramComposer{
     public function compose(View $view)
     {
         // TODO: Bind data to view
-        $program_list = $this->program->query(['id','name','slug','description','img_url','status', 'order'])->where('status',1)->get();
+        $program_list = $this->program->query(['id','name','slug','description','img_url','subtitle','status', 'order'])->where('status',1)->get();
         $view->with(['program' =>$program_list]);
     }
 }
