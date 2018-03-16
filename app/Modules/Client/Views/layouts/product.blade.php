@@ -13,12 +13,13 @@
                                             <img src="{!! asset('public/upload/'.$item_program->img_url) !!}" class="img-fluid" />
                                             <div class="mask"></div>
                                             <div class="content">
-                                                <h2 class="visible-sm visible-xs">{!! $item_program->name !!}</h2>
+                                                <h3 class="visible-sm visible-xs">{!! $item_program->name !!}</h3>
+                                                <p class="subtitle visible-sm visible-xs">{!! $item_program->subtitle !!}</p>
                                                 <p>{!! $item_program->description !!}</p>
                                                 <a href="{!! route('program.detail', $item_program->slug) !!}" class="info">Xem Thêm</a>
                                             </div>
                                             <h3 class="hidden-sm hidden-xs">{!! $item_program->name !!}</h3>
-                                            <p class="subtitle">{!! $item_program->subtitle !!}</p>
+                                            <p class="subtitle hidden-sm hidden-xs">{!! $item_program->subtitle !!}</p>
                                         </div>
                                     </div>
                                 @endforeach

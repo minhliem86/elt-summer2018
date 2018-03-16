@@ -14,6 +14,8 @@
                 <div class="col-md-12">
                     <div class="register-container" id="startForm">
                         <h2 class="title">ĐỂ ĐƯỢC HỖ TRỢ TƯ VẤN <span> VUI LÒNG HOÀN THÀNH BẢN THÔNG TIN DƯỚI ĐÂY</span></h2>
+                        <p class="subtitle">ILA dành tặng ưu đãi học phí siêu hấp dẫn lên đến 6.800.000 VND.</p>
+                        <p class="subtitle">Nhanh tay đăng ký để được tư vấn trước ngày 31/03/2018.</p>
                         <div class="form-container each animate" data-animate="zoomInUp">
                             @if($errors->any())
                                 <script>

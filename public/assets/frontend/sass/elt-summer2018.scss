@@ -17,6 +17,17 @@ $cl-light-blue:#42BEF8;
 .whychooseila .whychooseila-container{
   border-bottom:none;
 }
+.whychooseila-container{
+  .whychooseila-content{
+    .each-whychoose{
+      img{
+        @include media(){
+          max-width:200px;
+        }
+      }
+    }
+  }
+}
 
 .wellcome{
   .des-welcome-container{
@@ -24,7 +35,19 @@ $cl-light-blue:#42BEF8;
     text-align: justify;
   }
   .welcome-container{
-
+    .flex-container{
+      display: flex;
+      justify-content:space-between;
+      @include media(){
+        .each-kv{
+          .each-welcome{
+            img{
+              max-width:90%;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -37,6 +60,7 @@ $cl-light-blue:#42BEF8;
       overflow: hidden;
       @include media(){
         box-shadow: none;
+        margin-bottom:2rem;
       }
       .mask, .content{
         position: absolute;
@@ -52,15 +76,17 @@ $cl-light-blue:#42BEF8;
         opacity: 0;
         transform: translate(265px, 145px) rotate(45deg);
         transition: all 0.2s ease-in-out;
-        width:630px;
-        height:630px;
+        width:600px;
+        height:600px;
+        z-index:2;
         @include media(){
           display: none;
         }
       }
       .content{
         color:$cl-xanh;
-        h2{
+        z-index:3;
+        h3{
           text-transform: uppercase;
           text-align: center;
           font-size:2rem;
@@ -86,7 +112,14 @@ $cl-light-blue:#42BEF8;
           @include media(){
             transform: translate(0px, 0px);
             margin-top:20px;
+            text-align: justify;
+            &.subtitle{
+              margin-top:5px;
+              margin-bottom:20px;
+              text-align: center;
+            }
           }
+
         }
         img{
           transition: all 0.2s ease-in;
@@ -115,7 +148,7 @@ $cl-light-blue:#42BEF8;
       &:hover{
         .mask{
           opacity:1;
-          transform: translate(-80px, -110px) rotate(45deg);
+          transform: translate(-140px, -80px) rotate(45deg);
         }
         h2{
           transform: translate(0px,0px);
@@ -198,13 +231,22 @@ $cl-light-blue:#42BEF8;
         margin-bottom:5rem;
       }
       p{
-        font-size:1.6rem;
+        font-size:1.4rem;
         line-height:2.2rem;
         text-align:justify;
         margin-bottom:1.2rem;
       }
+      ul{
+        li{
+          font-size:1.4rem;
+          margin-bottom:0.6rem;
+          &:last-child{
+            margin-bottom:0;
+          }
+        }
+      }
       h4.title-program{
-        font-size:1.8rem;
+        font-size:1.6rem;
         text-transform: uppercase;
         margin-bottom:1.5rem;
       }
@@ -240,21 +282,28 @@ $cl-light-blue:#42BEF8;
       .wrap-img-program{
         img{
           margin:0 auto;
+          @include media(){
+            max-width:150px;
+          }
         }
       }
       .content-program{
         p{
           font-size:1.5rem;
+          @include media(){
+            text-align:justify;
+          }
         }
       }
     }
     @include media(){
-      margin-bottom:2rem;
+      margin:0 auto 2rem;
       img{
         margin:0 auto;
       }
       .each-program{
         margin-bottom:3rem;
+        flex-direction:column;
       }
     }
   }
@@ -277,6 +326,17 @@ $cl-light-blue:#42BEF8;
   .jc-slider{
     list-style-type: none;
     padding:0;
+  }
+}
+
+.register-container{
+  p.subtitle{
+    text-align:center;
+    font-size:1.6rem;
+    @include media(){
+      font-size:1.2rem;
+      font-weight:600;
+    }
   }
 }
 
@@ -305,6 +365,9 @@ section.action{
       color:white;
       margin-bottom:1.5rem;
       text-align:center;
+      @include media(){
+        font-size:1.7rem;
+      }
     }
     .each-product{
       margin-bottom:3rem;
@@ -362,6 +425,9 @@ section.action{
         font-size:1.6rem;
         transform:translateY(30px);
         -webkit-transform:translateY(30px);
+        @include media(){
+          font-size:1.5rem;
+        }
       }
     }
     .content-each{
@@ -374,6 +440,11 @@ section.action{
           margin-bottom:15px;
           &:last-child{
             margin-bottom:0;
+          }
+          @include media(){
+            font-size:1.4rem;
+            line-height:2.2rem;
+            margin-bottom:8px;
           }
         }
       }

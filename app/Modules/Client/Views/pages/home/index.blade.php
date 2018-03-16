@@ -36,54 +36,55 @@
                     </div>
 
                     <div class="welcome-container">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="each-welcome" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.2s">
-                                        <div class="img-shadow-container" >
-                                            <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/frame-selling-point.png)">
-                                                <p class="title title-inner-section title-welcome" >CAO THỦ<span>TIẾNG ANH</span></p>
-                                            </span>
-                                        </div>
+                        @if(!$mobile->isMobile())
+                        <div class="flex-container mobile-flex">
+                            <div class="each-kv">
+                                <div class="each-welcome" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.2s">
+                                    <div class="img-shadow-container" >
+                                        <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/frame-selling-point.png)">
+                                            <p class="title title-inner-section title-welcome" >CAO THỦ<span>TIẾNG ANH</span></p>
+                                        </span>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="each-welcome" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.3s">
-                                        <div class="img-shadow-container" >
-                                            <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/frame-selling-point.png)">
-                                                <p class="title title-inner-section title-welcome" >XÂY DỰNG<span>TÍNH CÁCH</span></p>
-                                            </span>
-                                        </div>
+                            </div>
+                            <div class="each-kv">
+                                <div class="each-welcome" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.2s">
+                                    <div class="img-shadow-container" >
+                                        <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/frame-selling-point.png)">
+                                            <p class="title title-inner-section title-welcome" >XÂY DỰNG<span>TÍNH CÁCH</span></p>
+                                        </span>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="each-welcome" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s">
-                                        <div class="img-shadow-container" >
-                                            <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/frame-selling-point.png)">
-                                                <p class="title title-inner-section title-welcome" >SAN SẺ<span>YÊU THƯƠNG</span></p>
-                                            </span>
-                                        </div>
-
+                            </div>
+                            <div class="each-kv">
+                                <div class="each-welcome" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.2s">
+                                    <div class="img-shadow-container" >
+                                        <span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/frame-selling-point.png)">
+                                            <p class="title title-inner-section title-welcome" >SAN SẺ<span>YÊU THƯƠNG</span></p>
+                                        </span>
                                     </div>
                                 </div>
-                                {{--<div class="col-md-15">--}}
-                                    {{--<div class="each-welcome each animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.4s">--}}
-                                        {{--<div class="img-shadow-container" >--}}
-                                            {{--<span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/thunghiem.png)"></span>--}}
-                                        {{--</div>--}}
-                                        {{--<p class="title title-inner-section">8 TUẦN <span>GIÁO DỤC TOÀN DIỆN</span></p>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                                {{--<div class="col-md-15">--}}
-                                    {{--<div class="each-welcome each animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.5s">--}}
-                                        {{--<div class="img-shadow-container" >--}}
-                                            {{--<span class="img-load" style="background-image:url({!!asset('public/assets/frontend') !!}/images/keypoint/trainghiem.png)"></span>--}}
-                                        {{--</div>--}}
-                                        {{--<p class="title title-inner-section">HỌC BỔNG <span>GIÁ TRỊ</span></p>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
                             </div>
                         </div>
+                        @else
+                        <div class="flex-container">
+                            <div class="each-kv">
+                                <div class="each-welcome" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.2s">
+                                    <img src="{!!asset('public/assets/frontend') !!}/images/keypoint/caothutienganh.png" class="img-responsive" alt="8 tuần - Cao Thủ Tiếng Anh">
+                                </div>
+                            </div>
+                            <div class="each-kv">
+                                <div class="each-welcome" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.3s">
+                                    <img src="{!!asset('public/assets/frontend') !!}/images/keypoint/xaydungtinhcach.png" class="img-responsive" alt="8 tuần - Xây Dựng Tính Cách">
+                                </div>
+                            </div>
+                            <div class="each-kv">
+                                <div class="each-welcome" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s">
+                                    <img src="{!!asset('public/assets/frontend') !!}/images/keypoint/sanseyeuthuong.png" class="img-responsive" alt="8 tuần - San Sẻ Yêu Thương">
+                                </div>
+                            </div>
+                        </div>
+                        @endif
                     </div>
                 </div>
             </div>

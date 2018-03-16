@@ -17,10 +17,11 @@ class HomeController extends Controller {
 
     public function index()
     {
+        $mobile = new \Mobile_Detect();
 //        $promotion = $this->promotion->getHomePage(['img_homepage', 'title'],4);
         $testimonial = $this->testimonial->all(['id','slug', 'img_avatar', 'content','title']);
 //        return view('Client::pages.home.index', compact('promotion', 'testimonial'));
-        return view('Client::pages.home.index', compact('testimonial'));
+        return view('Client::pages.home.index', compact('testimonial', 'mobile'));
 
 
     }

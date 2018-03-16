@@ -7,9 +7,19 @@
 .whychooseila .whychooseila-container {
   border-bottom: none; }
 
+@media screen and (max-width: 768px) {
+  .whychooseila-container .whychooseila-content .each-whychoose img {
+    max-width: 200px; } }
+
 .wellcome .des-welcome-container {
   margin: 0 auto 30px;
   text-align: justify; }
+.wellcome .welcome-container .flex-container {
+  display: flex;
+  justify-content: space-between; }
+  @media screen and (max-width: 768px) {
+    .wellcome .welcome-container .flex-container .each-kv .each-welcome img {
+      max-width: 90%; } }
 
 .discover .discover-container .each-product {
   position: relative;
@@ -18,7 +28,8 @@
   overflow: hidden; }
   @media screen and (max-width: 768px) {
     .discover .discover-container .each-product {
-      box-shadow: none; } }
+      box-shadow: none;
+      margin-bottom: 2rem; } }
   .discover .discover-container .each-product .mask, .discover .discover-container .each-product .content {
     position: absolute;
     overflow: hidden;
@@ -32,14 +43,16 @@
     opacity: 0;
     transform: translate(265px, 145px) rotate(45deg);
     transition: all 0.2s ease-in-out;
-    width: 630px;
-    height: 630px; }
+    width: 600px;
+    height: 600px;
+    z-index: 2; }
     @media screen and (max-width: 768px) {
       .discover .discover-container .each-product .mask {
         display: none; } }
   .discover .discover-container .each-product .content {
-    color: #2b328c; }
-    .discover .discover-container .each-product .content h2 {
+    color: #2b328c;
+    z-index: 3; }
+    .discover .discover-container .each-product .content h3 {
       text-transform: uppercase;
       text-align: center;
       font-size: 2rem;
@@ -49,7 +62,7 @@
       transition: all 0.2s ease-in-out;
       position: relative; }
       @media screen and (max-width: 768px) {
-        .discover .discover-container .each-product .content h2 {
+        .discover .discover-container .each-product .content h3 {
           transform: translate(0px, 0px);
           margin: 10px 20px 10px 20px; } }
     .discover .discover-container .each-product .content p {
@@ -64,7 +77,12 @@
       @media screen and (max-width: 768px) {
         .discover .discover-container .each-product .content p {
           transform: translate(0px, 0px);
-          margin-top: 20px; } }
+          margin-top: 20px;
+          text-align: justify; }
+          .discover .discover-container .each-product .content p.subtitle {
+            margin-top: 5px;
+            margin-bottom: 20px;
+            text-align: center; } }
     .discover .discover-container .each-product .content img {
       transition: all 0.2s ease-in; }
     .discover .discover-container .each-product .content a.info {
@@ -87,7 +105,7 @@
         position: static; } }
   .discover .discover-container .each-product:hover .mask {
     opacity: 1;
-    transform: translate(-80px, -110px) rotate(45deg); }
+    transform: translate(-140px, -80px) rotate(45deg); }
   .discover .discover-container .each-product:hover h2 {
     transform: translate(0px, 0px);
     transition-delay: 0.3s; }
@@ -139,12 +157,17 @@
     .program .wrap-content-program .wrap-content:last-child {
       margin-bottom: 5rem; }
     .program .wrap-content-program .wrap-content p {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       line-height: 2.2rem;
       text-align: justify;
       margin-bottom: 1.2rem; }
+    .program .wrap-content-program .wrap-content ul li {
+      font-size: 1.4rem;
+      margin-bottom: 0.6rem; }
+      .program .wrap-content-program .wrap-content ul li:last-child {
+        margin-bottom: 0; }
     .program .wrap-content-program .wrap-content h4.title-program {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       text-transform: uppercase;
       margin-bottom: 1.5rem; }
 .program .wrap-button {
@@ -170,15 +193,22 @@
     align-items: center; }
     .general-program .wrap-img-program .each-program .wrap-img-program img, .general-program .content-program-container .each-program .wrap-img-program img {
       margin: 0 auto; }
+      @media screen and (max-width: 768px) {
+        .general-program .wrap-img-program .each-program .wrap-img-program img, .general-program .content-program-container .each-program .wrap-img-program img {
+          max-width: 150px; } }
     .general-program .wrap-img-program .each-program .content-program p, .general-program .content-program-container .each-program .content-program p {
       font-size: 1.5rem; }
+      @media screen and (max-width: 768px) {
+        .general-program .wrap-img-program .each-program .content-program p, .general-program .content-program-container .each-program .content-program p {
+          text-align: justify; } }
   @media screen and (max-width: 768px) {
     .general-program .wrap-img-program, .general-program .content-program-container {
-      margin-bottom: 2rem; }
+      margin: 0 auto 2rem; }
       .general-program .wrap-img-program img, .general-program .content-program-container img {
         margin: 0 auto; }
       .general-program .wrap-img-program .each-program, .general-program .content-program-container .each-program {
-        margin-bottom: 3rem; } }
+        margin-bottom: 3rem;
+        flex-direction: column; } }
 .general-program .content-program-container {
   max-width: 960px;
   margin: 0 auto; }
@@ -190,6 +220,14 @@
 .wrap-banner .jc-slider {
   list-style-type: none;
   padding: 0; }
+
+.register-container p.subtitle {
+  text-align: center;
+  font-size: 1.6rem; }
+  @media screen and (max-width: 768px) {
+    .register-container p.subtitle {
+      font-size: 1.2rem;
+      font-weight: 600; } }
 
 /*PARTNER*/
 .partner .partner-container .slider-partner .slide-item:focus {
@@ -208,6 +246,9 @@ section.action .action-container {
     color: white;
     margin-bottom: 1.5rem;
     text-align: center; }
+    @media screen and (max-width: 768px) {
+      section.action .action-container h4 {
+        font-size: 1.7rem; } }
   section.action .action-container .each-product {
     margin-bottom: 3rem; }
   section.action .action-container .badge-wrapper {
@@ -260,6 +301,9 @@ section.action .action-container {
       font-size: 1.6rem;
       transform: translateY(30px);
       -webkit-transform: translateY(30px); }
+      @media screen and (max-width: 768px) {
+        section.action .action-container .badge-wrapper h3.title-action {
+          font-size: 1.5rem; } }
   section.action .action-container .content-each ul {
     padding: 0; }
     section.action .action-container .content-each ul li {
@@ -269,6 +313,11 @@ section.action .action-container {
       margin-bottom: 15px; }
       section.action .action-container .content-each ul li:last-child {
         margin-bottom: 0; }
+      @media screen and (max-width: 768px) {
+        section.action .action-container .content-each ul li {
+          font-size: 1.4rem;
+          line-height: 2.2rem;
+          margin-bottom: 8px; } }
 
 /*BANNER*/
 @media screen and (max-width: 768px) {

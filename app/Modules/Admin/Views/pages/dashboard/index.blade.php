@@ -15,14 +15,6 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 col-lg-3">
-            <div class="card text-white bg-success">
-                <div class="card-body pb-0">
-                    <h4 class="mb-0">{!! $total_users !!}</h4>
-                    <p>Register User</p>
-                </div>
-            </div>
-        </div>
     </div>
     <div class="row">
         <div class="col">

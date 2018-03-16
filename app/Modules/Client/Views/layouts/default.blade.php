@@ -95,6 +95,7 @@
                 autoplayTimeout:6000,
                 center:true,
             })
+
         })
     </script>
 </body>
