@@ -1,24 +1,20 @@
 <div class="sidebar">
     <nav class="sidebar-nav">
         <ul class="nav">
+            <li class="nav-title">
+                ILA SUMMER 2018
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="index.html"><i class="icon-speedometer"></i> Dashboard </a>
             </li>
-
-            <li class="nav-title">
-                Theme
-            </li>
-            <li class="nav-item">
-                <a href="colors.html" class="nav-link"><i class="icon-drop"></i> Product</a>
-            </li>
-            <li class="nav-title">
-                Components
-            </li>
-            <li class="nav-item">
-                <a href="colors.html" class="nav-link active"><i class="icon-drop"></i> Sản Phẩm</a>
+            <li class="nav-item ">
+                <a href="{!! route('admin.promotion.index') !!}" class="nav-link {!! LP_lib::setActive('2','promotion') !!}"><i class="icon-drop"></i> Promotion</a>
             </li>
             <li class="nav-item ">
-                <a href="{!! route('admin.promotion.index') !!}" class="nav-link"><i class="icon-drop"></i> Promotion</a>
+                <a href="{!! route('admin.testimonial.index') !!}" class="nav-link {!! LP_lib::setActive('2','testimonial') !!}"><i class="icon-drop"></i> Testimonial</a>
+            </li>
+            <li class="nav-item ">
+                <a href="{!! route('admin.event.index') !!}" class="nav-link {!! LP_lib::setActive('2','event') !!}"><i class="icon-drop"></i> Event</a>
             </li>
             <li class="nav-item nav-dropdown">
                 <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-bell"></i> Notifications</a>

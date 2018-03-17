@@ -4,7 +4,7 @@
     <button class="btn btn-primary" onclick="submitForm();">Save</button>
 @stop
 
-@section('title','Quản lý Sản Phẩm')
+@section('title','Promotion')
 
 @section('content')
     <div class="row">
