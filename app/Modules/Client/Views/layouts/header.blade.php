@@ -29,11 +29,14 @@
                                     <div class="dropdown-menu">
                                         <ul class="list-dropdown-menu">
                                             <li><a href="{!! route('program.index') !!}">TỔNG QUAN CHƯƠNG TRÌNH HÈ</a></li>
-                                            @if(!$program->isEmpty())
-                                                @foreach($program as $item_program)
-                                                    <li><a href="{!! route('program.detail', $item_program->slug) !!}">{!! $item_program->name !!}</a></li>
-                                                @endforeach
-                                            @endif
+                                            <li><a href="{!! route('program.jumpstart') !!}">Dành cho học viên 4-7 tuổi</a></li>
+                                            <li><a href="{!! route('program.super-juniors') !!}">Dành cho học viên 7-11 tuổi</a></li>
+                                            <li><a href="{!! route('program.smart-teens') !!}">Dành cho học viên 11-16 tuổi</a></li>
+                                            {{--@if(!$program->isEmpty())--}}
+                                                {{--@foreach($program as $item_program)--}}
+                                                    {{--<li><a href="{!! route('program.detail', $item_program->slug) !!}">{!! $item_program->name !!}</a></li>--}}
+                                                {{--@endforeach--}}
+                                            {{--@endif--}}
                                         </ul>
                                     </div>
                                 </li>

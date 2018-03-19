@@ -22,12 +22,27 @@ class ProgramController extends Controller
         return view('Client::pages.program.index');
     }
 
-    public function detail(Request $request, $slug)
+//    public function detail(Request $request, $slug)
+//    {
+//        $detail = $this->program->findByField('slug',$slug,['name','slug','content'])->first();
+//        if(count($detail)){
+//            return view('Client::pages.program.detail', compact('detail'));
+//        }
+//        abort(404);
+//    }
+
+    public function jumpstart(Request $request)
     {
-        $detail = $this->program->findByField('slug',$slug,['name','slug','content'])->first();
-        if(count($detail)){
-            return view('Client::pages.program.detail', compact('detail'));
-        }
-        abort(404);
+        return view('Client::pages.program.jumpstart');
+    }
+
+    public function superjunior(Request $request)
+    {
+        return view('Client::pages.program.superjunior');
+    }
+
+    public function smartteen(Request $request)
+    {
+        return view('Client::pages.program.smartteen');
     }
 }
