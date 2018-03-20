@@ -21,6 +21,9 @@
                                             {{--</div>--}}
                                             <h3>{!! $item_program->subtitle !!}</h3>
                                             {{--<p>{!! $item_program->subtitle !!}</p>--}}
+                                            <div class="wrap-button small-size text-center">
+                                                <a href="{!! route('register') !!}" class="btn btn-reg">ĐĂNG KÝ NGAY</a>
+                                            </div>
                                         </div>
                                         </a>
                                     </div>

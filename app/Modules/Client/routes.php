@@ -48,6 +48,9 @@ Route::group(['middleware'=>'web','namespace' => 'App\Modules\Client\Controllers
     /*FACEBOOK*/
     Route::get('facebook', ['as' => 'facebook.index', 'uses' => 'FacebookController@index']);
 
+    /*GALLERY*/
+    Route::get('/thu-vien', ['as' => 'gallery.index', 'uses' => 'GalleryController@index']);
+
 //    View::composer(['Client::layouts.discover', 'Client::layouts.header'], function($view)  {
 //        $country = new App\Repositories\CountryRepository;
 //        $country_composer = $country->getComposer(['title','slug', 'img_url']);

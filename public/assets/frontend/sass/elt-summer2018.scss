@@ -16,6 +16,9 @@ a:hover{
 .bg-lightwhite{
   background:#f8f8f8;
 }
+.no-padding{
+  padding:0 !important;
+}
 
 .whychooseila .whychooseila-container{
   border-bottom:none;
@@ -260,22 +263,27 @@ a:hover{
       }
     }
   }
+}
+.wrap-button{
+  margin:3rem 0;
+  .btn-reg{
+    font-size:1.6rem;
+    line-height:2.2rem;
+    width:auto;
+    height:auto;
+    padding:1.2rem 2.5rem;
+    border:none;
+    font-weight:600;
+    &:hover{
+      background:$cl-cam;
+      color:white;
 
-  .wrap-button{
-    margin:3rem 0;
+    }
+  }
+  &.small-size{
     .btn-reg{
-      font-size:1.6rem;
-      line-height:2.2rem;
-      width:auto;
-      height:auto;
-      padding:1.2rem 2.5rem;
-      border:none;
-      font-weight:600;
-      &:hover{
-        background:$cl-cam;
-        color:white;
-
-      }
+      font-size:1.2rem;
+      padding:0.8rem 2rem;
     }
   }
 }
@@ -458,6 +466,60 @@ section.action{
       }
     }
   }
+  .flex-container{
+    display: flex;
+    margin-bottom:1rem;
+    &:last-child{
+      margin-bottom:0;
+    }
+    .col {
+      padding: 0 8px;
+      .inner {
+        position: relative;
+        overflow: hidden;
+        img {
+          -moz-box-shadow: 3px 3px 6px #848484;
+          -webkit-box-shadow: 3px 3px 6px #848484;
+          box-shadow: 3px 3px 6px #848484;
+          transform: matrix(1,0,0,1,0,0);
+          transition:transform 0.3s;
+        }
+        .title-wrapper {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          background: rgba(255, 203, 5, 0.8);
+          padding: 0.6rem 1.5rem;
+          width: 100%;
+          transition:padding 0.3s 0.2s;
+          h4 {
+            text-transform: uppercase;
+            margin: 0;
+            padding: 0;
+          }
+        }
+      }
+      &:hover {
+        img{
+          transform:matrix(1.1, 0,0,1.1,0,0);
+        }
+        .title-wrapper{
+          padding:1rem 1.5rem;
+        }
+      }
+    }
+    @include media(){
+      flex-direction:column;
+      img{
+        max-width: auto;
+        width:100%;
+        margin:0 auto;
+      }
+      .col{
+        margin-bottom:15px;
+      }
+    }
+  }
 }
 
 /*DETAIL PROGRAM*/
@@ -469,8 +531,16 @@ section.action{
     img{
       box-shadow: 2px 2px 5px #737373;
       @include media(){
-        img{
-          margin: 0 auto 10px;
+        margin: 0 auto 10px;
+      }
+    }
+    h4{
+      text-align: center;
+    }
+    @include media(){
+      .row{
+        .col-*{
+          margin-bottom:10px;
         }
       }
     }

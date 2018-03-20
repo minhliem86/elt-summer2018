@@ -3,6 +3,7 @@
 @section('meta')
     <meta name="keywords" content="ILA Anh Văn Hè 2018, Tiếng Anh Hè 2018, Anh Văn Hè, Trại hè tiếng Anh đẳng cấp quốc tế">
     <meta name="description" content="Chương trình anh văn hè ILA 2018 - Trại hè tiếng Anh đẳng cấp quốc tế lần đầu tiên xuất hiện tại Việt Nam dành cho học viên từ 4-16 tuổi.">
+    <meta property="og:image" content="{!! asset('public/assets/frontend/images/fb/fb-share-K.jpg') !!}" />
 @stop
 
 @section('title', 'Chương trình Anh Văn Hè 2018 - Smart Teens - Dành cho học viên từ 11-16 tuổi')
@@ -32,11 +33,11 @@
                                     <div class="col-md-4">
                                         <img src="{!! asset('public/assets/frontend/images/program/smartteen/lophoc01.jpg') !!}" class="img-responsive" alt="XUẤT SẮC TIẾNG ANH">
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 visible-lg visible-md">
                                         <img src="{!! asset('public/assets/frontend/images/program/smartteen/lophoc02.jpg') !!}" class="img-responsive" alt="XUẤT SẮC TIẾNG ANH">
                                     </div>
-                                    <div class="col-md-4">
-                                        <img src="{!! asset('public/assets/frontend/images/program/english/S-english.jpg') !!}" class="img-responsive" alt="XUẤT SẮC TIẾNG ANH">
+                                    <div class="col-md-4 visible-lg visible-md">
+                                        <img src="{!! asset('public/assets/frontend/images/program/smartteen/lophoc03.jpg') !!}" class="img-responsive" alt="XUẤT SẮC TIẾNG ANH">
                                     </div>
                                 </div>
                             </div>
@@ -58,21 +59,21 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <p>Hè vốn dĩ là khoảng thời gian để các em được khám phá thế giới, tìm kiếm những trải nghiệm lý thú không có ở trường lớp.</p>
-                                        <p>Các bé sẽ được tham gia:</p>
-                                        <p><b>- CLB Bóng Đá (20%) và Bóng Rổ (80%):</b> Không chỉ được rèn luyện về thể chất, các bé được phát huy tối đa các kỹ năng đội nhóm, kỹ năng giải quyết vấn đề, đưa ra quyết đinh,kỹ năng hợp tác qua hai môn thể thao đề cao sức mạnh tập thể: Bóng đá và bóng rổ.</p>
-                                        <p><b>- CLB Lập Trình:</b> Là bước đệm quan trọng cho các bé tiến vào thế giới công nghệ trong tương lai, kích thích sự phát triển của não bộ, khả năng tư duy phản biện, kỹ năng lập kế hoạch và làm giàu thêm vốn kiến thức về công nghệ</p>
-                                        <p><b>- Cuộc thi Nhiếp Ảnh:</b></p>
-                                        <ul>
-                                            <li>Gắn kết học sinh vào một cuộc thi sẽ thúc đẩy tối đa khả năng sáng tạo của học viên</li>
-                                            <li>Thúc đẩy việc làm việc theo nhóm trong một môi trường vui vẻ, tích cực</li>
-                                            <li>Thúc đẩy khái niệm cạnh tranh lành mạnh và khen thưởng cho học viên vì những nỗ lực của các bé</li>
-                                        </ul>
-                                        <p><b>- Chuyến đi dã ngoại:</b></p>
-                                        <ul>
-                                            <li>Các bé sẽ được dành cả một ngày làm việc nhóm và vui chơi trong một môi trường thoải mái, 100 % giao tiếp và suy nghĩ bằng Tiếng Anh.</li>
-                                            <li>Các kỹ năng mềm bên ngoài lớp học được vận dụng một cách tự nhiên nhất.</li>
-                                            <li>Đối với cuộc thi ảnh, học viên sẽ gửi những bức ảnh cảm hứng mà họ đã chụp vào ngày này để tăng cơ hội chiến thắng trong cuộc thi.</li>
-                                        </ul>
+                                        {{--<p>Các bé sẽ được tham gia:</p>--}}
+                                        {{--<p><b>- CLB Bóng Đá (20%) và Bóng Rổ (80%):</b> Không chỉ được rèn luyện về thể chất, các bé được phát huy tối đa các kỹ năng đội nhóm, kỹ năng giải quyết vấn đề, đưa ra quyết đinh,kỹ năng hợp tác qua hai môn thể thao đề cao sức mạnh tập thể: Bóng đá và bóng rổ.</p>--}}
+                                        {{--<p><b>- CLB Lập Trình:</b> Là bước đệm quan trọng cho các bé tiến vào thế giới công nghệ trong tương lai, kích thích sự phát triển của não bộ, khả năng tư duy phản biện, kỹ năng lập kế hoạch và làm giàu thêm vốn kiến thức về công nghệ</p>--}}
+                                        {{--<p><b>- Cuộc thi Nhiếp Ảnh:</b></p>--}}
+                                        {{--<ul>--}}
+                                            {{--<li>Gắn kết học sinh vào một cuộc thi sẽ thúc đẩy tối đa khả năng sáng tạo của học viên</li>--}}
+                                            {{--<li>Thúc đẩy việc làm việc theo nhóm trong một môi trường vui vẻ, tích cực</li>--}}
+                                            {{--<li>Thúc đẩy khái niệm cạnh tranh lành mạnh và khen thưởng cho học viên vì những nỗ lực của các bé</li>--}}
+                                        {{--</ul>--}}
+                                        {{--<p><b>- Chuyến đi dã ngoại:</b></p>--}}
+                                        {{--<ul>--}}
+                                            {{--<li>Các bé sẽ được dành cả một ngày làm việc nhóm và vui chơi trong một môi trường thoải mái, 100 % giao tiếp và suy nghĩ bằng Tiếng Anh.</li>--}}
+                                            {{--<li>Các kỹ năng mềm bên ngoài lớp học được vận dụng một cách tự nhiên nhất.</li>--}}
+                                            {{--<li>Đối với cuộc thi ảnh, học viên sẽ gửi những bức ảnh cảm hứng mà họ đã chụp vào ngày này để tăng cơ hội chiến thắng trong cuộc thi.</li>--}}
+                                        {{--</ul>--}}
                                     </div>
                                 </div>
                             </div>
@@ -82,15 +83,19 @@
                                 <div class="row">
                                     <div class="col-md-3">
                                         <img src="{!! asset('public/assets/frontend/images/program/smartteen/football.jpg') !!}" class="img-responsive" alt="Xây Dựng Tính Cách">
+                                        <h4>CLB BÓNG ĐÁ</h4>
                                     </div>
                                     <div class="col-md-3">
                                         <img src="{!! asset('public/assets/frontend/images/program/smartteen/laptrinh.jpg') !!}" class="img-responsive" alt="Xây Dựng Tính Cách">
+                                        <h4>CLB LẬP TRÌNH</h4>
                                     </div>
                                     <div class="col-md-3">
                                         <img src="{!! asset('public/assets/frontend/images/program/smartteen/nhiepanh.jpg') !!}" class="img-responsive" alt="Xây Dựng Tính Cách">
+                                        <h4>CLB NHIẾP ẢNH</h4>
                                     </div>
                                     <div class="col-md-3">
                                         <img src="{!! asset('public/assets/frontend/images/program/smartteen/dangoai.jpg') !!}" class="img-responsive" alt="Xây Dựng Tính Cách">
+                                        <h4>CHUYẾN ĐI DÃ NGOẠI</h4>
                                     </div>
                                 </div>
                             </div>

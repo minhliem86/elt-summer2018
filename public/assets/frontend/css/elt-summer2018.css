@@ -7,6 +7,9 @@ a:hover {
 .bg-lightwhite {
   background: #f8f8f8; }
 
+.no-padding {
+  padding: 0 !important; }
+
 .whychooseila .whychooseila-container {
   border-bottom: none; }
 
@@ -175,9 +178,10 @@ a:hover {
       font-size: 1.6rem;
       text-transform: uppercase;
       margin-bottom: 1.5rem; }
-.program .wrap-button {
+
+.wrap-button {
   margin: 3rem 0; }
-  .program .wrap-button .btn-reg {
+  .wrap-button .btn-reg {
     font-size: 1.6rem;
     line-height: 2.2rem;
     width: auto;
@@ -185,9 +189,12 @@ a:hover {
     padding: 1.2rem 2.5rem;
     border: none;
     font-weight: 600; }
-    .program .wrap-button .btn-reg:hover {
+    .wrap-button .btn-reg:hover {
       background: #EF6222;
       color: white; }
+  .wrap-button.small-size .btn-reg {
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem; }
 
 /*GENERAL PROGRAM*/
 .general-program .wrap-img-program, .general-program .content-program-container {
@@ -322,6 +329,47 @@ section.action .action-container {
           font-size: 1.4rem;
           line-height: 2.2rem;
           margin-bottom: 8px; } }
+section.action .flex-container {
+  display: flex;
+  margin-bottom: 1rem; }
+  section.action .flex-container:last-child {
+    margin-bottom: 0; }
+  section.action .flex-container .col {
+    padding: 0 8px; }
+    section.action .flex-container .col .inner {
+      position: relative;
+      overflow: hidden; }
+      section.action .flex-container .col .inner img {
+        -moz-box-shadow: 3px 3px 6px #848484;
+        -webkit-box-shadow: 3px 3px 6px #848484;
+        box-shadow: 3px 3px 6px #848484;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        transition: transform 0.3s; }
+      section.action .flex-container .col .inner .title-wrapper {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: rgba(255, 203, 5, 0.8);
+        padding: 0.6rem 1.5rem;
+        width: 100%;
+        transition: padding 0.3s 0.2s; }
+        section.action .flex-container .col .inner .title-wrapper h4 {
+          text-transform: uppercase;
+          margin: 0;
+          padding: 0; }
+    section.action .flex-container .col:hover img {
+      transform: matrix(1.1, 0, 0, 1.1, 0, 0); }
+    section.action .flex-container .col:hover .title-wrapper {
+      padding: 1rem 1.5rem; }
+  @media screen and (max-width: 768px) {
+    section.action .flex-container {
+      flex-direction: column; }
+      section.action .flex-container img {
+        max-width: auto;
+        width: 100%;
+        margin: 0 auto; }
+      section.action .flex-container .col {
+        margin-bottom: 15px; } }
 
 /*DETAIL PROGRAM*/
 .content-program-detail .content-detail {
@@ -329,8 +377,13 @@ section.action .action-container {
 .content-program-detail .img-event-detail img {
   box-shadow: 2px 2px 5px #737373; }
   @media screen and (max-width: 768px) {
-    .content-program-detail .img-event-detail img img {
+    .content-program-detail .img-event-detail img {
       margin: 0 auto 10px; } }
+.content-program-detail .img-event-detail h4 {
+  text-align: center; }
+@media screen and (max-width: 768px) {
+  .content-program-detail .img-event-detail .row .col-* {
+    margin-bottom: 10px; } }
 
 /*BANNER*/
 @media screen and (max-width: 768px) {

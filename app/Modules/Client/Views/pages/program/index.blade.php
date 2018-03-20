@@ -3,6 +3,7 @@
 @section('meta')
     <meta name="keywords" content="ILA Anh Văn Hè 2018, Tiếng Anh Hè 2018, Anh Văn Hè, Trại hè tiếng Anh đẳng cấp quốc tế">
     <meta name="description" content="Chương trình anh văn hè ILA 2018 - Trại hè tiếng Anh đẳng cấp quốc tế lần đầu tiên xuất hiện tại Việt Nam dành cho học viên từ 4-16 tuổi.">
+    <meta property="og:image" content="{!! asset('public/assets/frontend/images/fb/fb-share-S.jpg') !!}" />
 @stop
 
 @section('title', 'Chương trình Anh Văn Hè 2018 - Chương trình Hè')
@@ -58,92 +59,83 @@
         </div>
     </section>
     @include("Client::layouts.product")
+
     <section class="action">
         <div class="container">
             <div class="row">
-                <h2>HOẠT ĐỘNG HÈ 2018</h2>
-                <div class="col">
-                    <div class="action-container animate" data-animate="fadeInUp">
-                        <h4>Mỗi ngày hè tại ILA sẽ là một ngày vui bất tận!</h4>
-                        <div class="each-product each animate" data-animate="zoomInLeft" >
-                            <div class="badge-wrapper">
-                                <span class="bg"></span>
-                                <h3 class="title-action">Dành cho học viên từ 4-7 tuổi</h3>
-                            </div>
-                            <div class="content-each">
-                                <div class="container-fluid">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <ul>
-                                                <li>CLB âm nhạc</li>
-                                                <li>CLB mỹ thuật</li>
-                                                <li>CLB Lego</li>
-                                                <li>CLB dự án công đồng</li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <ul>
-                                                <li>Chuyến đi nông trại</li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                <div class="col-md-12">
+                    <h2>Mỗi ngày hè tại ILA sẽ là một ngày vui bất tận!</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="flex-container">
+                        <div class="col">
+                            <div class="inner">
+                                <img src="{!! asset('public/assets/frontend/images/program/jumpstart/lego.jpg') !!}" class="img-responsive" alt="CLB Lego">
+                                <div class="title-wrapper">
+                                    <h4>CLB Lego</h4>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="each-product each animate" data-animate="zoomInLeft" >
-                            <div class="badge-wrapper">
-                                <span class="bg"></span>
-                                <h3 class="title-action">Dành cho học viên từ 7-11 tuổi</h3>
-                            </div>
-                            <div class="content-each">
-                                <div class="container-fluid">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <ul>
-                                                <li>CLB âm nhạc/ mỹ thuật</li>
-                                                <li>CLB bóng rổ</li>
-                                                <li>CLB Lego</li>
-                                                <li>CLB lập trình</li>
-                                                <li>CLB dự án công đồng</li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <ul>
-                                                <li>Chuyến đi nông trại</li>
-                                                <li>Giải liên minh bóng đá ILA Star <br class="hidden-sm"> V-league</li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                        <div class="col">
+                            <div class="inner">
+                                <img src="{!! asset('public/assets/frontend/images/program/jumpstart/mythuat.jpg') !!}" class="img-responsive" alt="CLB Mỹ Thuật">
+                                <div class="title-wrapper">
+                                    <h4>CLB Mỹ Thuật</h4>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="each-product each animate" data-animate="zoomInLeft" >
-                            <div class="badge-wrapper">
-                                <span class="bg"></span>
-                                <h3 class="title-action">Dành cho học viên từ 11-16 tuổi</h3>
-                            </div>
-                            <div class="content-each">
-                                <div class="container-fluid">
-                                    <div class="row">
-
-                                        <div class="col-md-8">
-                                            <ul>
-                                                <li>CLB dự án công đồng</li>
-                                                <li>CLB bóng rổ</li>
-                                                <li>CLB lập trình</li>
-                                                <li>CLB nhiếp ảnh</li>
-                                                <li>CLB chuyến đi dã ngoại</li>
-                                                <li>Giải liên minh bóng đá ILA Star V-league</li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                        <div class="col">
+                            <div class="inner">
+                                <img src="{!! asset('public/assets/frontend/images/program/jumpstart/dance.jpg') !!}" class="img-responsive" alt="CLB Âm Nhạc">
+                                <div class="title-wrapper">
+                                    <h4>CLB Âm Nhạc</h4>
                                 </div>
                             </div>
                         </div>
-
-
+                        <div class="col">
+                            <div class="inner">
+                                <img src="{!! asset('public/assets/frontend/images/program/jumpstart/nongtrai.jpg') !!}" class="img-responsive" alt="Chuyến đi nông trại">
+                                <div class="title-wrapper">
+                                    <h4>Chuyến đi nông trại </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-container">
+                        <div class="col">
+                            <div class="inner">
+                                <img src="{!! asset('public/assets/frontend/images/program/superjuniors/football.jpg') !!}" class="img-responsive" alt="CLB Bóng Đá">
+                                <div class="title-wrapper">
+                                    <h4>CLB Bóng đá</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="inner">
+                                <img src="{!! asset('public/assets/frontend/images/program/superjuniors/laptrinh.jpg') !!}" class="img-responsive" alt="CLB Lập Trình">
+                                <div class="title-wrapper">
+                                    <h4>CLB Lập Trình</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="inner">
+                                <img src="{!! asset('public/assets/frontend/images/program/smartteen/nhiepanh.jpg') !!}" class="img-responsive" alt="CLB Nhiếp Ảnh">
+                                <div class="title-wrapper">
+                                    <h4>CLB Nhiếp Ảnh</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="inner">
+                                <img src="{!! asset('public/assets/frontend/images/program/smartteen/dangoai.jpg') !!}" class="img-responsive" alt="Chuyến đi dã ngoại">
+                                <div class="title-wrapper">
+                                    <h4>Chuyến đi dã ngoại </h4>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

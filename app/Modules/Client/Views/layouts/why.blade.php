@@ -1,5 +1,5 @@
 <!--WHY CHOOSE ILA-->
-<section class="whychooseila bg-lightwhite">
+<section class="whychooseila bg-yellow">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
