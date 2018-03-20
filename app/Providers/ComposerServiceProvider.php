@@ -2,7 +2,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\View;
+use View;
 
 class ComposerServiceProvider extends ServiceProvider{
 
@@ -16,6 +16,8 @@ class ComposerServiceProvider extends ServiceProvider{
     public function register()
     {
         // TODO: Implement register() method.
+        View::composer(['Client::layouts.header', 'Client::layouts.product', 'Client::layouts.footer'],'App\ViewComposers\ProgramComposer');
+        View::composer(['Client::layouts.banner-donkey'],'App\ViewComposers\MobileDetectComposer');
     }
 
 }

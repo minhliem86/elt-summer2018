@@ -11,7 +11,7 @@ return [
      * Path to the client secret json file. Take a look at the README of this package
      * to learn how to get this file.
      */
-    'service_account_credentials_json' => storage_path('app/laravel-google-analytics/service-account-credentials.json'),
+    'service_account_credentials_json' => storage_path('laravel-google-analytics/ILA-Summer-2018-20af13f5118e.json'),
 
     /*
      * The amount of minutes the Google API responses will be cached.
@@ -22,6 +22,6 @@ return [
     /*
      * The directory where the underlying Google_Client will store it's cache files.
      */
-    'cache_location' => storage_path('app/laravel-google-analytics/google-cache/'),
+    'cache_location' => storage_path('laravel-google-analytics/google-cache/'),
 
 ];

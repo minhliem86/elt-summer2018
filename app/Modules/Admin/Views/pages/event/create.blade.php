@@ -15,6 +15,10 @@
                 {!! Form::open(['route'=>'admin.event.store', 'class' =>'form']) !!}
                 <div class="card-body">
                     <div class="form-group">
+                        <label for="center">Chọn Trung Tâm</label>
+                        {!! Form::select('center_id', [''=>'Chọn Trung Tâm']+ $center, old('center_id'), ['class'=> 'form-control']) !!}
+                    </div>
+                    <div class="form-group">
                         <label for="title">Title</label>
                         <input type="text" name="title" class="form-control" id="event" placeholder="Enter Title">
                     </div>
@@ -22,13 +26,13 @@
                         <div class="col">
                             <div class="form-group">
                                 <label for="start_date">Start Date</label>
-                                <input type="text" name="start_date" class="form-control datepicker_start" id="event" placeholder="Enter Start Date">
+                                <input type="text" name="start_date" class="form-control datepicker_start" placeholder="Enter Start Date">
                             </div>
                         </div>
                         <div class="col">
                             <div class="form-group">
                                 <label for="end_date">End Date</label>
-                                <input type="text" name="end_date" class="form-control datepicker_end" id="event" placeholder="Enter Start Date">
+                                <input type="text" name="end_date" class="form-control datepicker_end" placeholder="Enter End Date">
                             </div>
                         </div>
                     </div>

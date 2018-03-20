@@ -167,6 +167,7 @@ return [
         Laratrust\LaratrustServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
         App\Modules\ModuleServiceProvider::class,
+        App\Providers\ComposerServiceProvider::class
 
     ],
 

@@ -4,7 +4,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'App\Modules\Admin\Controllers
     Route::group(['middleware'=>['web']], function(){
         Route::get('login',['as' => 'admin.login.get', 'uses' => 'Auth\AuthController@showLoginForm']);
         Route::post('login',['as' => 'admin.login.post', 'uses' => 'Auth\AuthController@login']);
-        Route::get('logout', ['as' => 'admin.logout.post', 'uses' => 'Auth\AuthController@logout']);
+        Route::get('logout', ['as' => 'admin.logout.get', 'uses' => 'Auth\AuthController@logout']);
 
         // Registration Routes...
         Route::get('register', ['as' => 'admin.register.get', 'uses' => 'Auth\AuthController@showRegistrationForm']);
@@ -29,6 +29,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'App\Modules\Admin\Controllers
             Route::get('dashboard', ['as' => 'admin.dashboard', 'uses' => 'DashboardController@index']);
             //   PORFILE
             Route::get('/profile', ['as' => 'admin.profile.index', 'uses' => 'ProfileController@index']);
+            Route::post('/profile/changePass', ['as' => 'admin.profile.changePass', 'uses' => 'ProfileController@postChangePass']);
 
             /*PROMOTION*/
             Route::get('promotion/getData', ['as' => 'admin.promotion.getData', 'uses' => 'PromotionController@getData']);
@@ -50,6 +51,13 @@ Route::group(['prefix' => 'admin', 'namespace' => 'App\Modules\Admin\Controllers
             Route::post('event/updateStatus', ['as' => 'admin.event.updateStatus', 'uses' => 'EventController@updateStatus']);
             Route::post('event/postAjaxUpdateOrder', ['as' => 'admin.event.postAjaxUpdateOrder', 'uses' => 'EventController@postAjaxUpdateOrder']);
             Route::resource('event', 'EventController');
+
+            /*PROGRAM*/
+            Route::get('program/getData', ['as' => 'admin.program.getData', 'uses' => 'ProgramController@getData']);
+            Route::post('program/deleteAll', ['as' => 'admin.program.deleteAll', 'uses' => 'ProgramController@deleteAll']);
+            Route::post('program/updateStatus', ['as' => 'admin.program.updateStatus', 'uses' => 'ProgramController@updateStatus']);
+            Route::post('program/postAjaxUpdateOrder', ['as' => 'admin.program.postAjaxUpdateOrder', 'uses' => 'ProgramController@postAjaxUpdateOrder']);
+            Route::resource('program', 'ProgramController');
 
 
             /*USER MANAGEMENT*/

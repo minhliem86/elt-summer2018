@@ -13,39 +13,32 @@
                     <strong>Testimonial</strong>
                     <small>Edit</small>
                 </div>
-                {{Form::model($inst, ['route'=>['admin.testimonial.update',$inst->id], 'method'=>'put', 'files'=>true ])}}
+                {{Form::model($inst, ['route'=>['admin.event.update',$inst->id], 'method'=>'put', 'files'=>true ])}}
                 <div class="card-body">
                     <div class="form-group">
-                        <label for="testimonial">Title Name</label>
+                        <label for="center">Chọn Trung Tâm</label>
+                        {!! Form::select('center_id', [''=>'Chọn Trung Tâm']+ $center, old('center_id'), ['class'=> 'form-control']) !!}
+                    </div>
+                    <div class="form-group">
+                        <label for="testimonial">Title</label>
                         {!!  Form::text('title',old('title'), ['class'=>'form-control', 'placeholder'=>'Promotion Name'])!!}
                     </div>
 
                     <div class="form-group">
-                        <label for="testimonial">Author Name</label>
-                        {!!  Form::text('author',old('author'), ['class'=>'form-control', 'placeholder'=>'Promotion Name'])!!}
-                    </div>
-
-                    <div class="form-group">
-                        <label for="content">Content</label>
-                        {!! Form::textarea('content',old('content'),['class'=>'form-control my-editor', 'rows'=>15]) !!}
+                        <label for="description">Content</label>
+                        {!! Form::textarea('description',old('description'),['class'=>'form-control my-editor', 'rows'=>15]) !!}
                     </div>
                     <div class="form-row">
-                        <div class="col-2">
+                        <div class="col">
                             <div class="form-group">
-                                <div class="">
-                                    <label for="status">Status</label>
-                                </div>
-                                <label class="switch switch-icon switch-success-outline">
-                                    <input type="checkbox" name="status" class="switch-input" value="{!! $inst->status ? 1 : 0 !!}" {!! $inst->status ? "checked" : null  !!} data-id="{!! $inst->id !!}">
-                                    <span class="switch-label" data-on="" data-off=""></span>
-                                    <span class="switch-handle"></span>
-                                </label>
+                                <label for="start_date">Start Date</label>
+                                {!! Form::text('start_date', Carbon\Carbon::parse($inst->start)->format('d/m/Y H:i'), ['class'=>'form-control datepicker_start', 'placeholder'=>'Enter Start Date']) !!}
                             </div>
                         </div>
-                        <div class="col-10">
+                        <div class="col">
                             <div class="form-group">
-                                <label for="order">Order</label>
-                                {!! Form::text('order', old('order'), ['class'=>'form-control']) !!}
+                                <label for="end_date">End Date</label>
+                                {!! Form::text('end_date', Carbon\Carbon::parse($inst->end)->format('d/m/Y H:i'), ['class'=>'form-control datepicker_end', 'placeholder'=>'Enter End Date']) !!}
                             </div>
                         </div>
                     </div>
@@ -58,9 +51,9 @@
                                     <i class="fa fa-picture-o"></i> Choose
                                 </a>
                             </span>
-                            {{Form::hidden('img_avatar',old('img_avatar'), ['class'=>'form-control', 'id'=>'thumbnail' ])}}
+                            {{Form::hidden('img_url',old('img_url'), ['class'=>'form-control', 'id'=>'thumbnail' ])}}
                         </div>
-                        <img id="holder" style="margin-top:15px;max-height:100px;" src="{{asset('public/upload/'.$inst->img_avatar)}}">
+                        <img id="holder" style="margin-top:15px;max-height:100px;" src="{{asset('public/upload/'.$inst->img_url)}}">
                     </div>
                     <!--/.row-->
 
@@ -85,6 +78,9 @@
     <link rel="stylesheet" href="{{asset('/public/assets/admin')}}/js/plugins/alertify/bootstrap.min.css">
     <script type="text/javascript" src="{{asset('/public/assets/admin')}}/js/plugins/alertify/alertify.js"></script>
 
+    <link rel="stylesheet" href="{!! asset('public/assets/admin/js/plugins/datetimepicker/bootstrap-datetimepicker.min.css') !!}">
+    <script src="{!! asset('public/assets/admin/js/plugins/datetimepicker/bootstrap-datetimepicker.min.js') !!}"></script>
+
     <script>
         const url = "{{url('/')}}"
         init_tinymce(url);
@@ -102,6 +98,23 @@
             }else{
                 $(this).val(0);
             }
+        })
+        $(document).ready(function(){
+            $('.datepicker_end').datetimepicker({
+                startDate: '{!! date($inst->start)!!}',
+                format: 'dd/mm/yyyy hh:ii',
+            });
+            var date_start = $('.datepicker_start').datetimepicker({
+//                endDate: '0d',
+                format: 'dd/mm/yyyy hh:ii',
+                autoclose: true,
+            }).on('changeDate', function(e){
+                $('.datepicker_end').datetimepicker({
+                    format: 'dd/mm/yyyy hh:ii',
+                    startDate: e.date,
+                    autoclose: true
+                })
+            });
         })
     </script>
 @stop
