@@ -21,8 +21,8 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p>Tại trại hè tiếng Anh ILA 2018, học viên Smart Teens sẽ được thực hành những kỹ năng cần thiết để thành công trong một môi trường học tiếng Anh chuyên nghiệp để trở thành công dân toàn cầu: Khả năng sáng tạo, tư duy phản biện, kỹ năng giao tiếp, kỹ năng hợp tác, khả năng tự hoàn thiện bản thân, kiến thức công nghệ.</p>
-                                        <p>Phương pháp học tập và làm việc nhóm cũng như các hoạt động hè thú vị & ý nghĩa sẽ giúp các bạn Smart Teens sẽ trở nên tự tin, dễ dàng hòa nhập và sẵn sàng đối mặt với nhửng thử thách trong tương lai với thái độ tích cực và tầm nhìn rộng mở.</p>
+                                        <p>Tại trại hè tiếng Anh ILA 2018, học viên Smart Teens sẽ được thực hành những kỹ năng cần thiết để thành công trong một môi trường học tiếng Anh chuyên nghiệp để trở thành công dân toàn cầu: <b>Khả năng sáng tạo, tư duy phản biện, kỹ năng giao tiếp, kỹ năng hợp tác, khả năng tự hoàn thiện bản thân, kiến thức công nghệ.</b></p>
+                                        <p>Phương pháp học tập và làm việc nhóm cũng như các hoạt động hè thú vị và ý nghĩa sẽ giúp các bạn Smart Teens sẽ trở nên tự tin, dễ dàng hòa nhập và sẵn sàng đối mặt với những thử thách trong tương lai với thái độ tích cực và tầm nhìn rộng mở.</p>
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@
                                     <div class="col-md-12">
                                         <p>Rèn dũa trí tuệ, thể chất và lòng nhân ái kết hợp trong môi trường 100% tiếng Anh, giúp các bé phát triển tối ưu ngay sau 2 tháng chính là món quà không chỉ bổ ích, ý nghĩa mà còn đầy tính nhân văn mà ILA muốn mang đến cho các bạn nhỏ trong mùa hè này.</p>
                                         <p>Khuyến khích sinh viên hợp tác và thực hành các kỹ năng mềm của mình bằng tiếng Anh để tạo ra một dự án lớp học vui nhộn với trách nhiệm giải trình công khai.</p>
-                                        <p>Gây quỹ gây cho thanh thiếu niên không chỉ giúp học viên sáng tạo và tự tin mà còn giúp học viên xây dựng kỹ năng đàm phán tạo nền tảng vững chắc cho những dự án “thực thụ" trong tương lai.</p>
+                                        <p>Hoạt động gây quỹ không chỉ giúp học viên sáng tạo và tự tin mà còn giúp học viên xây dựng kỹ năng đàm phán tạo nền tảng vững chắc cho những dự án “thực thụ" trong tương lai.</p>
                                     </div>
                                 </div>
                             </div>

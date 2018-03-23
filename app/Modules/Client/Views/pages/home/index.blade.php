@@ -36,7 +36,7 @@
                     <div class="des-welcome-container">
                         <p class="description-welcome">ILA tự hào giới thiệu trại hè tiếng Anh đẳng cấp quốc tế lần đầu tiên xuất hiện tại Việt Nam dành cho học viên từ 4-16 tuổi.</p>
                         <p class="description-welcome">Đây là chương trình đươc xây dựng bằng tất cả tâm huyết của các chuyên gia giáo dục đẳng cấp quốc tế, đội ngũ quản lý học vụ giàu lòng yêu trẻ nhằm mang đến một mùa hè tuyệt vời, phát triển toàn diện: giáo dục kiến thức, giáo dục thể chất và giáo dục nhân cách.</p>
-                        <p class="descriotion-welcome">Chương trình được thiết kế đặc nhằm tập trung phát triển toàn diện tiếng Anh song song với 6 kỹ năng vàng: giao tiếp, hợp tác, sáng tạo, tư duy phản biện, kiến thức công nghệ và tự hoàn thiện bản thân nhưng vẫn tràn ngập niềm vui tuổi thơ với bạn bè đồng trang lứa.</p>
+                        <p class="descriotion-welcome">Chương trình được thiết kế đặc biệt nhằm tập trung phát triển toàn diện tiếng Anh song song với 6 kỹ năng vàng: giao tiếp, hợp tác, sáng tạo, tư duy phản biện, kiến thức công nghệ và tự hoàn thiện bản thân nhưng vẫn tràn ngập niềm vui tuổi thơ với bạn bè đồng trang lứa.</p>
                     </div>
 
                     <div class="welcome-container">

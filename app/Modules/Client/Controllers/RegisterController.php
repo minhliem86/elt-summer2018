@@ -8,15 +8,21 @@ use Validator;
 use Illuminate\Http\Request;
 use App\Repositories\RegisterRepository;
 use DB;
-use Form;
 
 class RegisterController extends Controller {
 
 	protected $register;
 
-	public function __construct(RegisterRepository $register)
+	public function __construct(RegisterRepository $register, Request $request)
     {
         $this->register  = $register;
+        if($request->query('utm_campaign')){
+            Session::put('tracking', parent::getCampaign($request));
+        }else{
+            if(!session('tracking')){
+                Session::put('tracking', parent::getCampaign($request));
+            }
+        }
     }
 
     public function index()
@@ -61,7 +67,7 @@ class RegisterController extends Controller {
 
             $reg = $this->register->create($data);
 
-            $source_digital = $this->getCampaign($request);
+            $source_digital = session('tracking');
 
             $data_marketing = [
                 'mobile' => $request->input('phone'),
@@ -74,6 +80,8 @@ class RegisterController extends Controller {
             $data_final = $data_marketing + $source_digital + $data;
 
             DB::connection('mysql3')->table('customer')->insert($data_final);
+
+            Session::flush();
 
             return redirect()->route('register.thankyou')->with(['success'=>'done']);
         }
@@ -99,55 +107,6 @@ class RegisterController extends Controller {
             $view = view('Client::pages.register.loadCenter', compact('center'))->render();
             return response()->json(['data'=>$view,], 200);
         }
-    }
-
-    protected function getCampaign(Request $request, $media_id='', $ga_medium='', $campaign_id=196)
-
-    {
-
-        if($request->get('utm_source')){
-            // $this->db3->where($where);
-
-            $row = DB::connection('mysql3')->table('media')->where('alias', $request->get('utm_source'))->first();
-
-            if(count($row)){
-
-                $media_id = $row->id;
-
-                $ga_medium = $row->medium;
-
-            }
-
-        }
-
-
-
-        if($request->get('utm_campaign')){
-
-            $where2 = ['alias'=> $this->input->get('utm_campaign')];
-
-            // $this->db3->where($where2);
-
-            $row2 = DB::connection('mysql3')->table('campaign')->where('alias', $request->get('utm_campaign'))->first();
-
-            if(count($row)){
-
-                $campaign_id = $row2->id;
-
-            }
-
-        }
-
-        return $data = [
-
-            'id_campaign'=> $campaign_id,
-
-            'id_media' => $media_id,
-
-            'ga_medium' => $ga_medium
-
-        ];
-
     }
 
 }

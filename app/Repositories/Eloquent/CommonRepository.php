@@ -28,10 +28,10 @@ class CommonRepository{
       $item = end($arr_thumb);
       $folder = $location . '/'.$width.'x'.$height;
       if(!\File::exists($folder)){
-        \File::makeDirectory($folder, 0775);
+        \File::makeDirectory($folder, 0775,true);
       }
       $filename = time();
-      \Image::make($fullfile)->fit($width, $height)->save($folder.'/'.$item);
+      \Image::make('/public/images/original/1521801831_[CES]_FBAds.jpg')->fit($width, $height)->save($folder.'/'.$item);
       return $thumb_url = asset($folder).'/'.$item;
     }else{
       return '';
