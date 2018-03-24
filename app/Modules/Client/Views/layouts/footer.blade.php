@@ -11,11 +11,14 @@
                     <div class="col col-second">
                         <h4 class="title">CHƯƠNG TRÌNH HÈ 2018</h4>
                         <ul class="list-program">
-                            @if(!$program->isEmpty())
-                                @foreach($program as $item_program)
-                                <li><a href="{!! route('program.detail', $item_program->slug) !!}">{!! $item_program->name !!}</a></li>
-                                @endforeach
-                            @endif
+                            {{--@if(!$program->isEmpty())--}}
+                                {{--@foreach($program as $item_program)--}}
+                                {{--<li><a href="{!! route('program.detail', $item_program->slug) !!}">{!! $item_program->name !!}</a></li>--}}
+                                {{--@endforeach--}}
+                            {{--@endif--}}
+                            <li><a href="{!! route('program.jumpstart') !!}">Dành cho học viên 4-7 tuổi</a></li>
+                            <li><a href="{!! route('program.super-juniors') !!}">Dành cho học viên 7-11 tuổi</a></li>
+                            <li><a href="{!! route('program.smart-teens') !!}">Dành cho học viên 11-16 tuổi</a></li>
                         </ul>
                     </div>
                     <div class="col col-third">

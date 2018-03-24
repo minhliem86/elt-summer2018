@@ -1,8 +1,12 @@
 @extends("Client::layouts.default")
 
-@section("meta")
-
+@section('meta')
+    <meta name="keywords" content="ILA Anh Văn Hè 2018, Tiếng Anh Hè 2018, Anh Văn Hè, Trại hè tiếng Anh đẳng cấp quốc tế">
+    <meta name="description" content="Chương trình anh văn hè ILA 2018 - Trại hè tiếng Anh đẳng cấp quốc tế lần đầu tiên xuất hiện tại Việt Nam dành cho học viên từ 4-16 tuổi.">
+    <meta property="og:image" content="{!! asset('public/assets/frontend/images/fb/fb-share-S.jpg') !!}" />
 @stop
+
+@section('title', 'Chương trình Anh Văn Hè 2018')
 
 @section("content")
     {{--<div id="preloader">--}}
@@ -85,6 +89,18 @@
                             </div>
                         </div>
                         @endif
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="program no-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="wrap-button text-center">
+                        <a href="{!! route('register') !!}" class="btn btn-reg">ĐĂNG KÝ NGAY</a>
                     </div>
                 </div>
             </div>
