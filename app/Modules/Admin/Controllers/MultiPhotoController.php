@@ -6,12 +6,12 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Models\Photo;
+use App\Models\Gallery;
 use App\Repositories\Eloquent\CommonRepository;
 
 
 use App\Repositories\Eloquent\UploadRepository;
-use App\Repositories\PhotoRepository;
+//use App\Repositories\PhotoRepository;
 
 class MultiPhotoController extends Controller
 {

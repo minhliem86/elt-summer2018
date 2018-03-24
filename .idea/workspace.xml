@@ -8,41 +8,92 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/fb/fb-share-J.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/fb/fb-share-K.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/fb/fb-share-S.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/dream.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/fun.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/heart.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/english/J-english.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/english/K-english.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/english/S-english.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/enrichment/bongro.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/enrichment/congdong.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/enrichment/dance.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/enrichment/football.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/enrichment/laptrinh.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/enrichment/lego.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/enrichment/nongtrai.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/excelent-english.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/heart/J-heart.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/heart/K-heart.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/heart/S-heart.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/dance.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/lego.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/lophoc01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/lophoc02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/mythuat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/nongtrai.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/product/J-build.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/product/J-heart.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/product/J.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/product/K-build.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/product/K-english.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/product/K-heart.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/product/K.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/product/S-build.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/product/S-english.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/product/S-heart.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/product/S.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/dangoai.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/football.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/laptrinh.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc02.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/nhiepanh.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/bongro.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/dance.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/football.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/laptrinh.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/lego.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/lophoc01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/lophoc02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/mythuat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/nongtrai.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Models/Gallery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Modules/Client/Controllers/GalleryController.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/gallery/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/index_bk.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/jumpstart.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/smartteen.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/superjunior.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2018_03_20_103103_create_galleries_table.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/fancybox/jquery.fancybox.min.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/fancybox/jquery.fancybox.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/dream.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/dream.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/fun.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/fun.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/heart.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/heart.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/dance.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/dance.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/lego.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/lego.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/lophoc01.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/lophoc01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/mythuat.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/mythuat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/football.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/football.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/laptrinh.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/laptrinh.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc01.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc02.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/nhiepanh.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/nhiepanh.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/football.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/football.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/laptrinh.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/laptrinh.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/lophoc01.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/lophoc01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/lophoc02.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/lophoc02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/mythuat.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/mythuat.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/index2.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/.env.example" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/photos/shares/product/J.png" afterPath="$PROJECT_DIR$/public/upload/photos/shares/product/J.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/photos/shares/product/K.png" afterPath="$PROJECT_DIR$/public/upload/photos/shares/product/K.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/photos/shares/product/S.png" afterPath="$PROJECT_DIR$/public/upload/photos/shares/product/S.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/photos/shares/product/thumbs/J.png" afterPath="$PROJECT_DIR$/public/upload/photos/shares/product/thumbs/J.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/photos/shares/product/thumbs/K.png" afterPath="$PROJECT_DIR$/public/upload/photos/shares/product/thumbs/K.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/photos/shares/product/thumbs/S.png" afterPath="$PROJECT_DIR$/public/upload/photos/shares/product/thumbs/S.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env.example" afterPath="$PROJECT_DIR$/.env.example" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/5f/5f7f5bb0c8cc8999b3467da0089f6e0f" afterPath="$PROJECT_DIR$/1/5f/5f7f5bb0c8cc8999b3467da0089f6e0f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Admin/Controllers/MultiPhotoController.php" afterPath="$PROJECT_DIR$/app/Modules/Admin/Controllers/MultiPhotoController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Admin/Views/pages/multi-photo/create.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Admin/Views/pages/multi-photo/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Controllers/ProgramController.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Controllers/ProgramController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/default.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/default.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/footer.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/footer.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/header.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/header.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/product.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/product.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/why.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/why.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/event/index.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/event/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/home/index.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/home/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/index.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/jumpstart.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/jumpstart.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/smartteen.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/smartteen.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/superjunior.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/superjunior.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/register/index.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/register/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/register/thankyou.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/register/thankyou.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/routes.php" afterPath="$PROJECT_DIR$/app/Modules/Client/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/dropzoner.php" afterPath="$PROJECT_DIR$/config/dropzoner.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/css/elt-summer2018.css" afterPath="$PROJECT_DIR$/public/assets/frontend/css/elt-summer2018.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/css/elt-summer2018.css.map" afterPath="$PROJECT_DIR$/public/assets/frontend/css/elt-summer2018.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/sass/elt-summer2018.scss" afterPath="$PROJECT_DIR$/public/assets/frontend/sass/elt-summer2018.scss" />
@@ -56,21 +107,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/gallery/index.blade.php">
+      <file leaf-file-name="dropzoner.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/dropzoner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="797">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="63">
+              <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018_03_20_103103_create_galleries_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2018_03_20_103103_create_galleries_table.php">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Modules/Admin/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            <state relative-caret-position="1470">
+              <caret line="70" column="57" lean-forward="false" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -79,38 +130,40 @@
       <file leaf-file-name="MultiPhotoController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Controllers/MultiPhotoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="46" />
+            <state relative-caret-position="441">
+              <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+              <folding>
+                <element signature="e#49#77#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Views/pages/multi-photo/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UploadRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Repositories/Eloquent/UploadRepository.php">
+      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Views/pages/multi-photo/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            <state relative-caret-position="527">
+              <caret line="124" column="53" lean-forward="false" selection-start-line="124" selection-start-column="53" selection-end-line="124" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dropzoner.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/dropzoner.php">
+      <file leaf-file-name=".env.example" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env.example">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GalleryController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Modules/Client/Controllers/GalleryController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+            <state relative-caret-position="861">
+              <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -171,10 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Controllers/RegisterController.php" />
-        <option value="$PROJECT_DIR$/.env.example" />
-        <option value="$PROJECT_DIR$/config/laravel-analytics.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Modules/Admin/Views/layouts/sidebar.blade.php" />
         <option value="$PROJECT_DIR$/app/Modules/Admin/Views/layouts/default.blade.php" />
@@ -221,7 +270,11 @@
         <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/gallery/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/routes.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Controllers/GalleryController.php" />
+        <option value="$PROJECT_DIR$/config/dropzoner.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_03_20_103103_create_galleries_table.php" />
+        <option value="$PROJECT_DIR$/.env.example" />
+        <option value="$PROJECT_DIR$/app/Modules/Admin/Controllers/MultiPhotoController.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Admin/Views/pages/multi-photo/create.blade.php" />
       </list>
     </option>
   </component>
@@ -258,6 +311,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,6 +329,12 @@
               <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -289,19 +350,57 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Events" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="multi-photo" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,18 +464,20 @@
       <workItem from="1521432936474" duration="19470000" />
       <workItem from="1521470737251" duration="5955000" />
       <workItem from="1521514019954" duration="13547000" />
+      <workItem from="1521558204187" duration="2020000" />
+      <workItem from="1521867807477" duration="199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215689000" />
+    <option name="totallyTimeSpent" value="217908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18763326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19189766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -384,7 +485,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -415,35 +516,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Views/pages/program/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/program/layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="67" column="303" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="303" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Views/ajax/ajaxChart.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Controllers/DashboardController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -518,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10">
           <caret line="152" column="25" lean-forward="false" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -554,13 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="730">
           <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="31" column="131" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="31" selection-end-column="131" />
         </state>
       </provider>
     </entry>
@@ -610,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="68" lean-forward="false" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,13 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
           <caret line="284" column="19" lean-forward="false" selection-start-line="284" selection-start-column="19" selection-end-line="284" selection-end-column="19" />
-          <folding>
-            <element signature="e#1757#3423#0" expanded="false" />
-            <element signature="e#3437#3848#0" expanded="false" />
-            <element signature="e#7466#7627#0" expanded="false" />
-            <element signature="e#7697#9149#0" expanded="false" />
-            <element signature="e#9167#9540#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="107" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="107" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="79" column="58" lean-forward="true" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="107" lean-forward="false" selection-start-line="5" selection-start-column="107" selection-end-line="5" selection-end-column="107" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="107" lean-forward="false" selection-start-line="5" selection-start-column="107" selection-end-line="5" selection-end-column="107" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -719,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -727,15 +773,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Modules/Client/Controllers/GalleryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="210">
           <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,31 +787,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
           <caret line="51" column="92" lean-forward="false" selection-start-line="51" selection-start-column="92" selection-end-line="51" selection-end-column="92" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/gallery/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
+        <state relative-caret-position="945">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_03_20_103103_create_galleries_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Controllers/MultiPhotoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-77">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,22 +808,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Repositories/Eloquent/UploadRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="693">
           <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_03_20_103103_create_galleries_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/dropzoner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="63">
+          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="70" column="57" lean-forward="false" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Controllers/MultiPhotoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="e#49#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Views/pages/multi-photo/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Views/pages/multi-photo/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="124" column="53" lean-forward="false" selection-start-line="124" selection-start-column="53" selection-end-line="124" selection-end-column="53" />
           <folding />
         </state>
       </provider>
