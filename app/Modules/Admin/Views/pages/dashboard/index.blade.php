@@ -5,19 +5,24 @@
 @section('content')
     <div class="row">
         <div class="col-sm-6 col-lg-3">
-            <div class="card text-white bg-primary">
-                <div class="card-body pb-0">
-                    <h4 class="mb-0">{!! $total_pageviews !!}</h4>
-                    <p>Pageviews</p>
+            <div class="card">
+                <div class="card-body text-center  bg-primary">
+                    <div class=" small text-uppercase font-weight-bold text-white">Pageviews</div>
+                    <div class="h2 py-3">{!! number_format($total_pageviews) !!} </div>
                 </div>
-                <div class="chart-wrapper px-3" style="height:70px;">
-                    <canvas id="card-chart1" class="chart" height="70"></canvas>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-body text-center  bg-success">
+                    <div class=" small text-uppercase font-weight-bold text-white">Visitors</div>
+                    <div class="h2 py-3">{!! number_format($total_users) !!} </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col">
+        <div class="col-10">
             <div class="card">
                 <div class="card-body">
                     <div class="row">
@@ -48,6 +53,67 @@
                         <div class="col">
                             <div class="wrap-chart">
                                 @include('Admin::ajax.ajaxChart')
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-10">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="card-title text-uppercase">Source / Medium</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="wrap-chartline">
+                                <div class="chart-container">
+                                    <canvas id="myChartLine"></canvas>
+                                    <script>
+                                        var ctx3 = document.getElementById('myChartLine');
+                                        var myChart3 = new Chart(ctx3, {
+                                            type: "line",
+                                            data: {
+                                                labels: [
+                                                    @foreach($source as $k=>$v)
+                                                        "{!! $k !!}",
+                                                    @endforeach
+                                                ],
+                                                datasets:[
+                                                    {
+                                                        label: 'Source',
+                                                        data: [
+                                                            @foreach($source as $v)
+                                                                "{{$v}}",
+                                                            @endforeach
+                                                        ],
+                                                        backgroundColor: 'rgba(82, 201, 187, 0.3)',
+                                                        borderColor: 'rgba(99,178,67,1)'
+                                                    }
+                                                ],
+                                            },
+                                            options: {
+                                                responsive: true,
+                                                title:{
+                                                    display: true,
+                                                    text: 'Nguồn dữ liệu khách hàng truy cập website.',
+                                                    position: 'bottom',
+
+                                                },
+                                                legend :{
+                                                    position: 'bottom',
+                                                }
+                                            }
+                                        });
+                                    </script>
+                                </div>
+
                             </div>
                         </div>
                     </div>

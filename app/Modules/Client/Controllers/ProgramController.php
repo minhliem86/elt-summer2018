@@ -12,9 +12,16 @@ class ProgramController extends Controller
 {
     protected $program;
 
-    public function __construct(ProgramRepository $program)
+    public function __construct(ProgramRepository $program, Request $request)
     {
         $this->program = $program;
+        if($request->query('utm_campaign')){
+            Session::put('tracking', parent::getCampaign($request));
+        }else{
+            if(!session('tracking')){
+                Session::put('tracking', parent::getCampaign($request));
+            }
+        }
     }
 
     public function index()

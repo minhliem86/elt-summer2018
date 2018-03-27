@@ -16,6 +16,9 @@
             <li class="nav-item ">
                 <a href="{!! route('admin.program.index') !!}" class="nav-link {!! LP_lib::setActive('2','program') !!}"><i class="icon-drop"></i> Programs</a>
             </li>
+            <li class="nav-item ">
+                <a href="{!! route('admin.gallery.index') !!}" class="nav-link {!! LP_lib::setActive('2','gallery') !!}"><i class="icon-drop"></i> Gallery</a>
+            </li>
             <li class="divider"></li>
 
         </ul>

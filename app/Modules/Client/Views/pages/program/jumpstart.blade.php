@@ -21,8 +21,8 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p>Mùa hè này, các bạn nhỏ Jumpstart sẽ được nâng cao tiếng Anh, phát triển về các kỹ năng vận động, khả năng tư duy sáng tạo và sử dụng thành thạo tiếng Anh thông qua những hoạt động vui nhộn của mùa hè tại trại hè tiếng Anh ILA 2018</p>
-                                        <p>Các bé sẽ là những công dân toàn cầu trong tương lai với tư duy tích cực và tầm nhìn mở rộng, các em không chỉ xuất sắc tiếng Anh mà còn phát triển 6 kỹ năng vàng của thế kỷ 21: Khả năng sáng tạo, tư duy phản biện, kỹ năng giao tiếp, kỹ năng hợp tác, khả năng tự hoàn thiện bản thân, kiến thức công nghệ.</p>
+                                        <p>Mùa hè này, các bạn nhỏ Jumpstart sẽ được nâng cao tiếng Anh, phát triển về các kỹ năng vận động, khả năng tư duy sáng tạo và sử dụng thành thạo tiếng Anh thông qua những hoạt động vui nhộn của mùa hè tại trại hè tiếng Anh ILA 2018.</p>
+                                        <p>Các bé sẽ là những công dân toàn cầu trong tương lai với tư duy tích cực và tầm nhìn mở rộng, các em không chỉ xuất sắc tiếng Anh mà còn phát triển 6 kỹ năng vàng của thế kỷ 21: <b>Khả năng sáng tạo, tư duy phản biện, kỹ năng giao tiếp, kỹ năng hợp tác, khả năng tự hoàn thiện bản thân, kiến thức công nghệ.</b></p>
                                     </div>
                                 </div>
                             </div>

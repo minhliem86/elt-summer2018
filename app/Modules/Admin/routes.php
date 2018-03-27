@@ -67,6 +67,14 @@ Route::group(['prefix' => 'admin', 'namespace' => 'App\Modules\Admin\Controllers
             Route::post('user/createUserByAdmin', ['as' => 'admin.user.createByAdmin', 'uses' => 'Auth\AuthController@registerByAdmin']);
             Route::resource('/user','UserManagementController');
 
+
+            /*GALLERY*/
+            Route::get('gallery/getData', ['as' => 'admin.gallery.getData', 'uses' => 'GalleryController@getData']);
+            Route::post('gallery/deleteAll', ['as' => 'admin.gallery.deleteAll', 'uses' => 'GalleryController@deleteAll']);
+            Route::post('gallery/updateStatus', ['as' => 'admin.gallery.updateStatus', 'uses' => 'GalleryController@updateStatus']);
+            Route::post('gallery/postAjaxUpdateOrder', ['as' => 'admin.gallery.postAjaxUpdateOrder', 'uses' => 'GalleryController@postAjaxUpdateOrder']);
+            Route::resource('gallery', 'GalleryController');
+
             // MULTI PHOTOs
             Route::get('photo', ['as'=>'admin.photo.index', 'uses'=>'MultiPhotoController@getIndex']);
             Route::get('photo/create', ['as'=>'admin.photo.create', 'uses'=>'MultiPhotoController@getCreate']);

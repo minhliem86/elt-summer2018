@@ -29,6 +29,8 @@
     <link href="{!! asset('public/assets/admin') !!}/css/style.css" rel="stylesheet">
     <!-- Styles required by this views -->
 
+    @yield('css')
+
     <script src="{!! asset('public/assets/admin') !!}/js/jquery-3.3.1.min.js"></script>
     <!--CHART-->
     <script src="{{asset('/public/assets/admin/js/Chart.js')}}"></script>

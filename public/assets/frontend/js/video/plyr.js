@@ -174,7 +174,7 @@
             captions:           null,
             fullscreen:         null
         },
-        // Events to watch on HTML5 media elements
+        // Middlewares to watch on HTML5 media elements
         events:                 ['ready', 'ended', 'progress', 'stalled', 'playing', 'waiting', 'canplay', 'canplaythrough', 'loadstart', 'loadeddata', 'loadedmetadata', 'timeupdate', 'volumechange', 'play', 'pause', 'error', 'seeking', 'seeked', 'emptied'],
         // Logging
         logPrefix:              '[Plyr]'

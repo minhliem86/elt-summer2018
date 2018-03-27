@@ -11,24 +11,60 @@ use App\Repositories\Eloquent\CommonRepository;
 
 
 use App\Repositories\Eloquent\UploadRepository;
-//use App\Repositories\PhotoRepository;
+use App\Repositories\GalleryRepository;
+use Yajra\Datatables;
 
 class MultiPhotoController extends Controller
 {
     protected $up_photos;
-    protected $photo;
+    protected $gallery;
     protected $common;
     protected $_removePath = 'public/upload/';
 
-    public function __construct(CommonRepository $common, UploadRepository $up_photos, PhotoRepository $photo){
+    public function __construct(CommonRepository $common, UploadRepository $up_photos, GalleryRepository $gallery)
+    {
         $this->up_photos = $up_photos;
-        $this->photo = $photo;
+        $this->gallery = $gallery;
         $this->common = $common;
     }
+
     public function getIndex()
     {
-        $inst = $this->photo->all();
-        return view('Admin::pages.multi-photo.index', compact('inst'));
+        return view('Admin::pages.multi-photo.index');
+    }
+
+    public function getData(Request $request)
+    {
+        $gal = $this->gallery->query(['id', 'title','img_url', 'order', 'status']);
+        return Datatables::of($gal)
+            ->addColumn('action', function($gal){
+                return '<a href="'.route('admin.gallery.edit', $gal->id).'" class="btn btn-success d-inline-block btn-sm" title="Edit"><i class="fa fa-edit"></i> </a>
+                <form method="POST" action=" '.route('admin.gallery.destroy', $gal->id).' " accept-charset="UTF-8" class="d-inline-block form">
+                    <input name="_method" type="hidden" value="DELETE">
+                    <input name="_token" type="hidden" value="'.csrf_token().'">
+                               <button class="btn  btn-danger btn-sm" type="button" attrid=" '.route('admin.gallery.destroy', $gal->id).' " onclick="confirm_remove(this);" title="Remove" > <i class="fa fa-trash"></i></button>
+               </form>' ;
+            })->editColumn('order', function($gal){
+                return "<input type='text' name='order' class='form-control' data-id= '".$gal->id."' value= '".$gal->order."' />";
+            })->editColumn('status', function($gal){
+                $status = $gal->status ? 'checked' : '';
+                $gal_id =$gal->id;
+                return '
+                  <label class="switch switch-icon switch-success-outline">
+                    <input type="checkbox" name="status" class="switch-input" '.$status.' data-id="'.$gal_id.'">
+                    <span class="switch-label" data-on="" data-off=""></span>
+                    <span class="switch-handle"></span>
+                </label>
+              ';
+            })
+            ->editColumn('img_url', function($gal){
+                return '<img class="img-fluid" style="max-width:120px;" src=" '.asset('public/upload/'.$gal->img_url). ' " />';
+            })
+            ->filter(function($query) use ($request){
+                if (request()->has('name')) {
+                    $query->where('title', 'like', "%{$request->input('name')}%");
+                }
+            })->setRowId('id')->make(true);
     }
 
     public function getCreate()

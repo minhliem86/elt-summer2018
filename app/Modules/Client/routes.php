@@ -1,6 +1,6 @@
 <?php
 /*CLIENT ROUTES*/
-Route::group(['middleware'=>'web','namespace' => 'App\Modules\Client\Controllers'], function(){
+Route::group(['middleware'=>['web'],'namespace' => 'App\Modules\Client\Controllers'], function(){
     Route::get('/', ['as' => 'homepage', 'uses' => 'HomeController@index']);
 
 //    Route::get('/khuyen-mai', ['as' => 'khuyenmai', 'uses' => 'PromotionController@index']);
@@ -56,5 +56,10 @@ Route::group(['middleware'=>'web','namespace' => 'App\Modules\Client\Controllers
 //        $country_composer = $country->getComposer(['title','slug', 'img_url']);
 //        $view->with('country_composer', $country_composer);
 //    });
+
+    Route::get('/clear-session', function(){
+       Session::flush();
+       return "done";
+    });
 
 });

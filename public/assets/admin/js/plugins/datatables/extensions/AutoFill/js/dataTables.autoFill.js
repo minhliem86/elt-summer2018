@@ -208,7 +208,7 @@ AutoFill.prototype = {
 		this.dom.borderBottom = border.clone().appendTo( appender )[0];
 		this.dom.borderLeft   = border.clone().appendTo( appender )[0];
 
-		/* Events */
+		/* Middlewares */
 		filler.on( 'mousedown.DTAF', function (e) {
 			this.onselectstart = function() { return false; };
 			that._fnFillerDragStart.call( that, e );
