@@ -53,11 +53,11 @@
                         <div class="form-group">
                             <label >General Image:</label>
                             <div class="input-group">
-                            <span class="input-group-btn">
-                                <a id="lfm" data-input="thumbnail" data-preview="holder" class="btn btn-outline-secondary text-secondary">
-                                    <i class="fa fa-picture-o"></i> Choose
-                                </a>
-                            </span>
+                                <span class="input-group-btn">
+                                    <a id="lfm" data-input="thumbnail" data-preview="holder" class="btn btn-outline-secondary text-secondary">
+                                        <i class="fa fa-picture-o"></i> Choose
+                                    </a>
+                                </span>
                                 {{Form::hidden('img_url',old('img_url'), ['class'=>'form-control', 'id'=>'thumbnail' ])}}
                             </div>
                             <img id="holder" style="margin-top:15px;max-height:100px;" src="{{asset('public/upload/'.$inst->img_url)}}">

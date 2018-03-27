@@ -87,7 +87,13 @@
                     <!--/.row-->
 
                     <div class="form-group">
-                        <label >Photo in Gallery:</label>
+
+                        <label class="switch switch-text switch-pill switch-warning-outline-alt">
+                            <input type="checkbox" class="switch-input" name="photo_gallery" >
+                            <span class="switch-label" data-on="On" data-off="Off"></span>
+                            <span class="switch-handle"></span>
+                        </label>
+                        <label>Photo in Gallery</label>
                         <div class="photo-container">
                             <input type="file" name="thumb-input[]" id="thumb-input" multiple >
                         </div>
@@ -125,17 +131,7 @@
         init_btnImage(url,'#lfm');
 
         $(document).ready(function(){
-            var date_start = $('.datepicker_start').datetimepicker({
-//                endDate: '0d',
-                format: 'dd/mm/yyyy hh:ii',
-                autoclose: true,
-            }).on('changeDate', function(e){
-                $('.datepicker_end').datetimepicker({
-                    format: 'dd/mm/yyyy hh:ii',
-                    startDate: e.date,
-                    autoclose: true
-                })
-            });
+
             $("#thumb-input").fileinput({
                 uploadUrl: "{!!route('admin.product.store')!!}", // server upload action
                 uploadAsync: true,

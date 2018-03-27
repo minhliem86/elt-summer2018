@@ -73,6 +73,8 @@ Route::group(['prefix' => 'admin', 'namespace' => 'App\Modules\Admin\Controllers
             Route::post('gallery/deleteAll', ['as' => 'admin.gallery.deleteAll', 'uses' => 'GalleryController@deleteAll']);
             Route::post('gallery/updateStatus', ['as' => 'admin.gallery.updateStatus', 'uses' => 'GalleryController@updateStatus']);
             Route::post('gallery/postAjaxUpdateOrder', ['as' => 'admin.gallery.postAjaxUpdateOrder', 'uses' => 'GalleryController@postAjaxUpdateOrder']);
+            Route::post('gallery/AjaxRemovePhoto', ['as' => 'admin.gallery.AjaxRemovePhoto', 'uses' => 'GalleryController@AjaxRemovePhoto']);
+            Route::post('gallery/AjaxUpdatePhoto', ['as' => 'admin.gallery.AjaxUpdatePhoto', 'uses' => 'GalleryController@AjaxUpdatePhoto']);
             Route::resource('gallery', 'GalleryController');
 
             // MULTI PHOTOs
