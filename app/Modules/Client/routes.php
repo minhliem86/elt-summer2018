@@ -49,7 +49,7 @@ Route::group(['middleware'=>['web'],'namespace' => 'App\Modules\Client\Controlle
     Route::get('facebook', ['as' => 'facebook.index', 'uses' => 'FacebookController@index']);
 
     /*GALLERY*/
-    Route::get('/thu-vien', ['as' => 'gallery.index', 'uses' => 'GalleryController@index']);
+    Route::get('/thu-vien/{slug}', ['as' => 'gallery.index', 'uses' => 'GalleryController@index'])->where('slug', '[0-9a-zA-Z_/\-]+');
 
 //    View::composer(['Client::layouts.discover', 'Client::layouts.header'], function($view)  {
 //        $country = new App\Repositories\CountryRepository;

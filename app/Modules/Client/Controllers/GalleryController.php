@@ -6,11 +6,19 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Repositories\GalleryRepository;
 
 class GalleryController extends Controller
 {
-    public function index()
+    protected $gallery;
+    public function __construct(GalleryRepository $gallery)
     {
-        return view('Client::pages.gallery.index');
+        $this->gallery = $gallery;
+    }
+
+    public function index($slug)
+    {
+        $data = $this->gallery->findByField('slug', $slug)->first();
+        return view('Client::pages.gallery.index', compact('data'));
     }
 }

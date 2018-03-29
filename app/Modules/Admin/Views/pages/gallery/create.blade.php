@@ -87,12 +87,6 @@
                     <!--/.row-->
 
                     <div class="form-group">
-
-                        <label class="switch switch-text switch-pill switch-warning-outline-alt">
-                            <input type="checkbox" class="switch-input" name="photo_gallery" >
-                            <span class="switch-label" data-on="On" data-off="Off"></span>
-                            <span class="switch-handle"></span>
-                        </label>
                         <label>Photo in Gallery</label>
                         <div class="photo-container">
                             <input type="file" name="thumb-input[]" id="thumb-input" multiple >
@@ -136,15 +130,20 @@
                 uploadUrl: "{!!route('admin.product.store')!!}", // server upload action
                 uploadAsync: true,
                 showUpload: false,
+                showBrowse: false,
                 showCaption: false,
                 showCancel: false,
                 dropZoneEnabled : true,
+                browseOnZoneClick: true,
                 fileActionSettings:{
                     showUpload : false,
                     showZoom: false,
                     showDrag: false,
                     showDownload: false,
                     removeIcon: '<i class="fa fa-trash text-danger"></i>',
+                },
+                layoutTemplates: {
+                    progress: '<div class="kv-upload-progress hidden"></div>'
                 }
             })
         })

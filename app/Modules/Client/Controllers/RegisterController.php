@@ -103,7 +103,7 @@ class RegisterController extends Controller {
         if(!$request->ajax()){
             abort(404);
         }else{
-            $center = DB::connection('mysql2')->table('center')->where('id_city',$request->input('city_id'))->lists('name_vi','id');
+            $center = DB::connection('mysql2')->table('center')->where('id_city',$request->input('city_id'))->where('status',1)->lists('name_vi','id');
             $view = view('Client::pages.register.loadCenter', compact('center'))->render();
             return response()->json(['data'=>$view,], 200);
         }

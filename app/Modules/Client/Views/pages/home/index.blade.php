@@ -116,26 +116,40 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="testimonial-container">
-                        <h2>CHIA SẺ TRẢI NGHIỆM</h2>
-                        <div class="testi-content">
+                        <h2>THƯ VIỆN HÌNH ẢNH</h2>
+                        <div class="gallery-content">
                             <div class="container-fluid">
-                                @if(!$testimonial->isEmpty())
-                                    @foreach($testimonial->chunk(2) as $item_chunk)
-                                    <div class="row">
-                                        @foreach($item_chunk as $item_testi)
-                                        <div class="col-sm-6">
-                                            <div class="each-testi each animate" data-animate="zoomIn">
-                                                <img src="{!! asset('public/upload/'.$item_testi->img_avatar) !!}" class="img-responsive img-inner-section" alt="">
-                                                <div class="content">
-                                                    <h4 class="author">{!! $item_testi->title !!}</h4>
-                                                    <p class="desc">{!!$item_testi->content !!}</p>
-                                                </div>
+                                {{--@if(!$testimonial->isEmpty())--}}
+                                    {{--@foreach($testimonial->chunk(2) as $item_chunk)--}}
+                                    {{--<div class="row">--}}
+                                        {{--@foreach($item_chunk as $item_testi)--}}
+                                        {{--<div class="col-sm-6">--}}
+                                            {{--<div class="each-testi each animate" data-animate="zoomIn">--}}
+                                                {{--<img src="{!! asset('public/upload/'.$item_testi->img_avatar) !!}" class="img-responsive img-inner-section" alt="">--}}
+                                                {{--<div class="content">--}}
+                                                    {{--<h4 class="author">{!! $item_testi->title !!}</h4>--}}
+                                                    {{--<p class="desc">{!!$item_testi->content !!}</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                        {{--@endforeach--}}
+                                    {{--</div>--}}
+                                    {{--@endforeach--}}
+                                {{--@endif--}}
+                                <div class="row">
+                                    @if(!$galleries->isEmpty())
+                                        @foreach($galleries as $gallery)
+                                        <div class="col-sm-4">
+                                            <div class="each-gallery">
+                                                <a href="{!! route('gallery.index', $gallery->slug) !!}"><img src="{!! asset('public/upload/'.$gallery->img_url) !!}" class="img-responsive" alt="{!! $gallery->title !!}"></a>
+                                                <div class="mask"></div>
+                                                <div class="link-ic"><a href="{!! route('gallery.index', $gallery->slug) !!}"><i class="fa fa-link"></i></a></div>
+                                                <h4><a href="{!! route('gallery.index', $gallery->slug) !!}">{!! $gallery->title !!}</a></h4>
                                             </div>
                                         </div>
                                         @endforeach
-                                    </div>
-                                    @endforeach
-                                @endif
+                                    @endif
+                                </div>
                             </div>
                         </div>
                     </div>

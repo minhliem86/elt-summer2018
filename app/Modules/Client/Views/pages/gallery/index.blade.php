@@ -11,24 +11,28 @@
 
 @section("content")
     @include("Client::layouts.banner-donkey")
-    <section class="gallery">
+    <section class="gallery-detail">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h2>Thư viện Hình Ảnh</h2>
+                    <h4 class="sub-title">{!! $data->title !!}</h4>
                     <div class="gallery-container">
                         <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <a data-fancybox="gallery" href="{!! asset('public/assets/frontend/images/program/jumpstart/dance.jpg') !!}"><img src="{!! asset('public/assets/frontend/images/program/jumpstart/dance.jpg') !!}"></a>
+                            @if($data->count())
+                                @foreach($data->photos->chunk(3) as $chunk)
+                                <div class="row">
+                                    @foreach($chunk as $photo)
+                                    <div class="col-md-4">
+                                        <div class="each-photo">
+                                            <a data-fancybox="gallery" href="{!! asset($photo->img_url) !!}"><img src="{!! asset($photo->thumb_url) !!}" class="img-responsive"></a>
+                                        </div>
+                                    </div>
+                                    @endforeach
                                 </div>
-                                <div class="col-md-4">
-                                    <a data-fancybox="gallery" href="{!! asset('public/assets/frontend/images/program/jumpstart/dance.jpg') !!}"><img src="{!! asset('public/assets/frontend/images/program/jumpstart/dance.jpg') !!}"></a>
-                                </div>
-                                <div class="col-md-4">
-                                    <a data-fancybox="gallery" href="{!! asset('public/assets/frontend/images/program/jumpstart/dance.jpg') !!}"><img src="{!! asset('public/assets/frontend/images/program/jumpstart/dance.jpg') !!}"></a>
-                                </div>
+                                @endforeach
                             </div>
+                            @endif
                         </div>
                     </div>
                 </div>

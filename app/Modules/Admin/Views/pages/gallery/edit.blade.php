@@ -50,37 +50,8 @@
                     <!--/.row-->
 
                     <div class="form-group">
-                        <label class="switch switch-text switch-pill switch-warning-outline-alt">
-                            <input type="checkbox" class="switch-input" name="photo_gallery" {!! !$inst->photos->isEmpty() ? 'checked' : null !!}>
-                            <span class="switch-label" data-on="On" data-off="Off"></span>
-                            <span class="switch-handle"></span>
-                        </label>
                         <label>Photo in Gallery</label>
                         <div class="photo-container">
-                            {{--<div class="container-fluid">--}}
-                                {{--@if($inst->photos->count())--}}
-                                    {{--@foreach($inst->photos->chunk(4) as $chunk )--}}
-                                        {{--<div class="row">--}}
-                                            {{--@foreach($chunk as $photo)--}}
-                                                {{--<div class="col-3">--}}
-                                                    {{--<div class="file-preview-frame krajee-default  file-preview-initial file-sortable kv-preview-thumb" data-template="image">--}}
-                                                        {{--<div class="kv-file-content">--}}
-                                                            {{--<img src="{!!asset($photo->img_url)!!}" class="file-preview-image kv-preview-data img-responsive" title="" alt="" style="width:auto;height:120px;">--}}
-                                                        {{--</div>--}}
-                                                        {{--<div class="photo-order-input" style="margin-bottom:10px">--}}
-                                                            {{--<input type="text" class="form-control text-center" name="photo_order" value="{!!$photo->order!!}">--}}
-                                                        {{--</div>--}}
-                                                        {{--<div class="file-footer-buttons">--}}
-                                                            {{--<button type="button" class="kv-file-remove btn btn-xs btn-default" title="Cập nhật vị trí" onclick="updatePhoto(this,{!!$photo->id!!})"><i class="glyphicon glyphicon-refresh text-warning"></i></button>--}}
-                                                            {{--<button type="button" class="kv-file-remove btn btn-xs btn-default" title="Remove file" onclick="removePhoto(this,{!!$photo->id!!})"><i class="glyphicon glyphicon-trash text-danger"></i></button>--}}
-                                                        {{--</div>--}}
-                                                    {{--</div>--}}
-                                                {{--</div>--}}
-                                            {{--@endforeach--}}
-                                        {{--</div>--}}
-                                    {{--@endforeach--}}
-                                {{--@endif--}}
-                            {{--</div>--}}
                             <input type="file" name="thumb-input[]" id="thumb-input" multiple >
                         </div>
                     </div>
@@ -135,7 +106,9 @@
                 showCancel: false,
                 showCaption: false,
                 dropZoneEnabled : true,
-//                overwriteInitial: false,
+                showBrowse: false,
+                overwriteInitial: false,
+                browseOnZoneClick: true,
                 fileActionSettings:{
                     showUpload : false,
                     showZoom: false,
@@ -152,15 +125,12 @@
                 initialPreviewFileType: 'image',
                 initialPreviewConfig: [
                     @foreach($inst->photos as $item_photo)
-                    {'url': '{!! route("admin.gallery.AjaxRemovePhoto") !!}', key: "{!! $item_photo->id !!}"},
+                    {'url': '{!! route("admin.gallery.AjaxRemovePhoto") !!}', key: "{!! $item_photo->id !!}", caption: "{!! $item_photo->filename !!}"},
                     @endforeach
                 ],
                 layoutTemplates: {
-                    progress: '<div class="progress d-none"></div>'
-                }
-
-            }).on('fileremoved', function(event, id, index){
-                console.log(event);
+                    progress: '<div class="kv-upload-progress hidden"></div>'
+                },
             });
         })
 
