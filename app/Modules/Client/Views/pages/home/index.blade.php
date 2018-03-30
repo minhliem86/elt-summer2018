@@ -119,23 +119,6 @@
                         <h2>THƯ VIỆN HÌNH ẢNH</h2>
                         <div class="gallery-content">
                             <div class="container-fluid">
-                                {{--@if(!$testimonial->isEmpty())--}}
-                                    {{--@foreach($testimonial->chunk(2) as $item_chunk)--}}
-                                    {{--<div class="row">--}}
-                                        {{--@foreach($item_chunk as $item_testi)--}}
-                                        {{--<div class="col-sm-6">--}}
-                                            {{--<div class="each-testi each animate" data-animate="zoomIn">--}}
-                                                {{--<img src="{!! asset('public/upload/'.$item_testi->img_avatar) !!}" class="img-responsive img-inner-section" alt="">--}}
-                                                {{--<div class="content">--}}
-                                                    {{--<h4 class="author">{!! $item_testi->title !!}</h4>--}}
-                                                    {{--<p class="desc">{!!$item_testi->content !!}</p>--}}
-                                                {{--</div>--}}
-                                            {{--</div>--}}
-                                        {{--</div>--}}
-                                        {{--@endforeach--}}
-                                    {{--</div>--}}
-                                    {{--@endforeach--}}
-                                {{--@endif--}}
                                 <div class="row">
                                     @if(!$galleries->isEmpty())
                                         @foreach($galleries as $gallery)

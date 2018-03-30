@@ -28,7 +28,22 @@ class RegisterController extends Controller {
     public function index()
     {
         $city = DB::connection('mysql2')->table('city')->whereIn('id',[1,20,48,49,50,53,70])->lists('name','id');
-        $program = DB::connection('mysql2')->table('program')->whereIn('id', [13,14,15])->lists('name','id');
+        $program_old = DB::connection('mysql2')->table('program')->whereIn('id', [13,14,15])->lists('name','id');
+        $program_new = $this->moveElement($program_old,0, 1);
+        foreach($program_new as $k => $item_program){
+            switch ($k) {
+                case '1' :
+                    $program_new[13] = 'Dành cho học viên 7-11 tuổi';
+                    break;
+                case '0' :
+                    $program_new[14] = 'Dành cho học viên 4-7 tuổi';
+                    break;
+                case '2' :
+                    $program_new[15] = 'Dành cho học viên 11-16 tuổi';
+                    break;
+            }
+        }
+        $program = array_diff_key($program_new,['0','1','2']);
         return view('Client::pages.register.index', compact('city', 'program'));
     }
 
@@ -107,6 +122,13 @@ class RegisterController extends Controller {
             $view = view('Client::pages.register.loadCenter', compact('center'))->render();
             return response()->json(['data'=>$view,], 200);
         }
+    }
+
+    protected function moveElement($array, $a, $b) {
+        $p1 = array_splice($array, $a, 1);
+        $p2 = array_splice($array, 0, $b);
+        $array = array_merge($p2,$p1,$array);
+        return $array;
     }
 
 }

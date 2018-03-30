@@ -50,6 +50,7 @@ Route::group(['middleware'=>['web'],'namespace' => 'App\Modules\Client\Controlle
 
     /*GALLERY*/
     Route::get('/thu-vien/{slug}', ['as' => 'gallery.index', 'uses' => 'GalleryController@index'])->where('slug', '[0-9a-zA-Z_/\-]+');
+    Route::get('/thu-vien', ['as' => 'gallery', 'uses' => 'GalleryController@gallery']);
 
 //    View::composer(['Client::layouts.discover', 'Client::layouts.header'], function($view)  {
 //        $country = new App\Repositories\CountryRepository;
