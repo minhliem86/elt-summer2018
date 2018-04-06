@@ -20,6 +20,10 @@ a:hover {
 .wellcome .des-welcome-container {
   margin: 0 auto 30px;
   text-align: justify; }
+  .wellcome .des-welcome-container #video-container {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    border: 5px solid rgba(236, 93, 40, 0.6); }
 .wellcome .welcome-container .flex-container {
   display: flex;
   justify-content: space-between; }
@@ -453,5 +457,54 @@ section.action .flex-container {
   margin-bottom: 3rem; }
 .gallery-detail .each-photo {
   margin-bottom: 1.5rem; }
+
+/*HOTLINE*/
+.topmenu #navbar .navbar-nav > li.hotline a {
+  padding: 0;
+  font-size: 16px;
+  color: #EF6222; }
+.topmenu #navbar .navbar-nav > li.hotline i {
+  font-size: 14px;
+  color: white;
+  padding: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #EF6222; }
+.topmenu #navbar .navbar-nav > li.hotline:hover:before, .topmenu #navbar .navbar-nav > li.hotline:hover:after {
+  content: '';
+  display: none; }
+
+.ic-phone {
+  position: fixed;
+  right: 10px;
+  bottom: 10px; }
+  @media screen and (max-width: 768px) {
+    .ic-phone img {
+      transform: matrix(0.7, 0, 0, 0.7, 0, 0); } }
+
+.ic-phone:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px; }
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0); }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0); }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0); } }
+footer .phone:before {
+  content: '';
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url("../images/ic-hotline-footer.png");
+  margin-right: 10px;
+  vertical-align: middle; }
 
 /*# sourceMappingURL=elt-summer2018.css.map */
