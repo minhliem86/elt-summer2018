@@ -1,10 +1,5 @@
 @extends('Admin::layouts.default')
 
-@section('link')
-    {{Html::link(url()->previous(), 'Cancel', ['class'=>'btn btn-danger'])}}
-    <button class="btn btn-primary" onclick="submitForm();">Save Changes</button>
-@stop
-
 @section('content')
     <div class="row">
         <div class="col">
@@ -13,49 +8,53 @@
                     <strong>Testimonial</strong>
                     <small>Edit</small>
                 </div>
-                {{Form::model($inst, ['route'=>['admin.event.update',$inst->id], 'method'=>'put', 'files'=>true ])}}
+                {{Form::model($inst, ['route'=>['admin.gallery.update',$inst->id], 'method'=>'put', 'files'=>true ])}}
                 <div class="card-body">
                     <div class="form-group">
-                        <label for="center">Chọn Trung Tâm</label>
-                        {!! Form::select('center_id', [''=>'Chọn Trung Tâm']+ $center, old('center_id'), ['class'=> 'form-control']) !!}
-                    </div>
-                    <div class="form-group">
-                        <label for="testimonial">Title</label>
-                        {!!  Form::text('title',old('title'), ['class'=>'form-control', 'placeholder'=>'Promotion Name'])!!}
-                    </div>
-
-                    <div class="form-group">
-                        <label for="description">Content</label>
-                        {!! Form::textarea('description',old('description'),['class'=>'form-control my-editor', 'rows'=>15]) !!}
-                    </div>
-                    <div class="form-row">
-                        <div class="col">
-                            <div class="form-group">
-                                <label for="start_date">Start Date</label>
-                                {!! Form::text('start_date', Carbon\Carbon::parse($inst->start)->format('d/m/Y H:i'), ['class'=>'form-control datepicker_start', 'placeholder'=>'Enter Start Date']) !!}
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="form-group">
-                                <label for="end_date">End Date</label>
-                                {!! Form::text('end_date', Carbon\Carbon::parse($inst->end)->format('d/m/Y H:i'), ['class'=>'form-control datepicker_end', 'placeholder'=>'Enter End Date']) !!}
-                            </div>
-                        </div>
+                        <label for="title">Title</label>
+                        {!! Form::text('title', old('title'), ['class'=>'form-control']) !!}
                     </div>
 
                     <div class="form-group">
                         <label >General Image:</label>
                         <div class="input-group">
-                            <span class="input-group-btn">
-                                <a id="lfm" data-input="thumbnail" data-preview="holder" class="btn btn-outline-secondary text-secondary">
-                                    <i class="fa fa-picture-o"></i> Choose
-                                </a>
-                            </span>
+                                <span class="input-group-btn">
+                                    <a id="lfm" data-input="thumbnail" data-preview="holder" class="btn btn-outline-secondary text-secondary">
+                                        <i class="fa fa-picture-o"></i> Choose
+                                    </a>
+                                </span>
                             {{Form::hidden('img_url',old('img_url'), ['class'=>'form-control', 'id'=>'thumbnail' ])}}
                         </div>
                         <img id="holder" style="margin-top:15px;max-height:100px;" src="{{asset('public/upload/'.$inst->img_url)}}">
                     </div>
+                    <div class="form-row">
+                        <div class="col-2">
+                            <div class="form-group">
+                                <div class="">
+                                    <label for="status">Status</label>
+                                </div>
+                                <label class="switch switch-icon switch-success-outline">
+                                    <input type="checkbox" name="status" class="switch-input" value="{!! $inst->status ? 1 : 0 !!}" {!! $inst->status ? "checked" : null  !!} data-id="{!! $inst->id !!}">
+                                    <span class="switch-label" data-on="" data-off=""></span>
+                                    <span class="switch-handle"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-10">
+                            <div class="form-group">
+                                <label for="order">Order</label>
+                                {!! Form::text('order', old('order'), ['class'=>'form-control']) !!}
+                            </div>
+                        </div>
+                    </div>
                     <!--/.row-->
+
+                    <div class="form-group">
+                        <label>Photo in Gallery</label>
+                        <div class="photo-container">
+                            <input type="file" name="thumb-input[]" id="thumb-input" multiple >
+                        </div>
+                    </div>
 
                 </div>
                 <div class="card-footer">
@@ -81,17 +80,17 @@
     <link rel="stylesheet" href="{!! asset('public/assets/admin/js/plugins/datetimepicker/bootstrap-datetimepicker.min.css') !!}">
     <script src="{!! asset('public/assets/admin/js/plugins/datetimepicker/bootstrap-datetimepicker.min.js') !!}"></script>
 
+    <!--BT Upload-->
+    <link rel="stylesheet" href="{!!asset('/public/assets/admin')!!}/js/plugins/bootstrap-input/css/fileinput.min.css">
+    <script src="{!!asset('/public/assets/admin')!!}/js/plugins/bootstrap-input/js/plugins/sortable.min.js"></script>
+    <script src="{!!asset('/public/assets/admin')!!}/js/plugins/bootstrap-input/js/plugins/purify.min.js"></script>
+    <script src="{!!asset('/public/assets/admin')!!}/js/plugins/bootstrap-input/js/fileinput.min.js"></script>
+
     <script>
         const url = "{{url('/')}}"
         init_tinymce(url);
         // BUTTON ALONE
         init_btnImage(url,'#lfm');
-        // SUBMIT FORM
-        // $(document).ready(function(){
-        //     $('radio[name="status"]').change(function(){
-        //
-        //     })
-        // })
         $(document).on('change', 'input[name=status]', function(){
             if($(this).prop('checked')){
                 $(this).val(1);
@@ -100,21 +99,67 @@
             }
         })
         $(document).ready(function(){
-            $('.datepicker_end').datetimepicker({
-                startDate: '{!! date($inst->start)!!}',
-                format: 'dd/mm/yyyy hh:ii',
-            });
-            var date_start = $('.datepicker_start').datetimepicker({
-//                endDate: '0d',
-                format: 'dd/mm/yyyy hh:ii',
-                autoclose: true,
-            }).on('changeDate', function(e){
-                $('.datepicker_end').datetimepicker({
-                    format: 'dd/mm/yyyy hh:ii',
-                    startDate: e.date,
-                    autoclose: true
-                })
+            var btns = '<button type="button" class="kv-cust-btn btn btn-kv btn-secondary" title="Edit"{dataKey}> ' +
+                '<i class="glyphicon glyphicon-edit"></i>' +
+                '</button>';
+            $("#thumb-input").fileinput({
+                uploadUrl: "{!!route('admin.product.store')!!}", // server upload action
+                uploadAsync: false,
+                showUpload: false,
+                showCancel: false,
+                showCaption: false,
+                dropZoneEnabled : true,
+                fileActionSettings:{
+                    showUpload : false,
+                    showZoom: false,
+                    showDrag: false,
+                    showDownload: false,
+                    removeIcon: '<i class="fa fa-trash text-danger"></i>',
+                },
+                initialPreview: [
+                    @foreach($inst->photos as $photo)
+                    "{!!asset($photo->thumb_url)!!}",
+                    @endforeach
+                ],
+                initialPreviewAsData: true,
+                initialPreviewFileType: 'image',
+                initialPreviewConfig: [
+                    @foreach($inst->photos as $item_photo)
+                    {'url':'{!! route('admin.gallery.AjaxRemovePhoto') !!}', key: "{!! $item_photo->id !!}"},
+                    @endforeach
+                ],
+                layoutTemplates: {
+                    progress: '<div class="progress d-none"></div>',
+                },
+                otherActionButtons: btns
+
             });
         })
+
+        function removePhoto(e, id){
+            $.ajax({
+                url: '{!!route("admin.gallery.AjaxRemovePhoto")!!}',
+                type: 'POST',
+                data:{id_photo: id, _token:$('meta[name="csrf-token"]').attr('content')},
+                success:function(data){
+                    if(!data.error){
+                        e.parentNode.parentNode.parentNode.remove();
+                    }
+                }
+            })
+        }
+        function updatePhoto(e, id){
+            var value = e.parentNode.previousElementSibling.childNodes[1].value;
+            $.ajax({
+                url: '{!!route("admin.gallery.AjaxUpdatePhoto")!!}',
+                type: 'POST',
+                data:{id_photo: id, value: value, _token:$('meta[name="csrf-token"]').attr('content')},
+                success:function(data){
+                    if(!data.error){
+                        alertify.success('Cập nhật thay đổi.');
+                    }
+                }
+            })
+        }
     </script>
 @stop

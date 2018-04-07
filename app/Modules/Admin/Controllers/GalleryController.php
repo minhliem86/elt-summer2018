@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Repositories\GalleryRepository;
+use App\Repositories\PhotoRepository;
 use App\Repositories\Eloquent\CommonRepository;
 use Yajra\Datatables\Datatables;
 use Carbon\Carbon;
@@ -16,16 +17,20 @@ use DB;
 class GalleryController extends Controller
 {
     protected $gallery;
+    protected $photo;
     protected $common;
     protected $_original_path;
     protected $_resize_path;
+    protected $_removePath;
 
-    public function __construct(GalleryRepository $gallery, CommonRepository $common)
+    public function __construct(GalleryRepository $gallery, CommonRepository $common, PhotoRepository $photo)
     {
         $this->gallery = $gallery;
+        $this->photo = $photo;
         $this->common = $common;
         $this->_original_path = env('ORIGINAL_PATH');
         $this->_resize_path = env('RESIZE_PATH');
+        $this->_removePath = asset('public/upload/');
 
     }
 
@@ -99,27 +104,24 @@ class GalleryController extends Controller
 
         $gallery = $this->gallery->create($data);
 
-        if($request->hasFile('thumb-input')){
+        $sub_file = $request->file('thumb-input');
+        if($sub_file[0] != ''){
             $data_photo = [];
-            foreach($request->file('thumb-input') as $k=>$thumb){
+            foreach($sub_file as $thumb){
                 $originalSize = $this->common->uploadImage($request, $thumb, $this->_original_path,$resize = false);
-                $smallsize = $this->common->createThumbnail($originalSize,$this->_resize_path,100, 100);
+                $smallsize = $this->common->createThumbnail($originalSize,$this->_resize_path,320, 320);
                 $order = $this->gallery->getOrder();
-
                 $data = new \App\Models\Photo(
                     [
-                        'img_url' => $this->common->getPath($originalSize, $this->_original_path, $this->_removePath),
-                        'thumb_url' => $this->common->getPath($smallsize, $this->_resize_path, $this->_removePath),
+                        'img_url' => $this->common->getPath($originalSize, $this->_original_path, base_path($this->_original_path)),
+                        'thumb_url' => $this->common->getPath($smallsize, $this->_resize_path, base_path($this->_resize_path)),
                         'order'=>$order,
                     ]
                 );
                 array_push($data_photo, $data);
             }
-
-
             $gallery->photos()->saveMany($data_photo);
         }
-
         return redirect()->route('admin.gallery.index')->with('success','Created !');
     }
 
@@ -143,7 +145,6 @@ class GalleryController extends Controller
     public function edit($id)
     {
         $inst = $this->gallery->find($id);
-        $center = DB::connection('mysql2')->table('center')->lists('name_vi','id');
         return view('Admin::pages.gallery.edit', compact('inst', 'center'));
     }
 
@@ -225,6 +226,39 @@ class GalleryController extends Controller
             $gallery->save();
             return response()->json([
                 'mes' => 'Updated',
+                'error'=> false,
+            ], 200);
+        }
+    }
+
+    /* REMOVE CHILD PHOTO */
+    public function AjaxRemovePhoto(Request $request)
+    {
+        if(!$request->ajax()){
+            abort('404', 'Not Access');
+        }else{
+            $id = $request->all();
+            return $id;
+            $this->photo->delete($id);
+//            return response()->json([
+//                'mes' => 'Deleted',
+//                'error'=> false,
+//            ], 200);
+        }
+    }
+
+    /* UPDATE CHILD PHOTO */
+    public function AjaxUpdatePhoto(Request $request)
+    {
+        if(!$request->ajax()){
+            abort('404', 'Not Access');
+        }else{
+            $id = $request->input('id_photo');
+            $order = $request->input('value');
+            $photo = $this->gallery->update(['order'=>$order], $id);
+
+            return response()->json([
+                'mes' => 'Update Order',
                 'error'=> false,
             ], 200);
         }
