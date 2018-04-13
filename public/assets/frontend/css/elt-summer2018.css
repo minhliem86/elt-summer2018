@@ -507,4 +507,46 @@ footer .phone:before {
   margin-right: 10px;
   vertical-align: middle; }
 
+/*SCHEDULE*/
+section.schedule .schedule-wrapper .filter {
+  margin-bottom: 30px; }
+  section.schedule .schedule-wrapper .filter .form-filter-wrapper h4.title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 25px; }
+  section.schedule .schedule-wrapper .filter .form-filter-wrapper p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center; }
+  section.schedule .schedule-wrapper .filter .form-filter-wrapper .form {
+    margin-bottom: 20px; }
+    section.schedule .schedule-wrapper .filter .form-filter-wrapper .form select {
+      border-color: #2b328c;
+      color: #2b328c; }
+    section.schedule .schedule-wrapper .filter .form-filter-wrapper .form .btn-container {
+      padding: 10px 0; }
+    section.schedule .schedule-wrapper .filter .form-filter-wrapper .form button.btn-search {
+      border-radius: 20px;
+      background: #EF6222;
+      color: white;
+      border: none;
+      padding: 6px 20px;
+      font-weight: 600;
+      font-size: 14px; }
+      section.schedule .schedule-wrapper .filter .form-filter-wrapper .form button.btn-search:focus {
+        outline: none; }
+section.schedule .schedule-wrapper .form-content table thead tr {
+  background: #22364a; }
+section.schedule .schedule-wrapper .form-content table thead th {
+  color: white;
+  text-transform: uppercase; }
+section.schedule .schedule-wrapper .form-content table tbody td {
+  font-weight: 600; }
+  section.schedule .schedule-wrapper .form-content table tbody td a.dk {
+    text-transform: uppercase;
+    color: #EF6222;
+    font-size: 14px;
+    text-decoration: underline; }
+
 /*# sourceMappingURL=elt-summer2018.css.map */
