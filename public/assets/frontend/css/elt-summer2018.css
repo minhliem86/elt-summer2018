@@ -524,6 +524,9 @@ section.schedule .schedule-wrapper .filter {
     section.schedule .schedule-wrapper .filter .form-filter-wrapper .form select {
       border-color: #2b328c;
       color: #2b328c; }
+      @media screen and (max-width: 767px) {
+        section.schedule .schedule-wrapper .filter .form-filter-wrapper .form select {
+          margin-bottom: 10px; } }
     section.schedule .schedule-wrapper .filter .form-filter-wrapper .form .btn-container {
       padding: 10px 0; }
     section.schedule .schedule-wrapper .filter .form-filter-wrapper .form button.btn-search {
@@ -548,5 +551,34 @@ section.schedule .schedule-wrapper .form-content table tbody td {
     color: #EF6222;
     font-size: 14px;
     text-decoration: underline; }
+@media screen and (max-width: 767px) {
+  section.schedule .schedule-wrapper .form-content table {
+    display: block; }
+    section.schedule .schedule-wrapper .form-content table thead, section.schedule .schedule-wrapper .form-content table tbody, section.schedule .schedule-wrapper .form-content table th, section.schedule .schedule-wrapper .form-content table td, section.schedule .schedule-wrapper .form-content table tr {
+      display: block; }
+    section.schedule .schedule-wrapper .form-content table thead tr {
+      position: absolute;
+      top: -999999px;
+      left: -999999px; }
+    section.schedule .schedule-wrapper .form-content table tr {
+      border: 1px solid #ccc;
+      margin-bottom: 20px; }
+    section.schedule .schedule-wrapper .form-content table td {
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+      text-align: center; }
+    section.schedule .schedule-wrapper .form-content table td:before {
+      content: attr(data);
+      position: absolute;
+      /* Top/left values mimic padding */
+      top: 6px;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      text-align: left;
+      font-weight: 600; } }
 
 /*# sourceMappingURL=elt-summer2018.css.map */
