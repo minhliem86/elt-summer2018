@@ -773,13 +773,14 @@ section.register {
           transition: all 0.5s;
           animation: btn-dk 2s 1.5s infinite; }
       section.register .register-container .form-container .btn-container .btn-reg {
-        background: #EF6222;
+        background: url("../images/btn-dk-hover.png");
+        width: 190px;
+        height: 45px;
         color: white;
         border-radius: 30px;
         padding: 10px 0px;
         display: inline-block;
-        width: 100%;
-        border: 1px solid #ffeb9e;
+        border: none;
         text-transform: uppercase;
         font-weight: 600;
         z-index: 4;

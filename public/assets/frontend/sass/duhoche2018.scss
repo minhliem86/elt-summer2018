@@ -1011,13 +1011,15 @@ section.register{
           }
         }
         .btn-reg{
-          background:#EF6222;
+          //background:#EF6222;
+          background:url('../images/btn-dk-hover.png');
+          width:190px;
+          height:45px;
           color:white;
           border-radius:30px;
           padding:10px 0px;
           display: inline-block;
-          width: 100%;
-          border:1px solid $bg-vang;
+          border:none;
           text-transform: uppercase;
           font-weight:600;
           z-index:4;

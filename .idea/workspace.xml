@@ -5,10 +5,101 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3fb3fa2-77ef-4779-b731-3373fb975afa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/logo-banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/test-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/test-banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/test-banner2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/test-banner3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/fonts/revicons/revicons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/fonts/revicons/revicons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/fonts/revicons/revicons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/css/settings.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/fonts/revicons/revicons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.actions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.kenburn.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.layeranimation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.migration.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.navigation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.parallax.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.slideanims.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.video.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/jquery.themepunch.revolution.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/jquery.themepunch.tools.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner-demo.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner_country.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner_general.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/heart/S-heart.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/arrow_left2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/arrow_right2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/arrowleft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/arrowright.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/boxed_bgtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/bullet_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/bullets.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/bullets2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/coloredbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/gridtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/gridtile_3x3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/gridtile_3x3_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/gridtile_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/large_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/large_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/navigdots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/navigdots_bgtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/shadow1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/shadow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/shadow3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/small_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/small_left_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/small_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/small_right_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/timer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/css/settings.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/font/revicons90c6-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/font/revicons90c6-3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/font/revicons90c6-4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/font/revicons90c6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/images/gradient/g30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/images/gradient/g40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/jquery.themepunch.plugins.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/jquery.themepunch.revolution.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/dream.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/dream.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/fun.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/fun.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/heart.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/heart.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/english/J-english.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/english/J-english.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/english/K-english.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/english/K-english.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/english/S-english.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/english/S-english.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/gvbn.png" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/gvbn.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/heart/J-heart.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/heart/J-heart.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/heart/K-heart.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/heart/K-heart.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/hocviencu.png" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/hocviencu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/hv.png" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/hv.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/lophoc01.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/lophoc01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/lophoc02.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/lophoc02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/kn.png" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/kn.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc01.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc02.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc03.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/lophoc01.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/lophoc01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/lophoc02.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/lophoc02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/tt.png" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/tt.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/ajax/schedule.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/ajax/schedule.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner-donkey.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner-donkey.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/default.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/default.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/home/index.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/home/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/index.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/css/duhoche2018.css" afterPath="$PROJECT_DIR$/public/assets/frontend/css/duhoche2018.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/css/duhoche2018.css.map" afterPath="$PROJECT_DIR$/public/assets/frontend/css/duhoche2018.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/css/elt-summer2018.css" afterPath="$PROJECT_DIR$/public/assets/frontend/css/elt-summer2018.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/css/elt-summer2018.css.map" afterPath="$PROJECT_DIR$/public/assets/frontend/css/elt-summer2018.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/js/customScript.js" afterPath="$PROJECT_DIR$/public/assets/frontend/js/customScript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/sass/duhoche2018.scss" afterPath="$PROJECT_DIR$/public/assets/frontend/sass/duhoche2018.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/sass/elt-summer2018.scss" afterPath="$PROJECT_DIR$/public/assets/frontend/sass/elt-summer2018.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,22 +111,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="elt-summer2018.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="elt-summer2018.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/assets/frontend/sass/elt-summer2018.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="738" column="35" lean-forward="false" selection-start-line="738" selection-start-column="35" selection-end-line="738" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedule.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/ajax/schedule.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="410">
+              <caret line="281" column="15" lean-forward="false" selection-start-line="281" selection-start-column="14" selection-end-line="281" selection-end-column="15" />
+              <folding>
+                <element signature="e#566#707#0" expanded="false" />
+                <element signature="e#718#1190#0" expanded="false" />
+                <element signature="e#1201#4126#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,13 +129,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>vertical-center-4</find>
-      <find>content-pro</find>
       <find>isMobile</find>
       <find>height</find>
       <find>each-program</find>
       <find>form-containe</find>
-      <find>header</find>
       <find>REGISTER</find>
       <find>welcome-container</find>
       <find>each-product</find>
@@ -74,6 +156,9 @@
       <find>gallery-content</find>
       <find>des-welcome-container</find>
       <find>footer</find>
+      <find>btn-reg</find>
+      <find>header</find>
+      <find>banner</find>
     </findStrings>
     <replaceStrings>
       <replace>$promo</replace>
@@ -96,10 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/superjunior.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/register/thankyou.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/event/index.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_03_20_103103_create_galleries_table.php" />
         <option value="$PROJECT_DIR$/app/Repositories/GalleryRepository.php" />
         <option value="$PROJECT_DIR$/app/Modules/Admin/Controllers/MultiPhotoController.php" />
@@ -130,12 +211,9 @@
         <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/gallery/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/register/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Controllers/RegisterController.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner-donkey.blade.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/gallery/gallery.blade.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Controllers/ProgramController.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Controllers/GalleryController.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/home/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/layouts/default.blade.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Views/layouts/footer.blade.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Views/layouts/header.blade.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/register/loadCenter.blade.php" />
@@ -146,7 +224,14 @@
         <option value="$PROJECT_DIR$/app/Modules/Client/Controllers/ScheduleController.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/schedule/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Views/ajax/schedule.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/frontend/js/customScript.js" />
+        <option value="$PROJECT_DIR$/public/assets/frontend/sass/duhoche2018.scss" />
+        <option value="$PROJECT_DIR$/public/assets/frontend/font/myriad/font.css" />
+        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Client/Views/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner-donkey.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/frontend/sass/elt-summer2018.scss" />
+        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/home/index.blade.php" />
       </list>
     </option>
   </component>
@@ -183,6 +268,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,14 +301,6 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Client" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Client" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -231,7 +310,7 @@
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Client" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
@@ -250,7 +329,17 @@
               <item name="Client" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="schedule" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="program" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
@@ -284,14 +373,20 @@
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="font" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,18 +398,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\font" />
+      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images\slider" />
       <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images" />
       <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images\program\superjuniors" />
       <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images\program\jumpstart" />
-      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images\program\english" />
-      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\js\donkey" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images\slider" />
+      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images" />
+      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\js" />
       <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\js\video" />
       <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\admin\js\plugins\video" />
-      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images" />
-      <recent name="C:\xampp\htdocs\elt-summer2018\app\Repositories" />
-      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\admin\fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -373,18 +468,22 @@
       <workItem from="1523592736972" duration="10249000" />
       <workItem from="1523851957766" duration="1547000" />
       <workItem from="1523861663680" duration="1152000" />
+      <workItem from="1524017690699" duration="842000" />
+      <workItem from="1525248249553" duration="3886000" />
+      <workItem from="1525408191543" duration="12105000" />
+      <workItem from="1525429009277" duration="2361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354457000" />
+    <option name="totallyTimeSpent" value="373651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15031983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31023455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -423,62 +522,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Views/pages/dashboard/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="102" column="55" lean-forward="true" selection-start-line="102" selection-start-column="55" selection-end-line="102" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Views/ajax/ajaxChart.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Controllers/DashboardController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="68" column="12" lean-forward="false" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/program/superjunior.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/program/jumpstart.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="24" column="259" lean-forward="false" selection-start-line="24" selection-start-column="259" selection-end-line="24" selection-end-column="259" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/lfm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Gallery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -618,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner-donkey.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/gallery/gallery.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -682,31 +718,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/default.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="33" lean-forward="false" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="97" lean-forward="false" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="46" column="137" lean-forward="false" selection-start-line="46" selection-start-column="137" selection-end-line="46" selection-end-column="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/home/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="120" column="31" lean-forward="false" selection-start-line="120" selection-start-column="31" selection-end-line="120" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -752,16 +767,8 @@
         <state relative-caret-position="646">
           <caret line="42" column="215" lean-forward="false" selection-start-line="42" selection-start-column="215" selection-end-line="42" selection-end-column="215" />
           <folding>
-            <element signature="e#50#78#0#PHP" expanded="true" />
+            <element signature="e#50#78#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="57" selection-end-column="113" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,19 +779,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/frontend/sass/elt-summer2018.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="738" column="35" lean-forward="false" selection-start-line="738" selection-start-column="35" selection-end-line="738" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/ajax/schedule.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="113" lean-forward="false" selection-start-line="54" selection-start-column="3" selection-end-line="57" selection-end-column="113" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/customScript.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/jquery.sticky.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1702">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/sass/duhoche2018.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17357">
+          <caret line="1021" column="22" lean-forward="false" selection-start-line="1021" selection-start-column="22" selection-end-line="1021" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/program/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/customScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" column="39" lean-forward="false" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/font/myriad/font.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="127" lean-forward="false" selection-start-line="5" selection-start-column="127" selection-end-line="5" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2004">
+          <caret line="124" column="37" lean-forward="false" selection-start-line="124" selection-start-column="37" selection-end-line="124" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner-donkey.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="197" column="49" lean-forward="false" selection-start-line="197" selection-start-column="49" selection-end-line="197" selection-end-column="49" />
+          <folding>
+            <element signature="e#132#9642#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/program/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="58" column="56" lean-forward="true" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/home/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="103" column="4" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+          <folding>
+            <element signature="e#2945#2965#0#HTML" expanded="true" />
+            <element signature="e#3041#5249#0#HTML" expanded="false" />
+            <element signature="e#5304#6637#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/sass/elt-summer2018.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="281" column="15" lean-forward="false" selection-start-line="281" selection-start-column="14" selection-end-line="281" selection-end-column="15" />
+          <folding>
+            <element signature="e#566#707#0" expanded="false" />
+            <element signature="e#718#1190#0" expanded="false" />
+            <element signature="e#1201#4126#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

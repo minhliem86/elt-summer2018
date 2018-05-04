@@ -97,13 +97,11 @@ $(document).ready(function () {
         responsiveWidth: true
     }).on('sticky-start', function () {
         $("header").css({
-            'border-bottom': '1px solid white',
-            'box-shadow' : '0 2px 5px #ffcb05'
+            // 'box-shadow' : '0 2px 5px #ffcb05'
         })
     }).on('sticky-end', function () {
         $("header").css({
-            'border-bottom': 'none',
-            'box-shadow' : 'none'
+            // 'box-shadow' : 'none'
         })
     });
 
