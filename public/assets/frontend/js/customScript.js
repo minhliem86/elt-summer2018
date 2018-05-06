@@ -1,6 +1,5 @@
 $(document).ready(function () {
     $('.wrap-each-promotionhome2').height($('.wrap-each-promotionhome2').width());
-    console.log($('.swiper-keypoint .swiper-slide:first-child').width());
 
     //initialize swiper when document ready
     var window_w = $(window).width();
@@ -97,13 +96,11 @@ $(document).ready(function () {
         responsiveWidth: true
     }).on('sticky-start', function () {
         $("header").css({
-            'border-bottom': '1px solid white',
-            'box-shadow' : '0 2px 5px #ffcb05'
+            // 'box-shadow' : '0 2px 5px #ffcb05'
         })
     }).on('sticky-end', function () {
         $("header").css({
-            'border-bottom': 'none',
-            'box-shadow' : 'none'
+            // 'box-shadow' : 'none'
         })
     });
 

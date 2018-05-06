@@ -1,1 +1,1 @@
-{!! Form::select('center',[''=>'-- Trung Tâm ILA --']+ $center, old('cente'), ['class' => 'form-control']) !!}
+{!! Form::select('center',[''=>'-- Trung Tâm ILA --']+ $center, old('center'), ['class' => 'form-control']) !!}

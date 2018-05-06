@@ -15,8 +15,7 @@
     <!--[if lt IE 9]>
     <![endif]-->
     <script src="{!!asset('public') !!}/assets/frontend/js/jquery-2.1.1.js" type="text/javascript"></script>
-    <script src="{!!asset('public') !!}/assets/frontend/js/vivus.min.js"></script>
-    <script src="{!!asset('public') !!}/assets/frontend/js/cookies.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="{!!asset('public') !!}/assets/frontend/js/common.js"   ></script>
     {{--<script async>--}}
         {{--function renderSVG(sgvID, loadingID){--}}
@@ -85,31 +84,59 @@
     <script src="{!!asset('public') !!}/assets/frontend/js/swiper.min.js"></script>
     <script src="{!!asset('public') !!}/assets/frontend/js/jquery.sticky.js"></script>
     <script src="{!!asset('public') !!}/assets/frontend/js/scrolla.jquery.min.js"></script>
-    <script src="{!!asset('public') !!}/assets/frontend/js/customScript.min.js"></script>
+    <script src="{!!asset('public') !!}/assets/frontend/js/customScript.js"></script>
     <!-- DONKEY -->
-    <link rel="stylesheet" href="{!! asset('public/assets/frontend/js/donkey')!!}/css/oswald.css">
-    <link rel="stylesheet" href="{!! asset('public/assets/frontend/js/donkey')!!}/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="{!! asset('public/assets/frontend/js/donkey')!!}/css/owl.theme.default.min.css">
-    <link href="{!! asset('public/assets/frontend/js/donkey')!!}/css/jquery.donkey.min.css" rel="stylesheet" />
+    {{--<link rel="stylesheet" href="{!! asset('public/assets/frontend/js/donkey')!!}/css/oswald.css">--}}
+    {{--<link rel="stylesheet" href="{!! asset('public/assets/frontend/js/donkey')!!}/css/owl.carousel.min.css">--}}
+    {{--<link rel="stylesheet" href="{!! asset('public/assets/frontend/js/donkey')!!}/css/owl.theme.default.min.css">--}}
+    {{--<link href="{!! asset('public/assets/frontend/js/donkey')!!}/css/jquery.donkey.min.css" rel="stylesheet" />--}}
 
-    <script src="{!! asset('public/assets/frontend/js/donkey')!!}/js/jquery.easing.min.js"></script>
-    <script src="{!! asset('public/assets/frontend/js/donkey')!!}/js/owl.carousel.min.js"></script>
-    <script src="{!! asset('public/assets/frontend/js/donkey')!!}/js/jquery.donkey.min.js"></script>
+
+    {{--<script src="{!! asset('public/assets/frontend/js/donkey')!!}/js/owl.carousel.min.js"></script>--}}
+    {{--<script src="{!! asset('public/assets/frontend/js/donkey')!!}/js/jquery.donkey.min.js"></script>--}}
+
+    <!-- REVOLUTION -->
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/frontend/js/revslider') !!}/css/settings.css" media="screen" />
+
+    <script type="text/javascript" src="{!! asset('public/assets/frontend/js/revslider') !!}/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="{!! asset('public/assets/frontend/js/revslider') !!}/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- MYSLIDER -->
+
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/frontend/js/myslider/css') !!}/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/frontend/js/myslider/css') !!}/mightyslider.css" />
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/frontend/js/myslider/css') !!}/mightyslider.animate.css" />
+
+
+    <script type="text/javascript" src="{!! asset('public/assets/frontend/js/myslider/js') !!}/mightyslider.js"></script>
+    <script type="text/javascript" src="{!! asset('public/assets/frontend/js/myslider/js') !!}/mightyslider.animate.plugin.js"></script>
+    <script type="text/javascript" src="{!! asset('public/assets/frontend/js/myslider/js') !!}/tweenlite.js"></script>
 
 
     @yield("script")
     <script>
         $(document).ready(function(){
-            $('.wrap-banner').donkey({
-                autoplay:true,
-                nav:true,
-                lazyLoad:true,
-                animation:false,
-                animateOut: 'slideOutRight',
-                animateIn: 'fadeInLeftBig',
-                smartSpeed:800,
-                autoplayTimeout:6000,
-                center:true,
+            $('#slider-rev').show().revolution({
+                sliderLayout: 'auto',
+                startwidth:1920,
+                startheight:500,
+                startWithSlide:0,
+                responsiveLevels: [1500, 1366],
+                gridwidth:[1800, 1500],
+                gridheight:[500, 450],
+            })
+            $('#slider-rev-mobile').show().revolution({
+                sliderLayout: 'auto',
+                startwidth:800,
+                startheight:500,
+                startWithSlide:0,
+                responsiveLevels: [800, 480],
+                gridwidth:[800, 650],
+                gridheight:[500, 400],
+            })
+
+            $('.frame').mightySlider({
+
             })
 
         })

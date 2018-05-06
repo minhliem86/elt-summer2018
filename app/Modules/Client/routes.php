@@ -52,15 +52,17 @@ Route::group(['middleware'=>['web'],'namespace' => 'App\Modules\Client\Controlle
     Route::get('/thu-vien/{slug}', ['as' => 'gallery.index', 'uses' => 'GalleryController@index'])->where('slug', '[0-9a-zA-Z_/\-]+');
     Route::get('/thu-vien', ['as' => 'gallery', 'uses' => 'GalleryController@gallery']);
 
+    /*Schedule*/
+    Route::get('/lich-hoc', ['as' => 'schedule.index', 'uses' => 'ScheduleController@index']);
+    Route::post('/lich-hoc/filter', ['as' => 'schedule.filter', 'uses' => 'ScheduleController@postFilter']);
+    Route::post('/lich-hoc/loadcenter', ['as' => 'schedule.center', 'uses' => 'ScheduleController@_loadCenter']);
+
 //    View::composer(['Client::layouts.discover', 'Client::layouts.header'], function($view)  {
 //        $country = new App\Repositories\CountryRepository;
 //        $country_composer = $country->getComposer(['title','slug', 'img_url']);
 //        $view->with('country_composer', $country_composer);
 //    });
 
-    Route::get('/clear-session', function(){
-       Session::flush();
-       return "done";
-    });
+
 
 });

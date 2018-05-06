@@ -20,33 +20,44 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="each-program-col">
-                                        <img src="{!! asset('public/assets/frontend/images/keypoint/dream.jpg') !!}" class="img-responsive" alt="Cao Thủ Tiếng Anh">
+                                        <img src="{!! asset('public/assets/frontend/images/keypoint/fun.jpg') !!}" class="img-responsive" alt="Chơi Độc Đáo">
                                         <div class="each-content-program">
-                                            <h3 class="title-progam">Cao Thủ Tiếng Anh</h3>
+                                            <h3 class="title-progam">Chơi Độc Đáo</h3>
                                             <p class="content-program">
-                                                Trại hè tiếng Anh ILA 2018 với phương pháp học tư duy thế kỷ 21 được nghiên cứu và phát triển bằng tâm huyết của những chuyên gia giáo dục đẳng cấp quốc tế sẽ đánh thức khả năng ngoại ngữ của các bạn nhỏ và nâng cao 6 kỹ năng vàng: Khả năng sáng tạo, tư duy phản biện, kỹ năng giao tiếp, kỹ năng hợp tác, khả năng tự hoàn thiện bản thân, kiến thức công nghệ.
+                                                Mùa Hè - khoảng thời gian lý tưởng để con trẻ <b>tự do trải nghiệm ngoài khuôn viên trường học,</b> tránh xa các thiết bị điện tử hàng ngày, còn công thức hoàn hảo nào hơn khi kết hợp học ngoại ngữ song song các <b>hoạt động ngoại khoá cực vui</b> được liên kết với các đối tác UY TÍN NHẤT: Cali Kids,Teky, LEGO Education, SSA Sports, Global Art.
+
+                                            </p>
+                                            <p class="content-program">
+                                                <b>Học mê say, chơi thoả thích, hè độc đáo cùng ILA Summer Camp.</b>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="each-program-col">
-                                        <img src="{!! asset('public/assets/frontend/images/keypoint/fun.jpg') !!}" class="img-responsive" alt="Xây Dựng Tính Cách">
+                                        <img src="{!! asset('public/assets/frontend/images/keypoint/heart.jpg') !!}" class="img-responsive" alt="Nghỉ Khác Biệt">
                                         <div class="each-content-program">
-                                            <h3 class="title-progam">Xây Dựng Tính Cách</h3>
+                                            <h3 class="title-progam">Nghỉ Khác Biệt</h3>
                                             <p class="content-program">
-                                                Vượt ngoài khuôn khổ lớp học thông thường, trại hè ILA 2018 tạo nên nguồn cảm hứng giúp các em vượt qua rào cản ngôn ngữ, thoải mái trò chuyện, vui chơi và suy nghĩ bằng tiếng Anh cả ngày thông qua những hoạt động ngoại khóa bổ ích được thiết kế bởi ILA liên kết với đối tác UY TÍN NHẤT: Học viện thể hình Cali Kids, học viện sáng tạo công nghệ Teky, LEGO Education, SSA Sports, Global Art giúp trẻ phát triển năng khiếu toàn diện với những hoạt động cực vui.
+                                                Tạm biệt nỗi lo về ngoại ngữ thay vào đó là những giờ học thú vị, ứng dụng <b>mô hình giáo dục đẳng cấp quốc tế,</b> kết hợp hoàn hảo trong việc <b>phát triển toàn diện,</b> trại hè ILA sẽ đánh thức khả năng ngoại ngữ của các bạn nhỏ và nâng cao 6 kỹ năng vàng thế kỷ 21.
+                                            </p>
+
+                                            <p class="content-program">
+                                                <b>Vượt trội hơn, khác biệt hơn sau 8 tuần hè chinh phục đỉnh cao ngoại ngữ ngập tràn hứng khởi.</b>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="each-program-col">
-                                        <img src="{!! asset('public/assets/frontend/images/keypoint/heart.jpg') !!}" class="img-responsive" alt="San Sẻ Yêu Thương">
+                                        <img src="{!! asset('public/assets/frontend/images/keypoint/dream.jpg') !!}" class="img-responsive" alt="Mơ Rực Rỡ">
                                         <div class="each-content-program">
-                                            <h3 class="title-progam">San Sẻ Yêu Thương</h3>
+                                            <h3 class="title-progam">Mơ Rực Rỡ</h3>
                                             <p class="content-program">
-                                                Không dừng lại ở một khóa học tiếng Anh, trại hè ILA 2018 ứng dụng mô hình giáo dục đẳng cấp quốc tế, kết hợp hoàn hảo trong việc phát triển về mọi mặt. Đặc biệt, ứng dụng những điều được học để giúp đỡ cho cộng đồng sẽ mang đến cho các em một "mùa hè lớn" ý nghĩa và thú vị.
+                                                Kết hợp hoàn hảo trong việc phát triển về mọi mặt, đặc biệt <b>ứng dụng những điều được học</b> để giúp đỡ cho cộng đồng bằng những chương trình mang tính nhân văn qua đó <b>vun đắp lòng nhân ái</b> - mảnh ghép quan trọng trong việc <b>hoàn thiện bản thân</b> sẽ mang đến cho các em một "mùa hè lớn" ý nghĩa và thú vị.
+                                            </p>
+                                            <p class="content-program">
+                                                <b>“Giấc mơ hè” của con sẽ càng thêm <b>rực rỡ</b> và đáng nhớ.</b>
                                             </p>
                                         </div>
                                     </div>

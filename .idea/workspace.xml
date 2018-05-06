@@ -5,108 +5,244 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3fb3fa2-77ef-4779-b731-3373fb975afa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/ic-hotline-footer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/ic-phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522210273_Artboard6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522305077_summer05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522307979_summer02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522308200_summer02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522308730_summer04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522308906_summer04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522309790_summer06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522309911_summer06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522309922_summer08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522310038_summer15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522310777_summer10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522310799_summer01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522310850_summer02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522310877_summer03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522310902_summer02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522310928_summer04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522311018_summer10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522311611_summer11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522311731_summer06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522394190_DSC_0028.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522394220_DSC_0041.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522394220_DSC_0077.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/original/1522394220_DSC_9036.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/resize/300x300/1522209019_Artboard6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/resize/300x300/1522209036_Artboard7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/resize/300x300/1522210273_Artboard5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/resize/300x300/1522210273_Artboard6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/resize/300x300/1522305077_summer05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/resize/300x300/1522309911_summer06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/resize/300x300/1522309922_summer08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/resize/300x300/1522310038_summer15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/resize/300x300/1522310777_summer10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/resize/300x300/1522311731_summer06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/resize/350x350/1522394190_DSC_0028.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/resize/350x350/1522394220_DSC_0041.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/resize/350x350/1522394220_DSC_0077.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/resize/350x350/1522394220_DSC_9036.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/gallery/gallery.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2018_03_28_044701_add_more_slug_column_to_galeries_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/video/plyr.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/video/plyr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522059012_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522059367_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522059434_BE2017-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522059478_BE2017-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522059496_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522059593_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522059716_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522059716_BE2017-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522059985_BE2017-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522060081_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522060223_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522060367_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522060402_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522141214_Artboard5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522142343_Artboard22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522142343_Artboard23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/original/1522142343_Artboard24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522059478_BE2017-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522059496_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522059593_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522059716_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522059716_BE2017-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522059985_BE2017-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522060081_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522060223_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522060367_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522060402_BE2017-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522136990_Artboard5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522136990_Artboard6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522136990_Artboard7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522141214_Artboard5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522142343_Artboard22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522142343_Artboard23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/resize/100x100/1522142343_Artboard24.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/original/1522136990_Artboard5.png" afterPath="$PROJECT_DIR$/public/images/original/1522210273_Artboard5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/original/1522136990_Artboard6.png" afterPath="$PROJECT_DIR$/public/images/original/1522209019_Artboard6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/original/1522136990_Artboard7.png" afterPath="$PROJECT_DIR$/public/images/original/1522209036_Artboard7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/font/myriad/MYRIADPROREGULAR.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/font/myriad/MYRIADPROREGULAR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/font/myriad/MYRIADPROREGULAR.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/font/myriad/MYRIADPROREGULAR.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/J-english.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/J-heart.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/K-english.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/K-heart.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/New folder/lophoc01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/New folder/lophoc02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/S-english.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/dream.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/fun.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/gvbn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/heart.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/hocviencu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/hv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/kn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/lophoc01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/lophoc02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/lophoc03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/smart/lophoc01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/smart/lophoc02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/tt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/btn-dk-hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/heart/S-heart2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/new/dance.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/new/lego.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/new/mythuat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/new/nongtrai.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/new/dangoai.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/new/football.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/new/laptrinh.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/new/nhiepanh.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/new/dance.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/new/football.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/new/laptrinh.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/new/lego.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/new/mythuat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/new/nongtrai.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/logo-banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/mobile/mobile-summer-dream.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/mobile/mobile-summer-dream.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/mobile/mobile-summer-play.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/mobile/mobile-summer-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/mobile/mobile-summer-rest.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/mobile/mobile-summer-rest.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/summer-dream.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/summer-play.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/summer-rest.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/test-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/test-banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/test-banner2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/images/slider/test-banner3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/carousel_skins/modern/._icon-magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/carousel_skins/modern/._icon-view.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/carousel_skins/simple/._icon-magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/carousel_skins/simple/._icon-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/carousel_skins/simple/._loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/fullscreen/._loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/fullscreen/arrows_horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/fullscreen/arrows_vertical.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/fullscreen/closedhand.cur" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/fullscreen/icon-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/fullscreen/icon-magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/fullscreen/icon-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/fullscreen/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/fullscreen/openhand.cur" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/fullscreen/thumb_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/modern/._icon-view.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/windows8/._loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/windows8/._loader@2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/js/._jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/bigplay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/controls-ted.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/controls-wmp-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/controls-wmp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/flashmediaelement.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/silverlightmediaelement.xap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/fonts/revicons/revicons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/fonts/revicons/revicons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/fonts/revicons/revicons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Modules/Client/Controllers/ScheduleController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/ajax/loadCenter.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/ajax/schedule.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/schedule/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/font/myriad/font.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/carousel_skins/coverflow/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/carousel_skins/modern/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/carousel_skins/modern/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/carousel_skins/simple/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/carousel_skins/simple/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/css/animate.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/css/mightyslider.animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/css/mightyslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/js/mightyslider.animate.plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/js/mightyslider.animate.plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/js/mightyslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/js/mightyslider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/js/tweenlite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/fullscreen/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/fullscreen/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/modern/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/modern/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/paper/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/paper/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/windows8/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/windows8/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/black/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/black/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/black_glass/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/black_glass/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/blue/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/blue/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/crystal/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/crystal/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/green/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/green/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/green_glass/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/green_glass/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/silver/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/silver/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/white/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/tabs_skins/white/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/js/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/jwplayer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/DO NOT CHANGE THESE FILES. USE -src- FOLDER.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/bigplay.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/controls.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/mediaelement-and-player.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/mediaelement-and-player.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/mediaelement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/mediaelement.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/mediaelementplayer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/mediaelementplayer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/mediaelementplayer.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/mediaelementplayer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/mediaelementjs/mejs-skins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/css/settings.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/fonts/revicons/revicons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.actions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.kenburn.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.layeranimation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.migration.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.navigation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.parallax.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.slideanims.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/revolution.extension.video.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/jquery.themepunch.revolution.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frontend/js/revslider/js/jquery.themepunch.tools.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner-demo.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner_country.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner_general.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/arrow_left2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/arrow_right2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/arrowleft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/arrowright.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/boxed_bgtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/bullet_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/bullets.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/bullets2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/coloredbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/gridtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/gridtile_3x3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/gridtile_3x3_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/gridtile_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/large_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/large_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/navigdots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/navigdots_bgtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/shadow1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/shadow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/shadow3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/small_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/small_left_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/small_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/small_right_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/timer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/css/settings.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/font/revicons90c6-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/font/revicons90c6-3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/font/revicons90c6-4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/font/revicons90c6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/images/gradient/g30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/images/gradient/g40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/jquery.themepunch.plugins.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/jquery.themepunch.revolution.min.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/heart/S-heart.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/bk-photo/S-heart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/frontend/js/revolution/assets/bullet.png" afterPath="$PROJECT_DIR$/public/assets/frontend/images/btn-dk.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/dream.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/dream.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/fun.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/fun.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/heart.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/keypoint/heart.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/english/J-english.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/english/J-english.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/english/K-english.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/english/K-english.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/english/S-english.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/english/S-english.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/gvbn.png" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/gvbn.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/heart/J-heart.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/heart/J-heart.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/heart/K-heart.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/heart/K-heart.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/hocviencu.png" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/hocviencu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/hv.png" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/hv.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/lophoc01.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/lophoc01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/lophoc02.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/jumpstart/lophoc02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/kn.png" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/kn.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc01.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc02.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc03.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/smartteen/lophoc03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/lophoc01.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/lophoc01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/lophoc02.jpg" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/superjuniors/lophoc02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/images/program/tt.png" afterPath="$PROJECT_DIR$/public/assets/frontend/images/program/tt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/5f/5f7f5bb0c8cc8999b3467da0089f6e0f" afterPath="$PROJECT_DIR$/1/5f/5f7f5bb0c8cc8999b3467da0089f6e0f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Admin/Controllers/GalleryController.php" afterPath="$PROJECT_DIR$/app/Modules/Admin/Controllers/GalleryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Admin/Views/pages/gallery/create.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Admin/Views/pages/gallery/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Admin/Views/pages/gallery/edit.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Admin/Views/pages/gallery/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Controllers/GalleryController.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Controllers/GalleryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Controllers/ProgramController.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Controllers/ProgramController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Controllers/RegisterController.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Controllers/RegisterController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner-donkey.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner-donkey.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/default.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/default.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/footer.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/footer.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/header.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/layouts/header.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/gallery/index.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/gallery/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/home/index.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/home/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/register/index.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/register/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/index.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/Views/pages/register/loadCenter.blade.php" afterPath="$PROJECT_DIR$/app/Modules/Client/Views/pages/register/loadCenter.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Modules/Client/routes.php" afterPath="$PROJECT_DIR$/app/Modules/Client/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Repositories/Eloquent/CommonRepository.php" afterPath="$PROJECT_DIR$/app/Repositories/Eloquent/CommonRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/css/duhoche2018.css" afterPath="$PROJECT_DIR$/public/assets/frontend/css/duhoche2018.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/css/duhoche2018.css.map" afterPath="$PROJECT_DIR$/public/assets/frontend/css/duhoche2018.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/css/elt-summer2018.css" afterPath="$PROJECT_DIR$/public/assets/frontend/css/elt-summer2018.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/css/elt-summer2018.css.map" afterPath="$PROJECT_DIR$/public/assets/frontend/css/elt-summer2018.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/js/donkey/js/owl.carousel.min.js" afterPath="$PROJECT_DIR$/public/assets/frontend/js/donkey/js/owl.carousel.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/js/video/plyr.css" afterPath="$PROJECT_DIR$/public/assets/frontend/js/video/plyr.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/js/customScript.js" afterPath="$PROJECT_DIR$/public/assets/frontend/js/customScript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/js/customScript.min.js" afterPath="$PROJECT_DIR$/public/assets/frontend/js/customScript.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/sass/duhoche2018.scss" afterPath="$PROJECT_DIR$/public/assets/frontend/sass/duhoche2018.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/sass/elt-summer2018.scss" afterPath="$PROJECT_DIR$/public/assets/frontend/sass/elt-summer2018.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,23 +254,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Views/pages/gallery/edit.blade.php">
+      <file leaf-file-name="elt-summer2018.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/frontend/sass/elt-summer2018.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="127" column="53" lean-forward="false" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="53" />
+            <state relative-caret-position="620">
+              <caret line="614" column="14" lean-forward="true" selection-start-line="614" selection-start-column="14" selection-end-line="614" selection-end-column="14" />
+              <folding>
+                <element signature="e#566#707#0" expanded="false" />
+                <element signature="e#718#1190#0" expanded="false" />
+                <element signature="e#1201#4126#0" expanded="false" />
+                <element signature="e#11679#12121#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/default.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="643">
+              <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GalleryController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Controllers/GalleryController.php">
+      <file leaf-file-name="banner-donkey.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner-donkey.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3570">
-              <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="6" column="141" lean-forward="false" selection-start-line="6" selection-start-column="141" selection-end-line="6" selection-end-column="141" />
               <folding>
-                <marker date="1523104622271" expanded="true" signature="2384:2658" ph="..." />
+                <element signature="e#11802#12927#0#HTML" expanded="false" />
+                <marker date="1525621335564" expanded="false" signature="1009:1023" ph="..." />
               </folding>
             </state>
           </provider>
@@ -144,13 +296,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>vertical-center-4</find>
-      <find>content-pro</find>
-      <find>isMobile</find>
       <find>height</find>
       <find>each-program</find>
       <find>form-containe</find>
-      <find>header</find>
       <find>REGISTER</find>
       <find>welcome-container</find>
       <find>each-product</find>
@@ -174,6 +322,10 @@
       <find>gallery-content</find>
       <find>des-welcome-container</find>
       <find>footer</find>
+      <find>btn-reg</find>
+      <find>header</find>
+      <find>an</find>
+      <find>banner</find>
     </findStrings>
     <replaceStrings>
       <replace>$promo</replace>
@@ -196,17 +348,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Modules/Admin/Controllers/ProfileController.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Admin/Views/profile/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/detail2.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/layouts/why.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/layouts/product.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/smartteen.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/superjunior.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/register/thankyou.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/event/index.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_03_20_103103_create_galleries_table.php" />
         <option value="$PROJECT_DIR$/app/Repositories/GalleryRepository.php" />
         <option value="$PROJECT_DIR$/app/Modules/Admin/Controllers/MultiPhotoController.php" />
         <option value="$PROJECT_DIR$/app/Modules/Admin/Views/layouts/sidebar.blade.php" />
@@ -231,22 +372,33 @@
         <option value="$PROJECT_DIR$/app/Modules/Admin/Views/pages/gallery/edit.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_03_28_044701_add_more_slug_column_to_galeries_table.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Repositories/Eloquent/CommonRepository.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Admin/Controllers/GalleryController.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/gallery/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/register/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Controllers/RegisterController.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner-donkey.blade.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/gallery/gallery.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/routes.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Controllers/ProgramController.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Controllers/GalleryController.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Client/Views/layouts/footer.blade.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Views/layouts/header.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/register/loadCenter.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Client/Views/ajax/loadCenter.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Client/routes.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Modules/Client/Controllers/ScheduleController.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/schedule/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Client/Views/ajax/schedule.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/frontend/sass/duhoche2018.scss" />
+        <option value="$PROJECT_DIR$/public/assets/frontend/font/myriad/font.css" />
+        <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/program/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Views/pages/home/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/frontend/js/customScript.js" />
+        <option value="$PROJECT_DIR$/public/assets/frontend/js/customScript.min.js" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Views/layouts/default.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/frontend/sass/elt-summer2018.scss" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Views/layouts/footer.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Admin/Controllers/GalleryController.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner-donkey.blade.php" />
       </list>
     </option>
   </component>
@@ -306,22 +458,14 @@
               <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Client" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Client" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -329,19 +473,38 @@
               <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Client" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Client" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gallery" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="program" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
@@ -367,7 +530,66 @@
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="myslider" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="myslider" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="myslider" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="myslider" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="slider_skins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="myslider" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="slider_skins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modern" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elt-summer2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="customScript.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="elt-summer2018" type="b2602c69:ProjectViewProjectNode" />
@@ -387,25 +609,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Ruby25-x64/bin/scss.bat" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="PluginDummyText.Genre" value="cookery" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\js\myslider" />
+      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images\slider" />
+      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images" />
+      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\js" />
+      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\js\video" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\font" />
+      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images\slider" />
       <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images" />
       <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images\program\superjuniors" />
       <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images\program\jumpstart" />
-      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images\program\english" />
-      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\js\donkey" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\js\video" />
-      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\admin\js\plugins\video" />
-      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\frontend\images" />
-      <recent name="C:\xampp\htdocs\elt-summer2018\app\Repositories" />
-      <recent name="C:\xampp\htdocs\elt-summer2018\public\assets\admin\fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -461,28 +683,35 @@
       <workItem from="1522838577433" duration="865000" />
       <workItem from="1522923206085" duration="1309000" />
       <workItem from="1522983388211" duration="1404000" />
-      <workItem from="1523102514003" duration="1872000" />
-      <workItem from="1525599951665" duration="7000" />
+      <workItem from="1523592736972" duration="10249000" />
+      <workItem from="1523851957766" duration="1547000" />
+      <workItem from="1523861663680" duration="1152000" />
+      <workItem from="1524017690699" duration="842000" />
+      <workItem from="1525248249553" duration="3886000" />
+      <workItem from="1525408191543" duration="12105000" />
+      <workItem from="1525429009277" duration="2361000" />
+      <workItem from="1525603265150" duration="6480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="343388000" />
+    <option name="totallyTimeSpent" value="380131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14872068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.49573562" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31343284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -490,7 +719,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -513,149 +741,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Middlewares/TrackingCode.php" />
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Middleware/TrackingCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/product.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/errors/404.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="108" lean-forward="true" selection-start-line="30" selection-start-column="108" selection-end-line="30" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Controllers/MultiPhotoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="67" column="5" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Views/pages/dashboard/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="102" column="55" lean-forward="true" selection-start-line="102" selection-start-column="55" selection-end-line="102" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Views/ajax/ajaxChart.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Controllers/DashboardController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="68" column="12" lean-forward="false" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/program/superjunior.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/program/jumpstart.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="24" column="259" lean-forward="false" selection-start-line="24" selection-start-column="259" selection-end-line="24" selection-end-column="259" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/lfm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/Eloquent/UploadRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.example">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tigerd/app/Repositories/Eloquent/CommonRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tigerd/app/Modules/Admin/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="68" column="137" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="68" selection-end-column="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tigerd/app/Modules/Admin/Views/pages/product/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="481" column="61" lean-forward="false" selection-start-line="481" selection-start-column="46" selection-end-line="481" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/PhotoRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Views/pages/program/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
@@ -685,6 +770,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Views/pages/gallery/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="127" column="117" lean-forward="false" selection-start-line="127" selection-start-column="117" selection-end-line="127" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_03_28_044701_add_more_slug_column_to_galeries_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -696,13 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -720,24 +805,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Controllers/GalleryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="122" column="49" lean-forward="false" selection-start-line="122" selection-start-column="49" selection-end-line="122" selection-end-column="49" />
+          <folding>
+            <element signature="e#49#70#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/register/thankyou.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="56" column="10" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="56" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Controllers/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="111" column="38" lean-forward="true" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner-donkey.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -752,13 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="77" column="60" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="77" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="52" selection-end-column="88" />
         </state>
       </provider>
     </entry>
@@ -797,13 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="141" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/admin/js/plugins/video/plyr.js" />
     <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/video/plyr.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -812,49 +879,237 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/default.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1659">
-          <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+        <state relative-caret-position="340">
+          <caret line="20" column="97" lean-forward="false" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Controllers/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="45" column="62" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="45" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/register/loadCenter.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="0" column="111" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/ajax/loadCenter.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <caret line="0" column="81" lean-forward="false" selection-start-line="0" selection-start-column="81" selection-end-line="0" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="95" column="15" lean-forward="false" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Controllers/ScheduleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="42" column="215" lean-forward="false" selection-start-line="42" selection-start-column="215" selection-end-line="42" selection-end-column="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/schedule/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/ajax/schedule.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="113" lean-forward="false" selection-start-line="54" selection-start-column="3" selection-end-line="57" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/jquery.sticky.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1702">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/sass/duhoche2018.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17357">
+          <caret line="1021" column="22" lean-forward="false" selection-start-line="1021" selection-start-column="22" selection-end-line="1021" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/revslider/js/extensions/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/program/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/font/myriad/font.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="127" lean-forward="false" selection-start-line="5" selection-start-column="127" selection-end-line="5" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/program/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="58" column="56" lean-forward="true" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/pages/home/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1764">
-          <caret line="84" column="45" lean-forward="false" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+        <state relative-caret-position="519">
+          <caret line="103" column="4" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/footer.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/myslider/css/mightyslider.animate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="66" lean-forward="false" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/myslider/css/mightyslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/windows8/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/myslider/carousel_skins/modern/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/myslider/videoframes/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/paper/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1197">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/myslider/slider_skins/modern/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/customScript.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="107" lean-forward="false" selection-start-line="0" selection-start-column="107" selection-end-line="0" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/customScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/frontend/sass/elt-summer2018.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="711" column="26" lean-forward="false" selection-start-line="711" selection-start-column="26" selection-end-line="711" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Controllers/GalleryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+        <state relative-caret-position="620">
+          <caret line="614" column="14" lean-forward="true" selection-start-line="614" selection-start-column="14" selection-end-line="614" selection-end-column="14" />
           <folding>
-            <marker date="1523104622271" expanded="true" signature="2384:2658" ph="..." />
+            <element signature="e#566#707#0" expanded="false" />
+            <element signature="e#718#1190#0" expanded="false" />
+            <element signature="e#1201#4126#0" expanded="false" />
+            <element signature="e#11679#12121#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Admin/Views/pages/gallery/edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Views/layouts/banner-donkey.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="127" column="53" lean-forward="false" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="126">
+          <caret line="6" column="141" lean-forward="false" selection-start-line="6" selection-start-column="141" selection-end-line="6" selection-end-column="141" />
+          <folding>
+            <element signature="e#11802#12927#0#HTML" expanded="false" />
+            <marker date="1525621335564" expanded="false" signature="1009:1023" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

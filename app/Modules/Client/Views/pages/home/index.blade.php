@@ -41,8 +41,11 @@
                         <p class="description-welcome">Đây là chương trình đươc xây dựng bằng tất cả tâm huyết của các chuyên gia giáo dục đẳng cấp quốc tế, đội ngũ quản lý học vụ giàu lòng yêu trẻ nhằm mang đến một mùa hè tuyệt vời, phát triển toàn diện: giáo dục kiến thức, giáo dục thể chất và giáo dục nhân cách.</p>
                         <p class="descriotion-welcome">Chương trình được thiết kế đặc biệt nhằm tập trung phát triển toàn diện tiếng Anh song song với 6 kỹ năng vàng: giao tiếp, hợp tác, sáng tạo, tư duy phản biện, kiến thức công nghệ và tự hoàn thiện bản thân nhưng vẫn tràn ngập niềm vui tuổi thơ với bạn bè đồng trang lứa.</p>
                     </div>
+                    <div class="wrap-button text-center">
+                        <a href="{!! route('register') !!}" class="btn btn-reg">ĐĂNG KÝ NGAY</a>
+                    </div>
 
-                    <div class="welcome-container">
+                    <div class="welcome-container" style="display:none">
                         @if(!$mobile->isMobile())
                         <div class="flex-container mobile-flex">
                             <div class="each-kv">
@@ -98,17 +101,7 @@
         </div>
     </section>
 
-    <section class="program no-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="wrap-button text-center">
-                        <a href="{!! route('register') !!}" class="btn btn-reg">ĐĂNG KÝ NGAY</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- PRODUCT -->
     @include("Client::layouts.product")

@@ -1,0 +1,1 @@
+{!! Form::select('center_id',[''=>'-- Trung Tâm ILA --']+ $center, old('center_id'), ['class' => 'form-control']) !!}
