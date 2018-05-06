@@ -34,6 +34,9 @@
                 <div class="col-md-12">
                     <h2>TRẠI HÈ TIẾNG ANH ĐẲNG CẤP QUỐC TẾ</h2>
                     <div class="des-welcome-container">
+                        <div id="video-container">
+                            <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="XYU4zkUP7Cg"></div>
+                        </div>
                         <p class="description-welcome">ILA tự hào giới thiệu trại hè tiếng Anh đẳng cấp quốc tế lần đầu tiên xuất hiện tại Việt Nam dành cho học viên từ 4-16 tuổi.</p>
                         <p class="description-welcome">Đây là chương trình đươc xây dựng bằng tất cả tâm huyết của các chuyên gia giáo dục đẳng cấp quốc tế, đội ngũ quản lý học vụ giàu lòng yêu trẻ nhằm mang đến một mùa hè tuyệt vời, phát triển toàn diện: giáo dục kiến thức, giáo dục thể chất và giáo dục nhân cách.</p>
                         <p class="descriotion-welcome">Chương trình được thiết kế đặc biệt nhằm tập trung phát triển toàn diện tiếng Anh song song với 6 kỹ năng vàng: giao tiếp, hợp tác, sáng tạo, tư duy phản biện, kiến thức công nghệ và tự hoàn thiện bản thân nhưng vẫn tràn ngập niềm vui tuổi thơ với bạn bè đồng trang lứa.</p>
@@ -116,26 +119,23 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="testimonial-container">
-                        <h2>CHIA SẺ TRẢI NGHIỆM</h2>
-                        <div class="testi-content">
+                        <h2>THƯ VIỆN HÌNH ẢNH</h2>
+                        <div class="gallery-content">
                             <div class="container-fluid">
-                                @if(!$testimonial->isEmpty())
-                                    @foreach($testimonial->chunk(2) as $item_chunk)
-                                    <div class="row">
-                                        @foreach($item_chunk as $item_testi)
-                                        <div class="col-sm-6">
-                                            <div class="each-testi each animate" data-animate="zoomIn">
-                                                <img src="{!! asset('public/upload/'.$item_testi->img_avatar) !!}" class="img-responsive img-inner-section" alt="">
-                                                <div class="content">
-                                                    <h4 class="author">{!! $item_testi->title !!}</h4>
-                                                    <p class="desc">{!!$item_testi->content !!}</p>
-                                                </div>
+                                <div class="row">
+                                    @if(!$galleries->isEmpty())
+                                        @foreach($galleries as $gallery)
+                                        <div class="col-sm-4">
+                                            <div class="each-gallery">
+                                                <a href="{!! route('gallery.index', $gallery->slug) !!}"><img src="{!! asset('public/upload/'.$gallery->img_url) !!}" class="img-responsive" alt="{!! $gallery->title !!}"></a>
+                                                <div class="mask"></div>
+                                                <div class="link-ic"><a href="{!! route('gallery.index', $gallery->slug) !!}"><i class="fa fa-link"></i></a></div>
+                                                <h4><a href="{!! route('gallery.index', $gallery->slug) !!}">{!! $gallery->title !!}</a></h4>
                                             </div>
                                         </div>
                                         @endforeach
-                                    </div>
-                                    @endforeach
-                                @endif
+                                    @endif
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
 
 @section("script")
     <link rel="stylesheet" href="{!! asset('public/assets/frontend') !!}/js/video/plyr.css">
-    <script src="{!! asset('public/assets/frontend') !!}/js/video/plyr.js"></script>
+    <script src="{!! asset('public/assets/frontend') !!}/js/video/plyr.min.js"></script>
 
     <!--SLICK-->
     <link rel="stylesheet" href="{!! asset('public/assets/frontend/js/slick')!!}/slick.css">
@@ -166,6 +166,8 @@
                 slidesToShow: 5,
                 slidesToScroll: 1
             })
+
+            const player = new Plyr('#player');
         })
     </script>
 @stop

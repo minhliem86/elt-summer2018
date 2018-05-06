@@ -39,6 +39,11 @@ a:hover{
   .des-welcome-container{
     margin:0 auto 30px;
     text-align: justify;
+    #video-container{
+      max-width:800px;
+      margin:0 auto 30px;
+      border: 5px solid rgba(236,93,40,0.6);
+    }
   }
   .welcome-container{
     .flex-container{
@@ -556,3 +561,154 @@ section.action{
   }
 }
 
+
+/*GALLERY-HOME*/
+.gallery-content{
+  .each-gallery{
+    position:relative;
+    border:5px solid $cl-xanh;
+    box-shadow:3px 3px 5px #a7a7a7;
+    transition: border 0.3s;
+    //overflow: hidden;
+    h4{
+      font-size:1.6rem;
+      text-transform:uppercase;
+      position:absolute;
+      padding:5px 20px;
+      background:rgba(255,255,255,0.7);
+      border-radius:4px;
+      bottom:0;
+      left:50%;
+      transform:translateX(-50%);
+      z-index: 1;
+      display: inline-block;
+      a{
+        color:$cl-xanh;
+      }
+      @include media(767px){
+        text-align:center;
+      }
+    }
+    .mask{
+      width:100%;
+      height:100%;
+      background:rgba(247,247,247,0.8);
+      position: absolute;
+      top:0;
+      left:0;
+      transform:translate(50px, 50px);
+      opacity: 0;
+      transition:transform 0.3s, opacity 0.15s;
+      z-index: 2;
+    }
+    .link-ic{
+      background:rgba(48, 48, 48, 0.7);
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform:matrix(0.5,0,0,0.5,0,0) translate(-50%, -50%);
+      opacity:0;
+      transition:matrix 0.3s 0.5s, opacity 0.3;
+      z-index: 3;
+      i{
+        font-size:2rem;
+        padding:20px;
+        color:white;
+      }
+    }
+    &:hover{
+      border:5px solid white;
+      .mask{
+        opacity:1;
+        transform:translate(0px, 0px);
+      }
+      .link-ic{
+        opacity: 1;
+        transform: matrix(1,0,0,1,0,0) translate(-50%, -50%);
+      }
+    }
+  }
+}
+.gallery-detail{
+  h4.sub-title{
+    font-size:2rem;
+    text-transform: uppercase;
+    text-align:center;
+    margin-bottom:3rem;
+  }
+  .each-photo{
+    margin-bottom:1.5rem;
+  }
+}
+
+/*HOTLINE*/
+.topmenu #navbar .navbar-nav > li.hotline{
+  a{
+    padding:0;
+    font-size:16px;
+    color:$cl-cam;
+  }
+  i{
+    font-size:14px;
+    color:white;
+    padding:10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: $cl-cam;
+  }
+  &:hover{
+    &:before, &:after{
+      content:'';
+      display: none;
+    }
+  }
+}
+.ic-phone{
+  position:fixed;
+  right:10px;
+  bottom:10px;
+  @include media(){
+    img{
+      transform: matrix(0.7,0,0,0.7,0,0);
+    }
+  }
+
+}
+
+.ic-phone:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+footer{
+  .phone:before{
+    content:'';
+    display:inline-block;
+    width:17px;
+    height:17px;
+    background:url('../images/ic-hotline-footer.png');
+    margin-right:10px;
+    vertical-align:middle;
+  }
+}

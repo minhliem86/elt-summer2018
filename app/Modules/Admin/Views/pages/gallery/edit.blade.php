@@ -99,9 +99,6 @@
             }
         })
         $(document).ready(function(){
-            var btns = '<button type="button" class="kv-cust-btn btn btn-kv btn-secondary" title="Edit"{dataKey}> ' +
-                '<i class="glyphicon glyphicon-edit"></i>' +
-                '</button>';
             $("#thumb-input").fileinput({
                 uploadUrl: "{!!route('admin.product.store')!!}", // server upload action
                 uploadAsync: false,
@@ -109,6 +106,9 @@
                 showCancel: false,
                 showCaption: false,
                 dropZoneEnabled : true,
+                showBrowse: false,
+                overwriteInitial: false,
+                browseOnZoneClick: true,
                 fileActionSettings:{
                     showUpload : false,
                     showZoom: false,
@@ -125,14 +125,12 @@
                 initialPreviewFileType: 'image',
                 initialPreviewConfig: [
                     @foreach($inst->photos as $item_photo)
-                    {'url':'{!! route('admin.gallery.AjaxRemovePhoto') !!}', key: "{!! $item_photo->id !!}"},
+                    {'url': '{!! route("admin.gallery.AjaxRemovePhoto") !!}', key: "{!! $item_photo->id !!}", caption: "{!! $item_photo->filename !!}"},
                     @endforeach
                 ],
                 layoutTemplates: {
-                    progress: '<div class="progress d-none"></div>',
+                    progress: '<div class="kv-upload-progress hidden"></div>'
                 },
-                otherActionButtons: btns
-
             });
         })
 

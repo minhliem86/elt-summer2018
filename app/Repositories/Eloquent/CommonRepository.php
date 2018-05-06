@@ -7,22 +7,22 @@ use Validator;
 use Notification;
 
 class CommonRepository{
-    public function uploadImage($request, $file, $path, $resize = true, $width = null, $height = null){
+    public function uploadImage($request, $file, $path, $resize = true, $width = null, $height = null, $removePath = ''){
         $destinationPath = base_path($path);
         $name = preg_replace('/\s+/', '', $file->getClientOriginalName());
         $filename = time().'_'.$name;
 
-//    $file->move($destinationPath,$filename);
         if($resize){
             $filename_resize = $destinationPath.'/'.$filename;
             \Image::make($file->getRealPath())->resize($width,$height)->save($filename_resize);
         }else{
             $img = $file->move($destinationPath,$filename);
         }
-        return $img_url = $destinationPath.'/'.$filename;
+        $img_url = $destinationPath.'/'.$filename;
+        return $this->getPath($img_url, '', $removePath);
     }
 
-    public function createThumbnail($fullfile, $location, $width = 500, $height = 250)
+    public function createThumbnail($fullfile, $location, $width = 500, $height = 250, $removePath = '')
     {
         if($fullfile){
             $arr_thumb = explode('/',$fullfile);
@@ -33,16 +33,26 @@ class CommonRepository{
                 $filesystem->makeDirectory($folder, 0775, true);
             }
             $filename = time();
-            \Image::make($fullfile)->fit($width, $height)->save($folder.'/'.$item);
-            return $thumb_url = $folder.'/'.$item;
+            \Image::make(asset($fullfile))->fit($width, $height)->save($folder.'/'.$item);
+
+            $thumb_url = $folder.'/'.$item;
+
+            return $this->getPath($thumb_url, '', $removePath);
         }else{
             return '';
         }
     }
 
-
     public function getPath($path, $replace = '', $removePath = '/laravel-filemanager/')
     {
         return $str = str_replace($removePath, $replace, $path);
+    }
+
+    public function getFileName($fullfile)
+    {
+        if($fullfile){
+            $arr_thumb = explode('/',$fullfile);
+            return $item = end($arr_thumb);
+        }
     }
 }

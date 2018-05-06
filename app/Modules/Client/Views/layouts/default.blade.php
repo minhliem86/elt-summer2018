@@ -34,6 +34,7 @@
     <link href="{!!asset('public') !!}/assets/frontend/css/custom-lp.min.css" rel="stylesheet">
     <link href="{!!asset('public') !!}/assets/frontend/css/duhoche2018.css" rel="stylesheet">
     <link href="{!!asset('public') !!}/assets/frontend/css/elt-summer2018.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60129748-1"></script>
@@ -75,6 +76,7 @@
                 </article>
             </div>
         </div>
+        {{--<a href="tel:19006965" class="ic-phone"><img src="{!!asset('public') !!}/assets/frontend/images/ic-phone.png" class="img-responsive" alt="Hotline"></a>--}}
     </div> <!-- end osc-summer-->
 
     <script src="{!!asset('public') !!}/assets/frontend/js/bootstrap.min.js" type="text/javascript"></script>

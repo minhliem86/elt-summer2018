@@ -130,15 +130,20 @@
                 uploadUrl: "{!!route('admin.product.store')!!}", // server upload action
                 uploadAsync: true,
                 showUpload: false,
+                showBrowse: false,
                 showCaption: false,
                 showCancel: false,
                 dropZoneEnabled : true,
+                browseOnZoneClick: true,
                 fileActionSettings:{
                     showUpload : false,
                     showZoom: false,
                     showDrag: false,
                     showDownload: false,
                     removeIcon: '<i class="fa fa-trash text-danger"></i>',
+                },
+                layoutTemplates: {
+                    progress: '<div class="kv-upload-progress hidden"></div>'
                 }
             })
         })

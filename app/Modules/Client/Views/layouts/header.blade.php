@@ -40,9 +40,11 @@
                                         </ul>
                                     </div>
                                 </li>
+                                <li class="{!! LP_lib::setActive(1,'thu-vien') !!}"><a href="{!! route('gallery') !!}">THƯ VIỆN HÌNH ẢNH</a></li>
                                 {{--<li class="{!! LP_lib::setActive(1,'su-kien') !!}"><a href="{!! route('event.index') !!}">SỰ KIỆN</a></li>--}}
                                 {{--<li class="{!! LP_lib::setActive(1,'facebook') !!}"><a href="{!! route('facebook.index') !!}">FACEBOOK</a></li>--}}
                                 <li class="{!! LP_lib::setActive(1,'dang-ky') !!}"><a href="{!! route('register') !!}"><b>ĐĂNG KÝ</b></a></li>
+                                <li class="hotline"><a href="tel:19006965"><b><span><i class="fa fa-phone"></i></span> 1900 6965</b></a></li>
                             </ul>
                         </div>
                     </nav>

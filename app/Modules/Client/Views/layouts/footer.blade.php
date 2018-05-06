@@ -25,6 +25,7 @@
                         <a target="_blank" href="http://ila.edu.vn/" class="website">www.ila.edu.vn</a>
                         <a href="mailto:info@ilavietnam.edu.vn" class="mail">info@ilavietnam.edu.vn</a>
                         <a target="_blank" href="https://www.facebook.com/ilavn/" class="fb">www.facebook.com/ilavn/</a>
+                        <a href="tel:19006965" class="phone">1900 6965</a>
                     </div>
 
                 </div>

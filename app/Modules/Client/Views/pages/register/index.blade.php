@@ -122,6 +122,11 @@
                     }
                 })
             })
+            $(window).load(function () {
+                $('html, body').animate({
+                    scrollTop:$('#startForm').offset().top - 120
+                },1000)
+            })
         })
     </script>
 @stop

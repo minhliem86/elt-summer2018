@@ -30,7 +30,7 @@ class GalleryController extends Controller
         $this->common = $common;
         $this->_original_path = env('ORIGINAL_PATH');
         $this->_resize_path = env('RESIZE_PATH');
-        $this->_removePath = asset('public/upload/');
+        $this->_removePath = env('REMOVE_PATH');
 
     }
 
@@ -97,31 +97,40 @@ class GalleryController extends Controller
             $img_url = '';
         }
 
+        $order = $this->gallery->getOrder();
+
         $data = [
             'title' => $request->input('title'),
+            'slug' => \LP_lib::unicode($request->input('title')),
             'img_url' => $img_url,
+            'order' => $order,
         ];
 
         $gallery = $this->gallery->create($data);
 
-        $sub_file = $request->file('thumb-input');
-        if($sub_file[0] != ''){
+        $sub_photo = $request->file('thumb-input');
+
+        if($sub_photo[0]){
             $data_photo = [];
-            foreach($sub_file as $thumb){
-                $originalSize = $this->common->uploadImage($request, $thumb, $this->_original_path,$resize = false);
-                $smallsize = $this->common->createThumbnail($originalSize,$this->_resize_path,320, 320);
+            foreach($sub_photo as $thumb){
+                $originalSize = $this->common->uploadImage($request, $thumb, $this->_original_path,$resize = false,null,null, base_path($this->_removePath));
+                $smallsize = $this->common->createThumbnail($originalSize,$this->_resize_path,350, 350, base_path($this->_removePath));
                 $order = $this->gallery->getOrder();
+                $filename = $this->common->getFileName($originalSize);
                 $data = new \App\Models\Photo(
                     [
-                        'img_url' => $this->common->getPath($originalSize, $this->_original_path, base_path($this->_original_path)),
-                        'thumb_url' => $this->common->getPath($smallsize, $this->_resize_path, base_path($this->_resize_path)),
+                        'img_url' => $originalSize,
+                        'thumb_url' => $smallsize,
                         'order'=>$order,
+                        'filename' => $filename,
                     ]
                 );
                 array_push($data_photo, $data);
             }
+
             $gallery->photos()->saveMany($data_photo);
         }
+
         return redirect()->route('admin.gallery.index')->with('success','Created !');
     }
 
@@ -158,15 +167,42 @@ class GalleryController extends Controller
     public function update(Request $request, $id)
     {
         $img_url = $this->common->getPath($request->input('img_url'));
+
         $data = [
             'title' => $request->input('title'),
-            'start' => Carbon::createFromFormat('d/m/Y H:i', $request->input('start_date')),
-            'end' => Carbon::createFromFormat('d/m/Y H:i', $request->input('end_date')),
-            'description' => $request->input('description'),
+            'slug' => \LP_lib::unicode($request->input('title')),
             'img_url' => $img_url,
-            'center_id' => $request->input('center_id'),
+            'order' => $request->input('order'),
+            'status' => $request->input('status'),
         ];
-        $this->gallery->update($data, $id);
+        $gallery = $this->gallery->update($data, $id);
+
+        $sub_photo = $request->file('thumb-input');
+
+        if($sub_photo[0]){
+            $data_photo = [];
+            foreach($sub_photo as $thumb){
+
+                $originalSize = $this->common->uploadImage($request, $thumb, $this->_original_path,$resize = false,null,null, base_path($this->_removePath));
+                $smallsize = $this->common->createThumbnail($originalSize,$this->_resize_path,350, 350, base_path($this->_removePath));
+
+                $filename = $this->common->getFileName($originalSize);
+                $order = $this->photo->getOrder();
+                $data = new \App\Models\Photo(
+                    [
+                        'img_url' => $originalSize,
+                        'thumb_url' => $smallsize,
+                        'order'=>$order,
+                        'filename' => $filename,
+                    ]
+                );
+                array_push($data_photo, $data);
+            }
+            $gallery->photos()->saveMany($data_photo);
+        }
+
+
+
         return redirect()->route('admin.gallery.index')->with('success', 'Updated !');
     }
 
@@ -237,13 +273,9 @@ class GalleryController extends Controller
         if(!$request->ajax()){
             abort('404', 'Not Access');
         }else{
-            $id = $request->all();
-            return $id;
+            $id = $request->input('key');
             $this->photo->delete($id);
-//            return response()->json([
-//                'mes' => 'Deleted',
-//                'error'=> false,
-//            ], 200);
+            return response()->json([], 200);
         }
     }
 
