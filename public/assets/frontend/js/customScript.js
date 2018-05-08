@@ -1,6 +1,5 @@
 $(document).ready(function () {
     $('.wrap-each-promotionhome2').height($('.wrap-each-promotionhome2').width());
-    console.log($('.swiper-keypoint .swiper-slide:first-child').width());
 
     //initialize swiper when document ready
     var window_w = $(window).width();

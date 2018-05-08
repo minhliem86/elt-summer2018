@@ -101,38 +101,52 @@
     <script type="text/javascript" src="{!! asset('public/assets/frontend/js/revslider') !!}/js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="{!! asset('public/assets/frontend/js/revslider') !!}/js/jquery.themepunch.revolution.min.js"></script>
 
+    <!-- MYSLIDER -->
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/frontend/js/myslider/css') !!}/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/frontend/js/myslider/css') !!}/mightyslider.css" />
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/frontend/js/myslider/css') !!}/mightyslider.animate.css" />
+
+    <script type="text/javascript" src="{!! asset('public/assets/frontend/js/myslider/js') !!}/tweenlite.js"></script>
+    <script type="text/javascript" src="{!! asset('public/assets/frontend/js/myslider/js') !!}/mightyslider.min.js"></script>
+    <script type="text/javascript" src="{!! asset('public/assets/frontend/js/myslider/js') !!}/mightyslider.animate.plugin.js"></script>
+
+
 
     @yield("script")
     <script>
         $(document).ready(function(){
-//            $('.wrap-banner').donkey({
-//                autoplay:true,
-//                nav:true,
-//                lazyLoad:true,
-//                animation:false,
-//                animateOut: 'slideOutRight',
-//                animateIn: 'fadeInLeftBig',
-//                smartSpeed:800,
-//                autoplayTimeout:6000,
-//                center:true,
+//            $('#slider-rev').show().revolution({
+//                sliderLayout: 'auto',
+//                startwidth:1920,
+//                startheight:500,
+//                startWithSlide:0,
+//                responsiveLevels: [1500, 1366],
+//                gridwidth:[1800, 1500],
+//                gridheight:[500, 450],
 //            })
-            $('#slider-rev').show().revolution({
-                sliderLayout: 'auto',
-                startwidth:1920,
-                startheight:500,
-                startWithSlide:0,
-                responsiveLevels: [1500, 1366],
-                gridwidth:[1800, 1500],
-                gridheight:[500, 450],
-            })
-            $('#slider-rev-mobile').show().revolution({
-                sliderLayout: 'auto',
-                startwidth:800,
-                startheight:500,
-                startWithSlide:0,
-                responsiveLevels: [800, 480],
-                gridwidth:[800, 650],
-                gridheight:[500, 400],
+//            $('#slider-rev-mobile').show().revolution({
+//                sliderLayout: 'auto',
+//                startwidth:800,
+//                startheight:500,
+//                startWithSlide:0,
+//                responsiveLevels: [800, 480],
+//                gridwidth:[800, 650],
+//                gridheight:[500, 400],
+//            })
+
+            $('#banner_slider .frame').mightySliderAnimate({
+                autoScale: 1,
+                speed: 800,
+                navigation: {
+                    slideSize: '100%',
+                },
+                cycling: {
+                    cycleBy: 'slides',
+                    pauseTime: 5000,
+                    loop: 1
+                },
+                animateIn: 'zoomIn',
+                animateOut: 'zoomOut'
             })
 
         })

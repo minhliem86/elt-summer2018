@@ -121,8 +121,8 @@
 @stop
 
 @section('script')
-  <link rel="stylesheet" href="<?php echo asset('public/assets/admin/dist/js/dropzone/dropzone.min.css'); ?>">
-  <script src="<?php echo asset('public/assets/admin/dist/js/dropzone/dropzone.min.js'); ?>"></script>
+  <link rel="stylesheet" href="<?php echo asset('public/assets/admin/js/dropzone/dropzone.min.css'); ?>">
+  <script src="<?php echo asset('public/assets/admin/js/dropzone/dropzone.min.js'); ?>"></script>
 
   <script>
     $(document).ready(function(){

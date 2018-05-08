@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 return [
     'upload-path' => env('DROPZONER_UPLOAD_PATH'),

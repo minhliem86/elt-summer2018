@@ -179,7 +179,6 @@ class GalleryController extends Controller
 
         $sub_photo = $request->file('thumb-input');
 
-
         if($sub_photo[0]){
             $data_photo = [];
             foreach($sub_photo as $thumb){
