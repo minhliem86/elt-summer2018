@@ -32,14 +32,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>TRẠI HÈ TIẾNG ANH ĐẲNG CẤP QUỐC TẾ</h2>
+                    <h2>TRẠI HÈ TIẾNG ANH 2018 CÓ GÌ ĐỘC ĐÁO?</h2>
                     <div class="des-welcome-container">
                         <div id="video-container">
                             <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="XYU4zkUP7Cg"></div>
                         </div>
-                        <p class="description-welcome">ILA tự hào giới thiệu trại hè tiếng Anh đẳng cấp quốc tế lần đầu tiên xuất hiện tại Việt Nam dành cho học viên từ 4-16 tuổi.</p>
-                        <p class="description-welcome">Đây là chương trình đươc xây dựng bằng tất cả tâm huyết của các chuyên gia giáo dục đẳng cấp quốc tế, đội ngũ quản lý học vụ giàu lòng yêu trẻ nhằm mang đến một mùa hè tuyệt vời, phát triển toàn diện: giáo dục kiến thức, giáo dục thể chất và giáo dục nhân cách.</p>
-                        <p class="descriotion-welcome">Chương trình được thiết kế đặc biệt nhằm tập trung phát triển toàn diện tiếng Anh song song với 6 kỹ năng vàng: giao tiếp, hợp tác, sáng tạo, tư duy phản biện, kiến thức công nghệ và tự hoàn thiện bản thân nhưng vẫn tràn ngập niềm vui tuổi thơ với bạn bè đồng trang lứa.</p>
+                        <p class="description-welcome">Con sẽ được tận hưởng một mùa hè rực rỡ và phấn khởi với <b>TRẠI HÈ TIẾNG ANH ĐẲNG CẤP QUỐC TẾ</b> với ILA.</p>
+                        <p class="description-welcome">Chương trình độc đáo cho trẻ từ 4-16 tuổi lần đầu tiên tổ chức tại Việt Nam. </p>
+                        <p class="description-welcome">Bé sẽ trải nghiệm một mùa hè tuyệt vời để phát triển toàn diện về Kiến Thức, Thể Chất và Nhân Cách qua hoạt động ngoại khóa cực vui.</p>
+                        <p class="description-welcome"><b>Học mê say, chơi thoả thích, hè độc đáo cùng ILA Summer Camp</b></p>
                     </div>
                     <div class="wrap-button text-center">
                         <a href="{!! route('register') !!}" class="btn btn-reg">ĐĂNG KÝ NGAY</a>
@@ -96,6 +97,30 @@
                         </div>
                         @endif
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="activation">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="activation-warpper">
+                    <h2>Giới thiệu hoạt động activation</h2>
+                    <div class="activation-content">
+                        <p>ILA mang đến cơ hội trải nghiệm Trại hè Tiếng Anh cho gia đình bạn ngay hôm nay!</p>
+                        <p>Gia đình sẽ được tư vấn chi tiết và trao đổi trực tiếp về <b>TRẠI HÈ TIẾNG ANH - ILA Summer Camp</b> với các chuyên gia của ILA </p>
+                        <p>Bé sẽ trải nghiệm các hoạt động cực chất: </p>
+                        <ul>
+                            <li>Trò chơi Sáng tạo phát huy trí thông minh</li>
+                            <li>Hoạt động từ thiện bồi đắp và nuôi dưỡng lòng nhân ái và san sẻ yêu thương của bé</li>
+                        </ul>
+                        <p>Học bổng lên đến <b>6,000,000đ</b> và hàng trăm phần quà thú vị đang chờ đón bạn.</p>
+                        <p><b>Trải nghiệm ngay!</b></p>
+                    </div>
+                </div>
+                <div class="wrap-activity">
+                    
                 </div>
             </div>
         </div>
