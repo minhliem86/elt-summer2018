@@ -11,7 +11,7 @@
 @section("content")
     @include("Client::layouts.banner-donkey")
 
-    <section class="content-program-detail" id="jumpstart">
+    <section class="content-program-detail animate" data-animate="fadeInUp" id="jumpstart">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -48,7 +48,7 @@
         </div>
     </section>
 
-    <section class="content-program-detail bg-yellow" id="superj">
+    <section class="content-program-detail bg-yellow animate" data-animate="fadeInUp" id="superj">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -96,7 +96,7 @@
         </div>
     </section>
 
-    <section class="content-program-detail" id="smartteen">
+    <section class="content-program-detail animate" data-animate="fadeInUp" id="smartteen">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

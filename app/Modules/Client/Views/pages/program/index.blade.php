@@ -19,7 +19,7 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <div class="each-program-col">
+                                    <div class="each-program-col animate" data-animate="fadeInUp" data-delay="0.2s">
                                         <img src="{!! asset('public/assets/frontend/images/keypoint/fun.jpg') !!}" class="img-responsive" alt="Chơi Độc Đáo">
                                         <div class="each-content-program">
                                             <h3 class="title-progam">Chơi Độc Đáo</h3>
@@ -34,7 +34,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="each-program-col">
+                                    <div class="each-program-col animate" data-animate="fadeInUp" data-delay="0.3s">
                                         <img src="{!! asset('public/assets/frontend/images/keypoint/heart.jpg') !!}" class="img-responsive" alt="Nghỉ Khác Biệt">
                                         <div class="each-content-program">
                                             <h3 class="title-progam">Nghỉ Khác Biệt</h3>
@@ -49,7 +49,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="each-program-col">
+                                    <div class="each-program-col animate" data-animate="fadeInUp" data-delay="0.4s">
                                         <img src="{!! asset('public/assets/frontend/images/keypoint/dream.jpg') !!}" class="img-responsive" alt="Mơ Rực Rỡ">
                                         <div class="each-content-program">
                                             <h3 class="title-progam">Mơ Rực Rỡ</h3>

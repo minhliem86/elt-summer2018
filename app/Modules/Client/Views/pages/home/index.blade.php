@@ -32,15 +32,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>TRẠI HÈ TIẾNG ANH 2018 CÓ GÌ ĐỘC ĐÁO?</h2>
-                    <div class="des-welcome-container">
+                    <h2>TRẠI HÈ TIẾNG ANH ĐẲNG CẤP QUỐC TẾ CÓ GÌ ĐỘC ĐÁO?</h2>
+                    <div class="des-welcome-container animate each" data-animate="fadeInUp" >
                         <div id="video-container">
                             <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="XYU4zkUP7Cg"></div>
                         </div>
-                        <p class="description-welcome">Con sẽ được tận hưởng một mùa hè rực rỡ và phấn khởi với <b>TRẠI HÈ TIẾNG ANH ĐẲNG CẤP QUỐC TẾ</b> với ILA.</p>
-                        <p class="description-welcome">Chương trình độc đáo cho trẻ từ 4-16 tuổi lần đầu tiên tổ chức tại Việt Nam. </p>
-                        <p class="description-welcome">Bé sẽ trải nghiệm một mùa hè tuyệt vời để phát triển toàn diện về Kiến Thức, Thể Chất và Nhân Cách qua hoạt động ngoại khóa cực vui.</p>
-                        <p class="description-welcome"><b>Học mê say, chơi thoả thích, hè độc đáo cùng ILA Summer Camp</b></p>
+                        <p class="description-welcome">8 tuần hè rực rỡ dành riêng cho trẻ từ <b>4 - 16 tuổi</b> lần đầu tiên tổ chức tại Việt Nam.</p>
+                        <p class="description-welcome">3 chủ đề <b>San sẻ yêu thương, Cao thủ tiếng Anh, Xây dựng tính cách</b> cho con phát triển toàn diện về <b>Kiến Thức, Thể Chất và Nhân Cách</b> với những hoạt động ngoại khóa cực vui.</p>
+                        <p class="description-welcome">Chương trình ĐỘC QUYỀN các đối tác chiến lược: học viện thể hình CaliKids, học viện sáng tạo công nghệ TEKY, LEGO education, SSA Sports, Global Art.</p>
+                        <p class="description-welcome">Phát triển toàn diện tiếng Anh và <b>6 kỹ năng vàng:</b> Giao Tiếp, Hợp Tác, Sáng Tạo, Tư Duy Phản Biện, Công Nghệ và Tự Hoàn Thiện bản thân</p>
+                        <p class="description-welcome"><b>Học mê say - Chơi thoả thích</b></p>
+                        <p class="description-welcome"><b>Hè độc đáo cùng ILA Summer Camp</b></p>
                     </div>
                     <div class="wrap-button text-center">
                         <a href="{!! route('register') !!}" class="btn btn-reg">ĐĂNG KÝ NGAY</a>
@@ -106,21 +108,201 @@
         <div class="container">
             <div class="col-md-12">
                 <div class="activation-warpper">
-                    <h2>Giới thiệu hoạt động activation</h2>
-                    <div class="activation-content">
-                        <p>ILA mang đến cơ hội trải nghiệm Trại hè Tiếng Anh cho gia đình bạn ngay hôm nay!</p>
-                        <p>Gia đình sẽ được tư vấn chi tiết và trao đổi trực tiếp về <b>TRẠI HÈ TIẾNG ANH - ILA Summer Camp</b> với các chuyên gia của ILA </p>
-                        <p>Bé sẽ trải nghiệm các hoạt động cực chất: </p>
+                    <h2>LÀM SAO ĐỂ TÌM HIỂU THÊM VỀ TRẠI HÈ?</h2>
+                    <div class="activation-content animate" data-animate="fadeInUp">
+                        <p>Các chuyên gia ILA Summer Camp đang có mặt ở hệ thống <b>Trung tâm thương mại, Khu vui chơi trẻ em</b> và <b>Rạp chiếu phim</b> trên toàn quốc. </p>
+                        <p>Ngay cuối tuần, gia đình sẽ được tư vấn chi tiết và trao đổi trực tiếp về <b>TRẠI HÈ TIẾNG ANH - ILA Summer Camp 2018.</b></p>
+                        <p>Những hoạt động cực chất, cực đã sẽ đón chờ bé:</p>
                         <ul>
-                            <li>Trò chơi Sáng tạo phát huy trí thông minh</li>
-                            <li>Hoạt động từ thiện bồi đắp và nuôi dưỡng lòng nhân ái và san sẻ yêu thương của bé</li>
+                            <li><b>Trò chơi Sáng tạo</b> phát huy trí thông minh</li>
+                            <li><b>Hoạt động từ thiện</b> nuôi dưỡng lòng nhân ái và san sẻ yêu thương</li>
                         </ul>
-                        <p>Học bổng lên đến <b>6,000,000đ</b> và hàng trăm phần quà thú vị đang chờ đón bạn.</p>
-                        <p><b>Trải nghiệm ngay!</b></p>
+                        <p>Học bổng lên đến <b>6,000,000đ</b> và hàng trăm phần quà thú vị đã sẵn sàng. </p>
+                        <p><b>Chọn địa điểm gần nhất và khám phá mùa hè ILA nhé!</b></p>
                     </div>
                 </div>
-                <div class="wrap-activity">
-                    
+                <div class="wrap-activity animate" data-animate="fadeInUp">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs nav-summer">
+                        <li class="active"><a href="#hcm" data-toggle="tab" >TP. HCM</a></li>
+                        <li><a href="#hn" data-toggle="tab">Hà Nội</a></li>
+                        <li><a href="#other" data-toggle="tab">Các thành phố khác</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="hcm">
+                            <table class="table table-activation table-activation-main table-triple" width="100%" cellpadding="0" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th>Thời Gian</th>
+                                        <th>Rạp Chiếu Phim</th>
+                                        <th>Trung Tâm Thương Mại/ Khu Vui Chơi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data="Thời Gian">
+                                            12-13/05/2018
+                                        </td>
+                                        <td data="Rạp Chiếu Phim">
+                                            <p>Galaxy Nguyễn Du</p>
+                                            <p>Galaxy Kinh Dương Vương</p>
+                                        </td>
+                                        <td data="Trung Tâm Thương Mại/ Khu Vui Chơi">
+                                            <p>Công viên Thỏ Trắng Lê Thị Riêng</p>
+                                            <p>KIZCiti Công viên Khánh Hội</p>
+                                            <p>Tini World Nowzone</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data="Thời Gian">
+                                            19-20/05/2018
+                                        </td>
+                                        <td data="Rạp Chiếu Phim">
+
+                                        </td>
+                                        <td data="Trung Tâm Thương Mại/ Khu Vui Chơi">
+                                            <p>Mega Market Bình Phú</p>
+                                            <p>Vivo City</p>
+                                            <p>Lotte Quận 11</p>
+                                            <p>Lotte Gò Vấp</p>
+                                            <p>Tini World Bình Tân</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data="Thời Gian">
+                                            26-27/05/2018
+                                        </td>
+                                        <td data="Rạp Chiếu Phim">
+                                            <p>CGV Hoàng Văn Thụ</p>
+                                        </td>
+                                        <td data="Trung Tâm Thương Mại/ Khu Vui Chơi">
+                                            <p>Vincom Cộng Hòa</p>
+                                            <p>CGV Aeon Bình Tân</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="hn">
+                            <table class="table table-activation table-activation-main table-triple" width="100%" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <th>Thời Gian</th>
+                                    <th>Rạp Chiếu Phim</th>
+                                    <th>Trung Tâm Thương Mại/ Khu Vui Chơi</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td data="Thời Gian">
+                                        12-13/05/2018
+                                    </td>
+                                    <td data="Rạp Chiếu Phim">
+
+                                    </td>
+                                    <td data="Trung Tâm Thương Mại/ Khu Vui Chơi">
+                                        <p>BigC Thăng Long</p>
+                                        <p>CGV Artemis Hà Nội</p>
+                                        <p>Mega Market Thăng Long</p>
+                                        <p>Mega Market Hoàng Mai</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td data="Thời Gian">
+                                        19-20/05/2018
+                                    </td>
+                                    <td data="Rạp Chiếu Phim">
+                                        <p>Lotte Ba Đình</p>
+                                    </td>
+                                    <td data="Trung Tâm Thương Mại/ Khu Vui Chơi">
+                                        <p>Vincom Royal City</p>
+                                        <p>Vincom Times City</p>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td data="Thời Gian">
+                                        26-27/05/2018
+                                    </td>
+                                    <td data="Rạp Chiếu Phim">
+                                        <p>CGV - Vincom Ba Triệu</p>
+                                        <p>CGV - Vincom Nguyễn Chí Thanh</p>
+                                    </td>
+                                    <td data="Trung Tâm Thương Mại/ Khu Vui Chơi">
+                                        <p>Phố đi bộ</p>
+                                        <p>Mega Market Hà Đông</p>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="other">
+                            <table class="table table-activation table-activation-other table-triple" width="100%" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <th>Thời Gian</th>
+                                    <th>Khu Vực</th>
+                                    <th>Rạp Chiếu Phim</th>
+                                    <th>Trung Tâm Thương Mại/ Khu Vui Chơi</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td data="Thời Gian">
+                                        12-13/05/2018
+                                    </td>
+                                    <td data="Khu Vực">
+                                        <p>Hải Phòng</p>
+                                        <p>Đồng Nai</p>
+                                    </td>
+                                    <td data="Rạp Chiếu Phim">
+
+                                    </td>
+                                    <td data="Trung Tâm Thương Mại/ Khu Vui Chơi">
+                                        <p>Big C Hải Phòng</p>
+                                        <p>Vincom Biên Hòa</p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td data="Thời Gian">
+                                        19-20/05/2018
+                                    </td>
+                                    <td data="Khu Vực">
+                                        <p>Đà Nẵng</p>
+                                        <p>Vũng Tàu</p>
+                                    </td>
+                                    <td data="Rạp Chiếu Phim">
+
+                                    </td>
+                                    <td data="Trung Tâm Thương Mại/ Khu Vui Chơi">
+                                        <p>Vincom Đà Nẵng</p>
+                                        <p>Lotte Vũng Tàu</p>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td data="Thời Gian">
+                                        26-27/05/2018
+                                    </td>
+                                    <td data="Khu Vực">
+                                        <p>Cần Thơ</p>
+                                        <p>Bình Dương</p>
+                                    </td>
+                                    <td data="Rạp Chiếu Phim">
+
+                                    </td>
+                                    <td data="Trung Tâm Thương Mại/ Khu Vui Chơi">
+                                        <p>Lotte Cần Thơ</p>
+                                        <p>Aeon Bình Dương</p>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

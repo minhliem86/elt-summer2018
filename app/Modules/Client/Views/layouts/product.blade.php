@@ -10,7 +10,7 @@
                                 @foreach($program as $item_program)
                                     <div class="col-md-4">
                                         <a href="{!! url('/chuong-trinh/'.$item_program->slug) !!}">
-                                        <div class="each-product " data-animate="fadeInLeft" data-delay="0.1s" >
+                                        <div class="each-product animate" data-animate="fadeInLeft" data-delay="0.1s" >
                                             <img src="{!! asset('public/upload/'.$item_program->img_url) !!}" class="img-fluid" />
                                             {{--<div class="mask"></div>--}}
                                             {{--<div class="content">--}}

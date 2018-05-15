@@ -6,8 +6,8 @@
                 <div class="slide"
                      data-mightyslider="
                         cover: [
-                            ['{!! asset('public/assets/frontend/images/slider/test-banner.png')!!}', 'min-width:1200'],
-                            ['{!! asset('public/assets/frontend/images/slider/mobile/mobile-summer-dream.jpg')!!}', 'min-width:768'],
+                            ['{!! asset('public/assets/frontend/images/slider/mobile/mobile-summer-dream.jpg')!!}', '(max-width:768px)'],
+                            ['{!! asset('public/assets/frontend/images/slider/test-banner.png')!!}', '(max-width:1200px)'],
                         ],
                     ">
                     <img class="mSCaption photo-caption hidden-xs" src="{!! asset('public/assets/frontend') !!}/images/slider/logo-banner.png"
@@ -23,7 +23,7 @@
                 <div class="slide" data-mightyslider="
                      cover: [
                            ['{!! asset('public/assets/frontend/images/slider/test-banner2.png')!!}', '(max-width:1200px)'],
-                            ['{!! asset('public/assets/frontend/images/slider/mobile/mobile-summer-dream.jpg')!!}', '(max-width:768px)'],
+                           ['{!! asset('public/assets/frontend/images/slider/mobile/mobile-summer-dream.jpg')!!}', '(max-width:768px)'],
                      ]
                 ">
                     <img class="mSCaption photo-caption hidden-xs" src="{!! asset('public/assets/frontend') !!}/images/slider/logo-banner.png"
